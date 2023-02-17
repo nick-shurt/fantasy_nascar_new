@@ -130,7 +130,7 @@
             <div id="tab1" class="tab-pane fade in active">
                 <div class="row top_margin">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h1 style="color: #fff;text-align: center;">Next Cup Race:</h1>
+                        <h1 style="color: #fff;text-align: center;">Next Cup Race Test:</h1>
                         <?php show_next_race($U_NAME, $P_WORD, $DATABASE); ?>
                     </div>  
                 </div>  
