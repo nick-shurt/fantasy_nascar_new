@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/schedule-v2.0.xsl"?>
+<!-- Generation started @ 2020-08-08 21:25:23 +0000 -->
+<series xmlns="http://feed.elasticstats.com/schema/nascar/schedule-v2.0.xsd" id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="NASCAR Cup Series">
+  <season year="2020" id="75ef9d66-27db-460e-83dd-0d4858447dbd">
+    <event id="c14d3280-8610-4ff3-91d6-e755a3a5e1a6" name="NASCAR Cup Series at Daytona" start_date="2020-02-09">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b"/>
+      <race id="33493915-8849-4fb8-af33-83f7fd7851fc" name="Busch Clash at DAYTONA" status="closed" distance="187" laps="75" chase_race="false" award_pole="false" stage_count="0" scheduled="2020-02-09T20:00:00+00:00" start_time="2020-02-09T20:00:00+00:00" end_time="2020-02-09T20:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Jimmie" last_name="Johnson" full_name="Jimmie Johnson" id="057da6c6-ad81-4c65-b6b1-64b6da9e2ee7"/>
+      </race>
+      <race id="7a219fd1-9877-44e2-9f89-2a51b0857523" name="Bluegreen Vacations Duel 1 at DAYTONA" status="closed" distance="150" laps="60" chase_race="false" award_pole="false" stage_count="0" scheduled="2020-02-14T00:00:00+00:00" start_time="2020-02-14T00:00:00+00:00" end_time="2020-02-14T01:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+      <race id="49853c46-1315-48c2-8eca-6fc01bdc0da1" name="Bluegreen Vacations Duel 2 at DAYTONA" status="closed" distance="150" laps="60" chase_race="false" award_pole="false" stage_count="0" scheduled="2020-02-14T02:45:00+00:00" start_time="2020-02-14T02:45:00+00:00" end_time="2020-02-14T04:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+      <race id="4daedbcd-f1c6-4bc1-9690-f85d1fd1af4a" name="DAYTONA 500" status="closed" number="1" distance="500" laps="200" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="65" stage_2_laps="65" stage_3_laps="70" scheduled="2020-02-16T19:30:00+00:00" start_time="2020-02-17T21:00:00+00:00" end_time="2020-02-18T00:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="645faa47-37fe-482c-889f-1f208739abb4" name="NASCAR Cup Series at Las Vegas" start_date="2020-02-23">
+      <track name="Las Vegas Motor Speedway" market="Las Vegas" completed="1996" distance="1.5" shape="D-Shaped Oval" banking="Turns: 20, Frontstretch: 9, Backstretch: 9" frontstretch="2275" backstretch="1572" address="7000 Las Vegas Blvd. North" city="Las Vegas" state="Nevada" zip="89115" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="9580816f-e17c-4167-8402-ba16725bcb19"/>
+      <race id="7ea34f92-9c8e-4d02-af65-f8a1dc24306f" name="Pennzoil 400 presented by Jiffy Lube" status="closed" number="2" distance="400" laps="267" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2020-02-23T20:30:00+00:00" start_time="2020-02-23T20:30:00+00:00" end_time="2020-02-24T00:00:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="d52e0d1d-ce97-49c8-9bbb-13112c5080b5" name="NASCAR Cup Series at California" start_date="2020-03-01">
+      <track name="Auto Club Speedway" market="Fontana" completed="1997" distance="2.0" shape="D-Shaped Oval" banking="Turns:14;Backstretch:3:Frontstretch:11" frontstretch="3100" backstretch="2500" address="9300 Cherry Avenue" city="Fontana" state="California" zip="92335" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="b2bd268a-6ee6-4c6b-a7c6-ac5b1b7b6b0e"/>
+      <race id="13e62477-1695-44f9-91c8-21dff5d85800" name="Auto Club 400" status="closed" number="3" distance="400" laps="200" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="80" scheduled="2020-03-01T20:30:00+00:00" start_time="2020-03-01T20:30:00+00:00" end_time="2020-03-02T00:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="06e28810-ae23-46d4-8d65-66bcf0411a56" name="NASCAR Cup Series at Phoenix" start_date="2020-03-08">
+      <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83"/>
+      <race id="f2b7d12e-c4b4-4956-98c7-2f110584f78a" name="FanShield 500" status="closed" number="4" distance="312" laps="312" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="75" stage_2_laps="115" stage_3_laps="122" scheduled="2020-03-08T19:30:00+00:00" start_time="2020-03-08T18:30:00+00:00" end_time="2020-03-08T23:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="6adeb119-5dbe-40f6-8cf6-b142fe7fe930" name="NASCAR Cup Series at Atlanta" start_date="2020-03-15">
+      <track name="Atlanta Motor Speedway" market="Atlanta" completed="1960" distance="1.54" shape="Quad-Oval" banking="Turns:24; Backstretch:5;Tri-Oval:5" frontstretch="2332" backstretch="1800" address="1500 Highways 19 &amp; 41 South" city="Hampton" state="Georgia" zip="30228" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="75494065-bf21-4039-8d99-b8e438c8b4a4"/>
+      <race id="057ec4db-84e2-4e0d-8542-74945081f8c2" name="Folds of Honor QuikTrip 500" status="rescheduled" distance="500" laps="325" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="105" stage_2_laps="105" stage_3_laps="115" scheduled="2020-03-15T18:00:00+00:00" start_time="2020-03-15T18:00:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="433c3fac-6b17-48fe-a680-3c5f4399608e" name="NASCAR Cup Series at Homestead-Miami" start_date="2020-03-22">
+      <track name="Homestead-Miami Speedway" market="Homestead" completed="1999" distance="1.5" shape="Oval" banking="Turns:18-20;Backstretch:4;Frontstretch:4" frontstretch="1760" backstretch="1760" address="One Speedway Blvd." city="Homestead" state="Florida" zip="33035-1500" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="9e171ce2-7b98-4bed-b870-a01d7e393cda"/>
+      <race id="966129db-d270-4c00-a904-2a28bef0b542" name="Dixie Vodka 400" status="rescheduled" distance="400" laps="267" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="75" stage_2_laps="75" stage_3_laps="162" scheduled="2020-03-22T18:00:00+00:00" start_time="2020-06-14T23:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="9811cfd5-cace-4508-86ca-52c18e46b1fa" name="NASCAR Cup Series at Texas" start_date="2020-03-29">
+      <track name="Texas Motor Speedway" market="Fort Worth" completed="1995" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Tri-Oval:5" frontstretch="2250" backstretch="1330" address="3601 Highway 114" city="Fort Worth" state="Texas" zip="76177" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="6c2be094-7477-4d92-b7ff-10dfda27e315"/>
+      <race id="1a88f233-5396-4894-8f04-b442d2de9920" name="OReilly Auto Parts 500" status="rescheduled" distance="501" laps="334" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="105" stage_2_laps="105" stage_3_laps="124" scheduled="2020-03-29T18:00:00+00:00" start_time="2020-03-29T18:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="96ca0b3c-3e1e-4acb-ad32-898f836d9229" name="NASCAR Cup Series at Bristol" start_date="2020-04-05">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588"/>
+      <race id="73a71845-8295-4193-a388-733852554899" name="Food City 500" status="rescheduled" distance="266" laps="500" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="125" stage_2_laps="125" stage_3_laps="250" scheduled="2020-04-05T18:00:00+00:00" start_time="2020-04-05T18:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="3ad25075-9195-4a39-b152-3a64134d7815" name="NASCAR Cup Series at Richmond" start_date="2020-04-19">
+      <track name="Richmond Raceway" market="Richmond" completed="1946" distance="0.75" shape="Tri-Oval" banking="Turns:14;Backstretch:8;Frontstretch:2" frontstretch="1290" backstretch="860" address="600 East Laburnum Avenue" city="Richmond" state="Virginia" zip="23222" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="734227a1-a32f-40bf-b174-0c0e7aa0d696"/>
+      <race id="48a85a00-1d50-4e94-aaf6-fe48342d6408" name="Toyota Owners 400" status="canceled" distance="300" laps="400" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="155" stage_3_laps="165" scheduled="2020-04-19T18:00:00+00:00" start_time="2020-04-19T18:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="5e0985d1-a1a1-4fca-8efd-78d084ffadaf" name="NASCAR Cup Series at Talladega" start_date="2020-04-26">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41"/>
+      <race id="ae75c29a-09ac-4952-81a7-ec0093f82c54" name="GEICO 500" status="rescheduled" distance="500" laps="188" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" scheduled="2020-04-26T18:00:00+00:00" start_time="2020-06-21T19:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="590af587-b28e-4295-9120-eb8bebe15970" name="NASCAR Cup Series at Dover" start_date="2020-05-03">
+      <track name="Dover International Speedway" market="Dover" completed="1969" distance="1.0" shape="Oval" banking="Turns:24:Backstretch:9;Frontstretch:9" frontstretch="1076" backstretch="1076" address="1131 North DuPont Highway" city="Dover" state="Delaware" zip="19901" country="USA" surface="Concrete" track_type="Superspeedway" owner="Dover Motorsports Inc." id="e757d061-86db-4b28-9b19-9a3536a6994e"/>
+      <race id="91259bd6-010c-4e48-b69e-e22ea1cda9ec" name="NASCAR Cup Series Race at Dover" status="rescheduled" distance="400" laps="400" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="75" stage_2_laps="162" stage_3_laps="163" scheduled="2020-05-03T18:00:00+00:00" start_time="2020-08-23T20:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="132aee9c-5580-44f5-8807-cd4f1f38d358" name="NASCAR Cup Series at Martinsville" start_date="2020-05-09">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Martinsville" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689"/>
+      <race id="d37210bf-f860-4ee1-9b4d-7a63e1a7ae2a" name="Blue-Emu Maximum Pain Relief 500" status="rescheduled" distance="263" laps="500" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="130" stage_2_laps="130" stage_3_laps="240" scheduled="2020-05-10T00:00:00+00:00" start_time="2020-05-10T00:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="003bf530-7a34-4c69-a125-6125bdb009ca" name="NASCAR Cup Series at Darlington" start_date="2020-05-17">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc"/>
+      <race id="51bff069-3c9d-452e-bb52-e7a0d43cfe09" name="The Real Heroes 400" status="closed" number="5" distance="400" laps="293" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="90" stage_2_laps="95" stage_3_laps="108" scheduled="2020-05-17T19:30:00+00:00" start_time="2020-05-17T19:30:00+00:00" end_time="2020-05-17T23:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+      </race>
+    </event>
+    <event id="f9f6cdd5-6ccc-4dc0-bd64-fa99c5076117" name="NASCAR Cup Series at Darlington" start_date="2020-05-20">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc"/>
+      <race id="0c8a2b75-6472-45cd-ba32-d0210a2bdf67" name="Toyota 500" status="closed" number="6" distance="310" laps="228" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="60" stage_2_laps="65" stage_3_laps="103" scheduled="2020-05-20T22:00:00+00:00" start_time="2020-05-20T22:00:00+00:00" end_time="2020-05-21T02:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+    </event>
+    <event id="c70302af-4a9b-4a75-ac82-64b86e317cf7" name="NASCAR Cup Series at Charlotte" start_date="2020-05-24">
+      <track name="Charlotte Motor Speedway" market="Charlotte" completed="1960" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Frontstretch:5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="c0ae0e00-9899-4d01-869b-56a4763cc54d"/>
+      <race id="16f4b627-a8ab-4c47-ae44-fe2398ea57b1" name="NASCAR Open" status="rescheduled" distance="75" laps="50" chase_race="false" award_pole="false" stage_count="0" scheduled="2020-05-16T23:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+      <race id="92a904fa-9ec6-4d6e-a7fd-8a490e456e70" name="NASCAR All-Star Race" status="rescheduled" distance="128" laps="85" chase_race="false" award_pole="false" stage_count="0" scheduled="2020-05-17T01:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+      <race id="e30e5743-a08f-4e0f-8a2d-c95bc4b4d5b3" name="Coca-Cola 600" status="closed" number="7" distance="600" laps="400" chase_race="false" award_pole="true" stage_count="3" stage_1_laps="100" stage_2_laps="100" stage_3_laps="100" stage_4_laps="100" scheduled="2020-05-24T22:00:00+00:00" start_time="2020-05-24T22:00:00+00:00" end_time="2020-05-25T02:30:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="8cba2853-6dbf-403e-b052-0ab90555b290" name="NASCAR Cup Series at Charlotte" start_date="2020-05-27">
+      <track name="Charlotte Motor Speedway" market="Charlotte" completed="1960" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Frontstretch:5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="c0ae0e00-9899-4d01-869b-56a4763cc54d"/>
+      <race id="132167f6-7d67-4f86-90eb-653b80507d4a" name="Alsco Uniforms 500" status="closed" number="8" distance="310" laps="208" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="55" stage_2_laps="60" stage_3_laps="93" scheduled="2020-05-28T23:00:00+00:00" start_time="2020-05-28T23:00:00+00:00" end_time="2020-05-29T02:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+      </race>
+    </event>
+    <event id="b374ba08-aee3-444a-aa4a-98836ad54cab" name="NASCAR Cup Series at Bristol" start_date="2020-05-31">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588"/>
+      <race id="18c26fcc-346a-4b21-8801-4b17e5424eb6" name="Food City presents the Supermarket Heroes 500" status="closed" number="9" distance="266" laps="500" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="125" stage_2_laps="125" stage_3_laps="250" scheduled="2020-05-31T19:30:00+00:00" start_time="2020-05-31T19:30:00+00:00" end_time="2020-05-31T23:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="4e40333f-2174-451e-a1b1-ad5a795dc03b" name="NASCAR Cup Series at Atlanta" start_date="2020-06-07">
+      <track name="Atlanta Motor Speedway" market="Atlanta" completed="1960" distance="1.54" shape="Quad-Oval" banking="Turns:24; Backstretch:5;Tri-Oval:5" frontstretch="2332" backstretch="1800" address="1500 Highways 19 &amp; 41 South" city="Hampton" state="Georgia" zip="30228" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="75494065-bf21-4039-8d99-b8e438c8b4a4"/>
+      <race id="b668b689-4c74-451d-a8c8-6a83c564e2e3" name="Folds of Honor QuikTrip 500" status="closed" number="10" distance="500" laps="325" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="105" stage_2_laps="105" stage_3_laps="115" scheduled="2020-06-07T19:00:00+00:00" start_time="2020-06-07T19:00:00+00:00" end_time="2020-06-07T23:00:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="814cbaae-f7af-4ca2-819a-1b6caa3505da" name="NASCAR Cup Series at Martinsville" start_date="2020-06-10">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Martinsville" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689"/>
+      <race id="ab5153f3-bdce-482e-ad5a-e2055a2b4369" name="Blue-Emu Maximum Pain Relief 500" status="closed" number="11" distance="263" laps="500" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="130" stage_2_laps="130" stage_3_laps="240" scheduled="2020-06-10T23:00:00+00:00" start_time="2020-06-10T23:00:00+00:00" end_time="2020-06-11T03:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="d6e88117-d320-4d76-8718-f239f4aaead6" name="NASCAR Cup Series at Sonoma" start_date="2020-06-14">
+      <track name="Sonoma Raceway" market="Sonoma" completed="1968" distance="1.99" shape="Road Course" banking="11 Turns varying" frontstretch="0" backstretch="0" address="29355 Arnold Drive" city="Sonoma" state="California" zip="95476" country="USA" surface="Road" track_type="Road Course" owner="Speedway Motorsports Inc." id="496fc152-b10f-4941-8439-f933eaae2e13"/>
+      <race id="0e524ac8-779e-4e22-8f10-f73c672c1a50" name="Toyota/Save Mart 350" status="canceled" number="16" distance="224" laps="90" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="20" stage_2_laps="20" stage_3_laps="50" scheduled="2020-06-14T19:00:00+00:00" start_time="2020-06-14T19:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="55910d7f-da28-453b-96da-cfab79385142" name="NASCAR Cup Series at Homestead-Miami" start_date="2020-06-14">
+      <track name="Homestead-Miami Speedway" market="Homestead" completed="1999" distance="1.5" shape="Oval" banking="Turns:18-20;Backstretch:4;Frontstretch:4" frontstretch="1760" backstretch="1760" address="One Speedway Blvd." city="Homestead" state="Florida" zip="33035-1500" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="9e171ce2-7b98-4bed-b870-a01d7e393cda"/>
+      <race id="34835803-3c93-452c-a5da-a53131d18510" name="Dixie Vodka 400" status="closed" number="12" distance="400" laps="267" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2020-06-14T19:30:00+00:00" start_time="2020-06-14T19:30:00+00:00" end_time="2020-06-14T23:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="dc1e8cfd-e39b-4261-9720-57e557a7d5af" name="NASCAR Cup Series at Chicagoland" start_date="2020-06-21">
+      <track name="Chicagoland Speedway" market="Joliet" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:18;Backstretch:5;Tri-Oval:11" frontstretch="2400" backstretch="1700" address="500 Speedway Blvd" city="Joliet" state="Illinois" zip="60433" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="0e9dda94-eb5b-49e6-a09f-0869b82ce30b"/>
+      <race id="907b3930-9b89-4932-aae8-5479634b5e2f" name="Chicagoland 400" status="canceled" number="17" distance="400" laps="267" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2020-06-21T18:30:00+00:00" start_time="2020-06-21T18:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Alex" last_name="Bowman" full_name="Alex Bowman" id="3ebef96f-43b4-422a-9d0c-db0127b25384"/>
+      </race>
+    </event>
+    <event id="2ad8e27c-6533-45af-bc5a-ae793c0ba700" name="NASCAR Cup Series at Talladega" start_date="2020-06-22">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41"/>
+      <race id="75f8c8ca-e418-4131-84d2-9c07960a0f19" name="GEICO 500" status="closed" number="13" distance="500" laps="188" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" scheduled="2020-06-22T19:00:00+00:00" start_time="2020-06-22T19:00:00+00:00" end_time="2020-06-22T23:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="033b5955-1bc8-4b9f-a923-b4365fb8c98a" name="NASCAR Cup Series at Pocono" start_date="2020-06-27">
+      <track name="Pocono Raceway" market="Long Pond" completed="1968" distance="2.5" shape="Tri-Oval" banking="Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0" frontstretch="3740" backstretch="3055" address="Long Pond Road" city="Long Pond" state="Pennsylvania" zip="18334" country="USA" surface="Paved" track_type="Superspeedway" owner="Mattioli Family" id="7267d5f0-463e-4a81-a7fe-23b71dd2182e"/>
+      <race id="733fb8c8-39ba-4b89-83a2-5079321a6f66" name="Pocono Organics 325 in partnership with Rodale Institute" status="closed" number="14" distance="325" laps="130" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="25" stage_2_laps="52" stage_3_laps="53" scheduled="2020-06-27T19:30:00+00:00" start_time="2020-06-27T19:30:00+00:00" end_time="2020-06-27T22:30:00+00:00">
+        <broadcast network="FOX" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="3b7e4e7e-09d6-486e-9fb3-b057a88ef86c" name="NASCAR Cup Series at Pocono" start_date="2020-06-28">
+      <track name="Pocono Raceway" market="Long Pond" completed="1968" distance="2.5" shape="Tri-Oval" banking="Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0" frontstretch="3740" backstretch="3055" address="Long Pond Road" city="Long Pond" state="Pennsylvania" zip="18334" country="USA" surface="Paved" track_type="Superspeedway" owner="Mattioli Family" id="7267d5f0-463e-4a81-a7fe-23b71dd2182e"/>
+      <race id="aee420ad-48ab-4cda-9929-bc59cf02610f" name="Pocono 350" status="closed" number="15" distance="350" laps="140" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="30" stage_2_laps="55" stage_3_laps="55" scheduled="2020-06-28T20:00:00+00:00" start_time="2020-06-28T20:00:00+00:00" end_time="2020-06-29T00:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="5324fcc5-d03f-4f35-9884-3e723e304b5f" name="NASCAR Cup Series at Indianapolis" start_date="2020-07-05">
+      <track name="Indianapolis Motor Speedway" market="Indianapolis" completed="1909" distance="2.5" shape="Oval" banking="Turns:9;Backstretch:0;Frontstretch:0" frontstretch="3330" backstretch="3330" address="4790 West 16th Street" city="Speedway" state="Indiana" zip="46222" country="USA" surface="Paved" track_type="Superspeedway" owner="Indianapolis Motor Speedway" id="421c2846-3b70-4ed9-acdf-be3dbe4957b6"/>
+      <race id="b5c46bf6-0c30-4b2a-9088-1f983238f4fb" name="Big Machine Hand Sanitizer 400 Powered by Big Machine Records" status="closed" number="16" distance="400" laps="160" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="50" stage_2_laps="50" stage_3_laps="60" scheduled="2020-07-05T20:00:00+00:00" start_time="2020-07-05T20:00:00+00:00" end_time="2020-07-06T00:00:00+00:00">
+        <broadcast network="NBC" radio="IMS"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="64f12e8a-23ed-43c0-bf7f-0ff00f2285a9" name="NASCAR Cup Series at Kentucky" start_date="2020-07-12">
+      <track name="Kentucky Speedway" market="Sparta" completed="2000" distance="1.5" shape="Tri-Oval" banking="Banking in Corners: 14 degrees; Banking on Straights: Front - 8 degrees; Back - 4 degrees" frontstretch="1662" backstretch="1600" address="4760 Sparta Pike" city="Sparta" state="Kentucky" zip="41086" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="8bde2b6c-236e-44c7-98ac-2fbcfb6ae13b"/>
+      <race id="c5596725-1a8c-47e2-8354-98fb65f965de" name="Quaker State 400 Presented by Walmart" status="closed" number="17" distance="400" laps="267" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2020-07-12T18:30:00+00:00" start_time="2020-07-12T18:30:00+00:00" end_time="2020-07-12T22:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Kurt" last_name="Busch" full_name="Kurt Busch" id="8e76a45f-596e-4b56-9eb6-0623e45bf89c"/>
+      </race>
+    </event>
+    <event id="24356557-5f50-4fa0-94b1-6eaa0b90931d" name="NASCAR Cup Series at Bristol" start_date="2020-07-15">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588"/>
+      <race id="c2ac03de-ce31-41d6-a2db-5f627175f635" name="NASCAR All-Star Open" status="closed" distance="45" laps="85" chase_race="false" award_pole="false" stage_count="0" scheduled="2020-07-15T23:00:00+00:00" start_time="2020-07-15T23:00:00+00:00" end_time="2020-07-16T00:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+      <race id="e318be0c-f83e-4f7e-8ae2-aa60bedfedda" name="NASCAR All-Star Race" status="closed" distance="74" laps="140" chase_race="false" award_pole="false" stage_count="0" scheduled="2020-07-16T00:30:00+00:00" start_time="2020-07-16T00:30:00+00:00" end_time="2020-07-16T02:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="5c2fd826-ed4a-41c1-bc54-6ace997dfa28" name="NASCAR Cup Series at Texas" start_date="2020-07-19">
+      <track name="Texas Motor Speedway" market="Fort Worth" completed="1995" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Tri-Oval:5" frontstretch="2250" backstretch="1330" address="3601 Highway 114" city="Fort Worth" state="Texas" zip="76177" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="6c2be094-7477-4d92-b7ff-10dfda27e315"/>
+      <race id="e4223744-0c25-4cd8-9142-229feb0ac069" name="OReilly Auto Parts 500" status="closed" number="18" distance="501" laps="334" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="105" stage_2_laps="105" stage_3_laps="124" scheduled="2020-07-19T19:00:00+00:00" start_time="2020-07-19T19:00:00+00:00" end_time="2020-07-19T23:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="9d64c0a5-bae2-4184-8a71-934fcfcc6c7f" name="NASCAR Cup Series at Kansas" start_date="2020-07-23">
+      <track name="Kansas Speedway" market="Kansas City" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:15;Backstretch:5:Frontstretch:10.4" frontstretch="2685" backstretch="2207" address="400 Speedway Blvd." city="Kansas City" state="Kansas" zip="66111" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="42d3569d-cc77-4072-88d5-f63046eddf39"/>
+      <race id="955587b0-7b31-4083-8288-716ef9c158f3" name="Super Start Batteries 400 Presented by OReilly Auto Parts" status="closed" number="19" distance="400" laps="267" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2020-07-23T23:30:00+00:00" start_time="2020-07-23T23:30:00+00:00" end_time="2020-07-24T03:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="4e901f7d-4a99-474a-b04b-70c559897065" name="NASCAR Cup Series at New Hampshire" start_date="2020-08-02">
+      <track name="New Hampshire Motor Speedway" market="Loudon" completed="1990" distance="1.058" shape="Oval" banking="Turns: 2 &amp; 7; Backstretch:1; Frontstretch:1" frontstretch="1500" backstretch="1500" address="1122 Rte. 106 North" city="Loudon" state="New Hampshire" zip="03307" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="cd705ff5-045b-4c96-a96e-74a98b5f95af"/>
+      <race id="da0c1eb7-a341-468b-989e-89d8e025eb2f" name="Foxwoods Resort Casino 301" status="closed" number="20" distance="318" laps="301" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="75" stage_2_laps="110" stage_3_laps="116" scheduled="2020-08-02T19:00:00+00:00" start_time="2020-08-02T19:00:00+00:00" end_time="2020-08-02T22:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="aac5a06b-89f5-42e5-b1d1-c97ecde2376c" name="NASCAR Cup Series at Michigan" start_date="2020-08-08">
+      <track name="Michigan International Speedway" market="Brooklyn" completed="1968" distance="2.0" shape="D-Shaped Oval" banking="Turns:18;Backstretch:5;Frontstretch:12" frontstretch="3600" backstretch="2242" address="12626 U.S. 12" city="Brooklyn" state="Michigan" zip="49230" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83865dba-7a30-441a-95e0-51219f7e7c56"/>
+      <race id="0b11b3ce-6f9d-4e0b-9731-cdf562c3bbd3" name="FireKeepers Casino 400" status="inprogress" number="21" distance="312" laps="156" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="40" stage_2_laps="45" stage_3_laps="71" scheduled="2020-08-08T20:00:00+00:00" start_time="2020-08-08T20:00:00+00:00" end_time="2020-08-08T20:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="16d6a665-c577-46cb-9248-60d65d1e0e1c" name="NASCAR Cup Series at Michigan" start_date="2020-08-09">
+      <track name="Michigan International Speedway" market="Brooklyn" completed="1968" distance="2.0" shape="D-Shaped Oval" banking="Turns:18;Backstretch:5;Frontstretch:12" frontstretch="3600" backstretch="2242" address="12626 U.S. 12" city="Brooklyn" state="Michigan" zip="49230" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83865dba-7a30-441a-95e0-51219f7e7c56"/>
+      <race id="c099e69e-92f3-4656-8127-019e263d0202" name="Consumers Energy 400" status="initialized" number="22" distance="312" laps="156" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="40" stage_2_laps="45" stage_3_laps="71" scheduled="2020-08-09T20:30:00+00:00" start_time="2020-08-09T20:30:00+00:00" end_time="2020-08-09T20:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="f07caac2-9b95-4f67-bf42-efa317781cfa" name="NASCAR Cup Series at Daytona Road Course" start_date="2020-08-16">
+      <track name="Daytona Road Course" market="Daytona" completed="1958" distance="3.81" shape="Road Course" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" address="1801 West International Speedway Blvd." city="Daytona Beach" state="FL" zip="32114-1243" country="USA" id="0a1efa46-0a38-4c10-ad30-51a77699788a"/>
+      <race id="a3a0b682-e68e-4360-8499-48646e8dd720" name="Go Bowling 235" status="scheduled" number="23" distance="235" laps="65" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="15" stage_2_laps="15" stage_3_laps="35" scheduled="2020-08-16T19:00:00+00:00" start_time="2020-08-16T19:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+      </race>
+    </event>
+    <event id="a8e639b6-58a6-4693-8acb-bcc2a4064889" name="NASCAR Cup Series at Watkins Glen" start_date="2020-08-16">
+      <track name="Watkins Glen International" market="Watkins Glen" completed="1956" distance="2.45" shape="Road Course" banking="Turns:6-10" frontstretch="0" backstretch="0" address="2790 County Route 16" city="Watkins Glen" state="New York" zip="14891" country="USA" surface="Road" track_type="Road Course" owner="International Speedway Corp." id="d52314d0-06c3-4619-a8d0-1d97a21d8f22"/>
+      <race id="f849e4e3-8ccd-417d-9146-dc9c45a667cf" name="Go Bowling at The Glen" status="canceled" number="24" distance="220" laps="90" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="20" stage_2_laps="20" stage_3_laps="50" scheduled="2020-08-16T19:00:00+00:00" start_time="2020-08-16T19:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="d7cd0259-0550-4d7c-a011-b8d0ef112b69" name="NASCAR Cup Series at Dover" start_date="2020-08-22">
+      <track name="Dover International Speedway" market="Dover" completed="1969" distance="1.0" shape="Oval" banking="Turns:24:Backstretch:9;Frontstretch:9" frontstretch="1076" backstretch="1076" address="1131 North DuPont Highway" city="Dover" state="Delaware" zip="19901" country="USA" surface="Concrete" track_type="Superspeedway" owner="Dover Motorsports Inc." id="e757d061-86db-4b28-9b19-9a3536a6994e"/>
+      <race id="2173ab4e-3448-4def-952f-46e494114655" name="Drydene 311" status="scheduled" number="24" distance="311" laps="311" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="70" stage_2_laps="115" stage_3_laps="126" scheduled="2020-08-22T20:00:00+00:00" start_time="2020-08-22T20:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="d9d8067d-ba1e-4fdf-a9e7-470381564289" name="NASCAR Cup Series at Dover" start_date="2020-08-23">
+      <track name="Dover International Speedway" market="Dover" completed="1969" distance="1.0" shape="Oval" banking="Turns:24:Backstretch:9;Frontstretch:9" frontstretch="1076" backstretch="1076" address="1131 North DuPont Highway" city="Dover" state="Delaware" zip="19901" country="USA" surface="Concrete" track_type="Superspeedway" owner="Dover Motorsports Inc." id="e757d061-86db-4b28-9b19-9a3536a6994e"/>
+      <race id="23675314-89ec-476f-b6b7-b250f676d520" name="Drydene 311" status="scheduled" number="25" distance="311" laps="311" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="75" stage_2_laps="115" stage_3_laps="126" scheduled="2020-08-23T20:00:00+00:00" start_time="2020-08-23T20:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="03ef5c88-14de-4f5f-a34b-f2ce4f35c6c1" name="NASCAR Cup Series at Daytona" start_date="2020-08-29">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b"/>
+      <race id="2c3aaf78-a9b4-4264-a373-b1015b7b8f38" name="Coke Zero Sugar 400" status="scheduled" number="26" distance="400" laps="160" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="50" stage_2_laps="50" stage_3_laps="60" scheduled="2020-08-29T23:30:00+00:00" start_time="2020-08-29T23:30:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Justin" last_name="Haley" full_name="Justin Haley" id="6e3ed92a-ee25-4dea-b116-d493ebccba07"/>
+      </race>
+    </event>
+    <event id="a61821e8-0469-4d3c-94bd-96f77b2660e5" name="NASCAR Cup Series at Darlington" start_date="2020-09-06">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc"/>
+      <race id="eadc2629-1250-4f53-8fd6-d9e6bbadc843" name="Southern 500" status="scheduled" number="27" distance="501" laps="367" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="115" stage_2_laps="115" stage_3_laps="137" scheduled="2020-09-06T22:00:00+00:00" start_time="2020-09-06T22:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Erik" last_name="Jones" full_name="Erik Jones" id="e595780e-baa7-4988-9a19-311fef7414d5"/>
+      </race>
+    </event>
+    <event id="e46cdb31-38f6-4843-8e27-9eb74d12c725" name="NASCAR Cup Series at Richmond" start_date="2020-09-12">
+      <track name="Richmond Raceway" market="Richmond" completed="1946" distance="0.75" shape="Tri-Oval" banking="Turns:14;Backstretch:8;Frontstretch:2" frontstretch="1290" backstretch="860" address="600 East Laburnum Avenue" city="Richmond" state="Virginia" zip="23222" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="734227a1-a32f-40bf-b174-0c0e7aa0d696"/>
+      <race id="d465198e-ebbf-46dc-b2db-db006324954d" name="Federated Auto Parts 400" status="scheduled" number="28" distance="300" laps="400" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="155" stage_3_laps="165" scheduled="2020-09-12T23:30:00+00:00" start_time="2020-09-12T23:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="bda97eb3-32a3-430c-a8ef-4cfbd34b98c5" name="NASCAR Cup Series at Bristol" start_date="2020-09-19">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588"/>
+      <race id="fdfbf192-03c0-49dc-8286-9cdd40b75370" name="Bass Pro Shops NRA Night Race" status="scheduled" number="29" distance="266" laps="500" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="125" stage_2_laps="125" stage_3_laps="250" scheduled="2020-09-19T23:30:00+00:00" start_time="2020-09-19T23:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="c9a52c92-74bc-4306-9293-1e2f62fe75a9" name="NASCAR Cup Series at Las Vegas" start_date="2020-09-27">
+      <track name="Las Vegas Motor Speedway" market="Las Vegas" completed="1996" distance="1.5" shape="D-Shaped Oval" banking="Turns: 20, Frontstretch: 9, Backstretch: 9" frontstretch="2275" backstretch="1572" address="7000 Las Vegas Blvd. North" city="Las Vegas" state="Nevada" zip="89115" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="9580816f-e17c-4167-8402-ba16725bcb19"/>
+      <race id="effdaf7a-2cfe-4cdf-8892-f2f4e2b6e00e" name="South Point 400" status="scheduled" number="30" distance="400" laps="267" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2020-09-27T23:00:00+00:00" start_time="2020-09-27T23:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="627bf35b-0c7d-4620-97f3-a8a93cc3c3f6" name="NASCAR Cup Series at Talladega" start_date="2020-10-04">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41"/>
+      <race id="3ee36617-bb83-450d-8561-565cfc9a7e87" name="YellaWood 500" status="scheduled" number="31" distance="500" laps="188" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" scheduled="2020-10-04T18:00:00+00:00" start_time="2020-10-04T18:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" id="67948099-4196-4e1b-ae9e-b437aa99000a"/>
+      </race>
+    </event>
+    <event id="254a03b9-c900-4347-87cc-bca9a4e1e2f1" name="NASCAR Cup Series at Charlotte" start_date="2020-10-11">
+      <track name="Charlotte Motor Speedway Road Course" market="Charlotte" completed="2017" distance="2.28" shape="Road Course" banking="Turns: 17, Backstretch: 5, Tri-Oval: 5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Road Course" owner="Speedway Motorsports Inc." id="035b5781-de86-49e6-98fb-b466e288ae10"/>
+      <race id="0e4f8347-c661-4fb7-a1c7-b9726b641e27" name="Bank of America ROVAL 400" status="scheduled" number="32" distance="253" laps="109" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="25" stage_2_laps="25" stage_3_laps="59" scheduled="2020-10-11T18:30:00+00:00" start_time="2020-10-11T18:30:00+00:00">
+        <broadcast network="NBC" radio="PRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="ceb43bcb-c309-4642-80d1-c4a4c413d6c3" name="NASCAR Cup Series at Kansas" start_date="2020-10-18">
+      <track name="Kansas Speedway" market="Kansas City" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:15;Backstretch:5:Frontstretch:10.4" frontstretch="2685" backstretch="2207" address="400 Speedway Blvd." city="Kansas City" state="Kansas" zip="66111" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="42d3569d-cc77-4072-88d5-f63046eddf39"/>
+      <race id="c0c3d981-f1be-463e-a28b-35d69a3dba98" name="Hollywood Casino 400" status="scheduled" number="33" distance="400" laps="267" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2020-10-18T18:30:00+00:00" start_time="2020-10-18T18:30:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="ea6c612c-3ccc-4961-abd8-f60e32d44330" name="NASCAR Cup Series at Texas" start_date="2020-10-25">
+      <track name="Texas Motor Speedway" market="Fort Worth" completed="1995" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Tri-Oval:5" frontstretch="2250" backstretch="1330" address="3601 Highway 114" city="Fort Worth" state="Texas" zip="76177" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="6c2be094-7477-4d92-b7ff-10dfda27e315"/>
+      <race id="183a76ba-9239-4067-8baa-49b4d0d35221" name="Texas 500" status="scheduled" number="34" distance="500" laps="334" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="105" stage_2_laps="105" stage_3_laps="124" scheduled="2020-10-25T19:30:00+00:00" start_time="2020-10-25T19:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="3fc67970-ec81-4ce3-a877-abb6ea7f0bc9" name="NASCAR Cup Series at Martinsville" start_date="2020-11-01">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Martinsville" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689"/>
+      <race id="803c120e-66f6-4f0f-b755-59996a159f3d" name="Xfinity 500" status="scheduled" number="35" distance="263" laps="500" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="130" stage_2_laps="130" stage_3_laps="240" scheduled="2020-11-01T19:00:00+00:00" start_time="2020-11-01T19:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="fcd582c4-1a2e-45d9-8d5c-f19e93d9f114" name="NASCAR Cup Series at Phoenix" start_date="2020-11-08">
+      <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83"/>
+      <race id="c0b9af2d-3cbe-4d22-8194-c9c36f04b885" name="NASCAR Cup Series Championship" status="scheduled" number="36" distance="312" laps="312" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="75" stage_2_laps="115" stage_3_laps="122" scheduled="2020-11-08T20:00:00+00:00" start_time="2020-11-08T20:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+  </season>
+</series>
+<!-- Generation ended @ 2020-08-08 21:25:23 +0000 -->

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/schedule-v3.0.xsl"?>
+<!-- Generation started @ 2021-02-11 04:49:40 UTC -->
+<series xmlns="http://feed.elasticstats.com/schema/nascar/schedule-v3.0.xsd" id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="NASCAR Cup Series">
+  <season year="2021" id="5886359d-16f1-4a45-a794-6783274b4983">
+    <event id="35bfd9f9-22f8-4ff9-b388-8f97185ddf71" name="NASCAR Cup Series at Daytona Road Course" start_date="2021-02-09">
+      <track name="Daytona Road Course" market="Daytona" completed="1958" distance="3.81" shape="Road Course" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" address="1801 West International Speedway Blvd." city="Daytona Beach" state="FL" zip="32114-1243" country="USA" id="0a1efa46-0a38-4c10-ad30-51a77699788a"/>
+      <race id="b944cd27-baac-40ef-984c-1326653ac8ea" name="Busch Clash at DAYTONA" status="closed" distance="126" laps="35" chase_race="false" award_pole="false" stage_count="0" scheduled="2021-02-10T00:00:00+00:00" start_time="2021-02-10T00:00:00+00:00" end_time="2021-02-10T02:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Erik" last_name="Jones" full_name="Erik Jones" id="e595780e-baa7-4988-9a19-311fef7414d5"/>
+      </race>
+    </event>
+    <event id="16a7e904-df34-465d-a3b8-f2f92d15ad15" name="NASCAR Cup Series at Daytona" start_date="2021-02-10">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b"/>
+      <race id="b2213021-6cf1-45cf-b35c-549e43b12af9" name="Bluegreen Vacations Duel 1 at DAYTONA" status="prerace" distance="150" laps="60" chase_race="false" award_pole="false" stage_count="0" scheduled="2021-02-12T00:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+      <race id="0ceea467-5740-4316-ab9b-a78be6ccd888" name="Bluegreen Vacations Duel 2 at DAYTONA" status="prerace" distance="150" laps="60" chase_race="false" award_pole="false" stage_count="0" scheduled="2021-02-12T01:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+      <race id="78dc8bfb-f6fb-416d-ae3f-fa185230fcdf" name="DAYTONA 500" status="prerace" number="1" distance="500" laps="200" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="65" stage_2_laps="65" stage_3_laps="70" scheduled="2021-02-14T19:30:00+00:00" start_time="2021-02-14T19:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="caa3d698-d408-4748-888a-c3502d265e18" name="NASCAR Cup Series at Daytona Road Course" start_date="2021-02-21">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b"/>
+      <race id="27913251-d672-4ffd-91fb-158e5b105209" name="NASCAR Cup Series at Daytona Road Course" status="scheduled" number="2" distance="235" laps="65" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="16" stage_2_laps="18" stage_3_laps="36" scheduled="2021-02-21T20:00:00+00:00" start_time="2021-02-21T20:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="dea030c4-97c0-48a4-9c30-0420b00c89c1" name="NASCAR Cup Series at Homestead-Miami" start_date="2021-02-28">
+      <track name="Homestead-Miami Speedway" market="Homestead" completed="1999" distance="1.5" shape="Oval" banking="Turns:18-20;Backstretch:4;Frontstretch:4" frontstretch="1760" backstretch="1760" address="One Speedway Blvd." city="Homestead" state="Florida" zip="33035-1500" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="9e171ce2-7b98-4bed-b870-a01d7e393cda"/>
+      <race id="097d0eaa-aaaa-4556-89dd-d1103412031e" name="Dixie Vodka 400" status="scheduled" number="3" distance="400" laps="267" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2021-02-28T20:30:00+00:00" start_time="2021-02-28T20:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="05a12766-6022-4f55-8560-d01ef85b12c0" name="NASCAR Cup Series at Las Vegas" start_date="2021-03-07">
+      <track name="Las Vegas Motor Speedway" market="Las Vegas" completed="1996" distance="1.5" shape="D-Shaped Oval" banking="Turns: 20, Frontstretch: 9, Backstretch: 9" frontstretch="2275" backstretch="1572" address="7000 Las Vegas Blvd. North" city="Las Vegas" state="Nevada" zip="89115" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="9580816f-e17c-4167-8402-ba16725bcb19"/>
+      <race id="9b18c248-ebd3-4ecd-9699-9f0d0f227ac0" name="Pennzoil 400 presented by Jiffy Lube" status="scheduled" number="4" distance="400" laps="267" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2021-03-07T20:30:00+00:00" start_time="2021-03-07T20:30:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="737e2220-1afc-46e5-b993-5818f521d2e7" name="NASCAR Cup Series at Phoenix" start_date="2021-03-14">
+      <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83"/>
+      <race id="bbbacc40-1ef5-4893-92fb-9ee892890045" name="NASCAR Cup Series Race at Phoenix" status="scheduled" number="5" distance="312" laps="312" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="75" stage_2_laps="112" stage_3_laps="122" scheduled="2021-03-14T19:30:00+00:00" start_time="2021-03-14T18:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="fd6b969f-4c80-4755-8039-e7dc767dcf13" name="NASCAR Cup Series at Atlanta" start_date="2021-03-21">
+      <track name="Atlanta Motor Speedway" market="Atlanta" completed="1960" distance="1.54" shape="Quad-Oval" banking="Turns:24; Backstretch:5;Tri-Oval:5" frontstretch="2332" backstretch="1800" address="1500 Highways 19 &amp; 41 South" city="Hampton" state="Georgia" zip="30228" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="75494065-bf21-4039-8d99-b8e438c8b4a4"/>
+      <race id="3d3d3feb-726e-4e3d-80f0-f5b1c4943019" name="Folds of Honor QuikTrip 500" status="scheduled" number="6" distance="500" laps="325" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="105" stage_2_laps="105" stage_3_laps="115" scheduled="2021-03-21T19:00:00+00:00" start_time="2021-03-21T19:00:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="fb7b2b37-d719-494f-b5b0-4e5928089a73" name="NASCAR Cup Series at Bristol" start_date="2021-03-28">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588"/>
+      <race id="5b28467f-3634-48da-b9c8-5b15820289e6" name="Food City Dirt Race" status="scheduled" number="7" distance="133" laps="250" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="75" stage_2_laps="75" stage_3_laps="100" scheduled="2021-03-28T19:30:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="85b75bec-567e-4292-af46-6960214ec709" name="NASCAR Cup Series at Martinsville" start_date="2021-04-10">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Martinsville" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689"/>
+      <race id="b26fd41f-7ade-4439-83b5-8222208a55a1" name="Blue-Emu Maximum Pain Relief 500" status="scheduled" number="8" distance="263" laps="500" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="130" stage_2_laps="130" stage_3_laps="240" scheduled="2021-04-10T23:30:00+00:00" start_time="2021-04-10T23:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="f1393503-cf0c-4fd7-b400-9f537038f843" name="NASCAR Cup Series at Richmond" start_date="2021-04-18">
+      <track name="Richmond Raceway" market="Richmond" completed="1946" distance="0.75" shape="Tri-Oval" banking="Turns:14;Backstretch:8;Frontstretch:2" frontstretch="1290" backstretch="860" address="600 East Laburnum Avenue" city="Richmond" state="Virginia" zip="23222" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="734227a1-a32f-40bf-b174-0c0e7aa0d696"/>
+      <race id="ac481456-064d-4759-9f6d-354ff0e1eca4" name="Toyota Owners 400" status="scheduled" number="9" distance="300" laps="400" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="155" stage_3_laps="165" scheduled="2021-04-18T19:00:00+00:00" start_time="2021-04-18T19:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="e10b3f69-2ef7-4a9a-95dc-4cb2414c93b7" name="NASCAR Cup Series at Talladega" start_date="2021-04-25">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41"/>
+      <race id="d25ae8da-0dcd-4e44-a293-542fed86839d" name="GEICO 500" status="scheduled" number="10" distance="500" laps="188" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" scheduled="2021-04-25T18:00:00+00:00" start_time="2021-04-25T18:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" id="67948099-4196-4e1b-ae9e-b437aa99000a"/>
+      </race>
+    </event>
+    <event id="dd0328e6-aad6-4c3a-80ee-8617e3ad204f" name="NASCAR Cup Series at Kansas" start_date="2021-05-02">
+      <track name="Kansas Speedway" market="Kansas City" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:15;Backstretch:5:Frontstretch:10.4" frontstretch="2685" backstretch="2207" address="400 Speedway Blvd." city="Kansas City" state="Kansas" zip="66111" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="42d3569d-cc77-4072-88d5-f63046eddf39"/>
+      <race id="603b8cd3-292e-4a30-8f63-7bfbef131cc4" name="NASCAR Cup Series Race at Kansas" status="scheduled" number="11" distance="400" laps="267" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2021-05-02T19:00:00+00:00" start_time="2021-05-02T19:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="44df0e21-0870-4a17-b22a-26798eb32bd5" name="NASCAR Cup Series at Darlington" start_date="2021-05-09">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc"/>
+      <race id="c70aa881-be8f-45e2-8113-cc9ae1e11d3f" name="NASCAR Cup Series Race at Darlington" status="scheduled" number="12" distance="400" laps="293" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="90" stage_2_laps="95" stage_3_laps="108" scheduled="2021-05-09T19:30:00+00:00" start_time="2021-05-09T19:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="9675eab4-3793-4eac-8021-a4ae9ec228db" name="NASCAR Cup Series at Dover" start_date="2021-05-16">
+      <track name="Dover International Speedway" market="Dover" completed="1969" distance="1.0" shape="Oval" banking="Turns:24:Backstretch:9;Frontstretch:9" frontstretch="1076" backstretch="1076" address="1131 North DuPont Highway" city="Dover" state="Delaware" zip="19901" country="USA" surface="Concrete" track_type="Superspeedway" owner="Dover Motorsports Inc." id="e757d061-86db-4b28-9b19-9a3536a6994e"/>
+      <race id="32c1d109-7f86-48ad-b1cf-eca4ea78c6e3" name="Drydene 400" status="scheduled" number="13" distance="400" laps="400" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="120" stage_2_laps="120" stage_3_laps="160" scheduled="2021-05-16T18:00:00+00:00" start_time="2021-05-16T18:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="8e9c92ea-e1a0-4b95-acfc-768dcb050772" name="NASCAR Cup Series at COTA" start_date="2021-05-23">
+      <track name="Circuits of the Americas" market="Austin" completed="2021" distance="3.41" shape="Road Course" address=" 9201 Circuit of the Americas Blvd" city="Austin" state="TX" zip="78617" country="USA" id="6631f91e-10ff-4089-9091-c11ec1a19aaf"/>
+      <race id="8e6fbadc-fb7f-4c19-a2dc-becb9a7b409f" name="NASCAR Cup Series Race at COTA" status="scheduled" number="14" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="0" stage_2_laps="0" stage_3_laps="0" scheduled="2021-05-23T18:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+      </race>
+    </event>
+    <event id="d5e13a81-42b8-424c-82c9-9ea11b92ee0d" name="NASCAR Cup Series at Charlotte" start_date="2021-05-30">
+      <track name="Charlotte Motor Speedway" market="Charlotte" completed="1960" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Frontstretch:5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="c0ae0e00-9899-4d01-869b-56a4763cc54d"/>
+      <race id="bf7ec25b-c45b-4b70-894f-a38daa8531c7" name="Coca-Cola 600" status="scheduled" number="15" distance="600" laps="400" chase_race="false" award_pole="true" stage_count="3" stage_1_laps="100" stage_2_laps="100" stage_3_laps="100" stage_4_laps="100" scheduled="2021-05-30T22:00:00+00:00">
+        <broadcast network="FOX" cable="PRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="85893957-11d4-4aa1-8e6a-896ad3365c5d" name="NASCAR Cup Series at Sonoma" start_date="2021-06-06">
+      <track name="Sonoma Raceway" market="Sonoma" completed="1968" distance="1.99" shape="Road Course" banking="11 Turns varying" frontstretch="0" backstretch="0" address="29355 Arnold Drive" city="Sonoma" state="California" zip="95476" country="USA" surface="Road" track_type="Road Course" owner="Speedway Motorsports Inc." id="496fc152-b10f-4941-8439-f933eaae2e13"/>
+      <race id="7fc9942d-f2d6-4b88-85c8-ccf765440c35" name="Toyota / Save Mart 350" status="scheduled" number="16" distance="224" laps="90" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="20" stage_2_laps="20" stage_3_laps="50" scheduled="2021-06-06T20:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="f6eb7bd0-937f-44c5-ad54-4ce6756bf339" name="NASCAR Cup Series at Texas" start_date="2021-06-13">
+      <track name="Texas Motor Speedway" market="Fort Worth" completed="1995" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Tri-Oval:5" frontstretch="2250" backstretch="1330" address="3601 Highway 114" city="Fort Worth" state="Texas" zip="76177" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="6c2be094-7477-4d92-b7ff-10dfda27e315"/>
+      <race id="ed2f816c-b4c2-41b1-80d9-19d9620a7b59" name="NASCAR All-Star Open" status="scheduled" distance="75" laps="50" chase_race="false" award_pole="false" stage_count="0" scheduled="2021-06-13T22:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Matt" last_name="DiBenedetto" full_name="Matt DiBenedetto" id="06c9c0f9-392a-4f0e-aae7-39bb417af02f"/>
+      </race>
+      <race id="3c4b42d2-0da1-4514-881f-be993bd0bb6b" name="NASCAR All-Star Race" status="scheduled" distance="173" laps="115" chase_race="false" award_pole="false" stage_count="0" scheduled="2021-06-14T00:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="2238e8f6-42ef-47c4-b256-0d2c1eef8e5f" name="NASCAR Cup Series at Nashville" start_date="2021-06-20">
+      <track name="Nashville Superspeedway" completed="0" distance="1.333" shape="Tri-Oval" banking="Banking in Corners: 14 degrees; Banking on Straights: Front - 9 degrees; Back - 6 degrees" frontstretch="2494" backstretch="2203" address="4847-F McCrary Road" city="Nashville" state="Tennessee" zip="37090" country="USA" surface="Paved" track_type="Superspeedway" owner="Dover Motorsports Inc." id="016c7f98-48b0-4b05-a31c-6896f7146eee"/>
+      <race id="16e2e938-798c-4a55-8229-6097ee2ed2e3" name="Ally 400" status="scheduled" number="17" distance="400" laps="300" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="90" stage_2_laps="95" stage_3_laps="115" scheduled="2021-06-20T17:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+      </race>
+    </event>
+    <event id="1709bed6-c25b-4a10-b485-eccf42fa9ebc" name="NASCAR Cup Series at Pocono" start_date="2021-06-26">
+      <track name="Pocono Raceway" market="Long Pond" completed="1968" distance="2.5" shape="Tri-Oval" banking="Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0" frontstretch="3740" backstretch="3055" address="Long Pond Road" city="Long Pond" state="Pennsylvania" zip="18334" country="USA" surface="Paved" track_type="Superspeedway" owner="Mattioli Family" id="7267d5f0-463e-4a81-a7fe-23b71dd2182e"/>
+      <race id="1f762f04-4348-49fa-bca4-4d59ad70a5d6" name="NASCAR Cup Series Race at Pocono" status="scheduled" number="18" distance="325" laps="130" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="25" stage_2_laps="52" stage_3_laps="53" scheduled="2021-06-26T19:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="3f63c89b-4746-47f0-910f-f624820371cf" name="NASCAR Cup Series at Pocono" start_date="2021-06-27">
+      <track name="Pocono Raceway" market="Long Pond" completed="1968" distance="2.5" shape="Tri-Oval" banking="Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0" frontstretch="3740" backstretch="3055" address="Long Pond Road" city="Long Pond" state="Pennsylvania" zip="18334" country="USA" surface="Paved" track_type="Superspeedway" owner="Mattioli Family" id="7267d5f0-463e-4a81-a7fe-23b71dd2182e"/>
+      <race id="994950f4-43d8-4107-b4a3-9ca7151216b9" name="NASCAR Cup Series Race at Pocono" status="scheduled" number="19" distance="350" laps="140" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="30" stage_2_laps="55" stage_3_laps="55" scheduled="2021-06-27T19:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="519e065e-5b37-4d6b-a24d-6de2f79859ff" name="NASCAR Cup Series at Road America" start_date="2021-07-04">
+      <track name="Road America" market="Wisconsin" completed="1955" distance="4.048" shape="Road Course" banking="171 feet of elevation changes in one lap" frontstretch="0" backstretch="0" address="N7390 Hwy 67" city="Elkhart Lake" state="Wisconsin" zip="53020-0338" country="USA" surface="Road" track_type="Road Course" owner="State Fair Park" id="89534a6a-0502-465c-a42b-207dd3984527"/>
+      <race id="16c78e60-ad2a-4c3d-869b-cc2c1a666fe9" name="NASCAR Cup Series Race at Road America" status="scheduled" number="20" distance="251" laps="62" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="14" stage_2_laps="15" stage_3_laps="33" scheduled="2021-07-04T18:30:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+      </race>
+    </event>
+    <event id="cc899a8f-e20c-4123-9ab4-958ea7d4553e" name="NASCAR Cup Series at Atlanta" start_date="2021-07-11">
+      <track name="Atlanta Motor Speedway" market="Atlanta" completed="1960" distance="1.54" shape="Quad-Oval" banking="Turns:24; Backstretch:5;Tri-Oval:5" frontstretch="2332" backstretch="1800" address="1500 Highways 19 &amp; 41 South" city="Hampton" state="Georgia" zip="30228" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="75494065-bf21-4039-8d99-b8e438c8b4a4"/>
+      <race id="d2b09969-d809-4c78-81a6-1a1a7c71ac45" name="NASCAR Cup Series Race at Atlanta" status="scheduled" number="21" distance="400" laps="260" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="100" scheduled="2021-07-11T19:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+      </race>
+    </event>
+    <event id="aa38d8b5-60e5-408f-a921-50a0c979ea49" name="NASCAR Cup Series at New Hampshire" start_date="2021-07-18">
+      <track name="New Hampshire Motor Speedway" market="Loudon" completed="1990" distance="1.058" shape="Oval" banking="Turns: 2 &amp; 7; Backstretch:1; Frontstretch:1" frontstretch="1500" backstretch="1500" address="1122 Rte. 106 North" city="Loudon" state="New Hampshire" zip="03307" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="cd705ff5-045b-4c96-a96e-74a98b5f95af"/>
+      <race id="d21b51fd-536f-410a-aef9-1da6c21b755a" name="Foxwoods Resort Casino 301" status="scheduled" number="22" distance="301" laps="301" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="75" stage_2_laps="110" stage_3_laps="116" scheduled="2021-07-18T19:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="a1281cbc-f8ec-4f65-8b26-05ae6f07ea24" name="NASCAR Cup Series at Watkins Glen" start_date="2021-08-08">
+      <track name="Watkins Glen International" market="Watkins Glen" completed="1956" distance="2.45" shape="Road Course" banking="Turns:6-10" frontstretch="0" backstretch="0" address="2790 County Route 16" city="Watkins Glen" state="New York" zip="14891" country="USA" surface="Road" track_type="Road Course" owner="International Speedway Corp." id="d52314d0-06c3-4619-a8d0-1d97a21d8f22"/>
+      <race id="300e7fe0-9618-4a7a-a40c-4d3f65db4dd2" name="Go Bowling at the Glen" status="scheduled" number="23" distance="220" laps="90" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="20" stage_2_laps="20" stage_3_laps="50" scheduled="2021-08-08T19:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="264fccac-cbe3-46c9-87f4-b5d887ea0986" name="NASCAR Cup Series at Indianapolis" start_date="2021-08-15">
+      <track name="Indianapolis Motor Speedway Road Course" market="Indianapolis" completed="1909" distance="2.439" shape="Road Course" address="4790 West 16th Street" city="Speedway" state="Indiana" zip="46222" country="USA" id="42901588-385c-4dc5-8292-c21bbecb7dc9"/>
+      <race id="0e67dd8a-8428-4da5-9158-14159112d703" name="NASCAR Cup Series Race at Indianapolis" status="scheduled" number="24" distance="200" laps="82" chase_race="false" award_pole="true" stage_count="2" stage_1_laps="15" stage_2_laps="20" stage_3_laps="47" scheduled="2021-08-15T17:00:00+00:00">
+        <broadcast network="NBC" radio="IMS"/>
+      </race>
+    </event>
+    <event id="20e4da92-c222-4926-8842-1336930e91a0" name="NASCAR Cup Series at Michigan" start_date="2021-08-22">
+      <track name="Michigan International Speedway" market="Brooklyn" completed="1968" distance="2.0" shape="D-Shaped Oval" banking="Turns:18;Backstretch:5;Frontstretch:12" frontstretch="3600" backstretch="2242" address="12626 U.S. 12" city="Brooklyn" state="Michigan" zip="49230" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83865dba-7a30-441a-95e0-51219f7e7c56"/>
+      <race id="7ae33563-77d5-4e58-9be2-55ca6be3f868" name="FireKeepers Casino 400" status="scheduled" number="25" distance="400" laps="200" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="80" scheduled="2021-08-22T19:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="159fbba3-fc6a-4e4a-b5c9-e3de178591a2" name="NASCAR Cup Series at Daytona" start_date="2021-08-28">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b"/>
+      <race id="90fc5b0c-4ac5-44de-a4de-ae2d6d3f328a" name="Coke Zero Sugar 400" status="scheduled" number="26" distance="400" laps="160" chase_race="false" award_pole="false" stage_count="2" stage_1_laps="50" stage_2_laps="50" stage_3_laps="60" scheduled="2021-08-28T23:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="0e44a3f0-016f-4e79-bcac-1f0cb8bb12da" name="NASCAR Cup Series at Darlington" start_date="2021-09-05">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc"/>
+      <race id="a7a4fbfc-62b1-4c9f-8f2a-cfe401fc5bc8" name="Cook Out Southern 500" status="scheduled" number="27" distance="501" laps="367" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="115" stage_2_laps="115" stage_3_laps="137" scheduled="2021-09-05T22:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="a4e785cc-5add-4898-9b3e-351da32e0df2" name="NASCAR Cup Series at Richmond" start_date="2021-09-11">
+      <track name="Richmond Raceway" market="Richmond" completed="1946" distance="0.75" shape="Tri-Oval" banking="Turns:14;Backstretch:8;Frontstretch:2" frontstretch="1290" backstretch="860" address="600 East Laburnum Avenue" city="Richmond" state="Virginia" zip="23222" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="734227a1-a32f-40bf-b174-0c0e7aa0d696"/>
+      <race id="339e9b06-439c-4fff-a87f-7c9959b6f7c3" name="Federated Auto Parts 400" status="scheduled" number="28" distance="300" laps="400" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="155" stage_3_laps="165" scheduled="2021-09-11T23:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="b298325d-9a2e-4b9e-973c-a584d53f9eaa" name="NASCAR Cup Series at Bristol" start_date="2021-09-18">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588"/>
+      <race id="f7abac0f-6f96-4774-aad7-c572ea2e7c58" name="Bass Pro Shops Night Race" status="scheduled" number="29" distance="266" laps="500" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="125" stage_2_laps="125" stage_3_laps="250" scheduled="2021-09-18T23:30:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="2883e0b5-feb0-48d7-8694-aac8feee40e7" name="NASCAR Cup Series at Las Vegas" start_date="2021-09-26">
+      <track name="Las Vegas Motor Speedway" market="Las Vegas" completed="1996" distance="1.5" shape="D-Shaped Oval" banking="Turns: 20, Frontstretch: 9, Backstretch: 9" frontstretch="2275" backstretch="1572" address="7000 Las Vegas Blvd. North" city="Las Vegas" state="Nevada" zip="89115" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="9580816f-e17c-4167-8402-ba16725bcb19"/>
+      <race id="9af3db14-1276-4e74-88b2-6a286e9e84b3" name="South Point 400" status="scheduled" number="30" distance="400" laps="267" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2021-09-26T23:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="PRN"/>
+        <prior_winner first_name="Kurt" last_name="Busch" full_name="Kurt Busch" id="8e76a45f-596e-4b56-9eb6-0623e45bf89c"/>
+      </race>
+    </event>
+    <event id="18f629b6-ec21-4c0b-8cd8-c31f5edd1c21" name="NASCAR Cup Series at Talladega" start_date="2021-10-03">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41"/>
+      <race id="fda43ca5-9c61-41d1-bcd9-9c60e34d6362" name="YellaWood 500" status="scheduled" number="31" distance="500" laps="188" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" scheduled="2021-10-03T18:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="257d3a08-64e7-4b53-b46b-57880912e731" name="NASCAR Cup Series at Charlotte" start_date="2021-10-10">
+      <track name="Charlotte Motor Speedway Road Course" market="Charlotte" completed="2017" distance="2.28" shape="Road Course" banking="Turns: 17, Backstretch: 5, Tri-Oval: 5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Road Course" owner="Speedway Motorsports Inc." id="035b5781-de86-49e6-98fb-b466e288ae10"/>
+      <race id="1f2a1ac3-d3ab-4ce6-a383-939e542b2c43" name="Bank of America ROVAL 400" status="scheduled" number="32" distance="249" laps="109" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="25" stage_2_laps="25" stage_3_laps="59" scheduled="2021-10-10T18:00:00+00:00">
+        <broadcast network="NBC" radio="PRN"/>
+      </race>
+    </event>
+    <event id="8cfcb152-404e-430e-8fd6-13f58b6835ff" name="NASCAR Cup Series at Texas" start_date="2021-10-17">
+      <track name="Texas Motor Speedway" market="Fort Worth" completed="1995" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Tri-Oval:5" frontstretch="2250" backstretch="1330" address="3601 Highway 114" city="Fort Worth" state="Texas" zip="76177" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="6c2be094-7477-4d92-b7ff-10dfda27e315"/>
+      <race id="a28e7ab5-9c57-48ef-9996-e3978a3fb9af" name="Autotrader EchoPark Automotive 500" status="scheduled" number="33" distance="501" laps="334" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="105" stage_2_laps="105" stage_3_laps="124" scheduled="2021-10-17T18:00:00+00:00">
+        <broadcast network="NBC" radio="PRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="38d527c8-393e-4484-beb7-273da32538e0" name="NASCAR Cup Series at Kansas" start_date="2021-10-24">
+      <track name="Kansas Speedway" market="Kansas City" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:15;Backstretch:5:Frontstretch:10.4" frontstretch="2685" backstretch="2207" address="400 Speedway Blvd." city="Kansas City" state="Kansas" zip="66111" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="42d3569d-cc77-4072-88d5-f63046eddf39"/>
+      <race id="27ae1b1a-2bfe-42f3-a8d4-2fb82077db30" name="Hollywood Casino 400" status="scheduled" number="34" distance="400" laps="267" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="80" stage_2_laps="80" stage_3_laps="107" scheduled="2021-10-24T19:00:00+00:00">
+        <broadcast network="NBCSN" satellite="220" radio="MRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="3af981d4-dfb5-4fa8-8eb8-323fd90adf20" name="NASCAR Cup Series at Martinsville" start_date="2021-10-31">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Martinsville" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689"/>
+      <race id="28026893-6993-4fe6-9a45-c04708cdce13" name="Xfinity 500" status="scheduled" number="35" distance="263" laps="500" chase_race="true" award_pole="false" stage_count="2" stage_1_laps="130" stage_2_laps="130" stage_3_laps="240" scheduled="2021-10-31T18:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="5b4cb349-256e-4d5c-b121-965c1facac86" name="NASCAR Cup Series at Phoenix" start_date="2021-11-07">
+      <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83"/>
+      <race id="bda3a9ee-af2c-44a4-8210-fdc388e87574" name="NASCAR Cup Series Championship" status="scheduled" number="36" distance="312" laps="312" chase_race="true" award_pole="true" stage_count="2" stage_1_laps="75" stage_2_laps="115" stage_3_laps="122" scheduled="2021-11-07T20:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+  </season>
+</series>
+<!-- Generation ended @ 2021-02-11 04:49:40 UTC -->
