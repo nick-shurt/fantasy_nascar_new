@@ -87,7 +87,7 @@
             <option value="2020" <?php if($_GET['year'] == '2020') echo "selected='selected'"; ?> >2020</option>
             <option value="2021" <?php if($_GET['year'] == '2021') echo "selected='selected'"; ?> >2021</option>
 			<option value="2022" <?php if($_GET['year'] == '2022') echo "selected='selected'"; ?> >2022</option>
-            <option value="2022" <?php if($_GET['year'] == '2023') echo "selected='selected'"; ?> >2023</option>
+            <option value="2023" <?php if($_GET['year'] == '2023') echo "selected='selected'"; ?> >2023</option>
         </select>
     </div>
 
