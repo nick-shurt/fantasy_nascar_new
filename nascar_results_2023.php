@@ -94,7 +94,7 @@ if ($wildcard) {
 }
 
 if ($semis) {
-    $semis_count = $playoff_count - 1;
+    $semis_count = ($playoff_count < 5) ? $playoff_count - 1 : 4;
     for ($s = 0; $s < $semis_count; $s++) {
         get_playoff_results_new($semifinal_teams[0], $race_ids[$s + 28], $con);
         get_playoff_results_new($semifinal_teams[1], $race_ids[$s + 28], $con);
