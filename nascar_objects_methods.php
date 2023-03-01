@@ -1017,74 +1017,144 @@ function get_team_rosters($num, $range, $team_roster, $driver_rank, $is_last) {
 }
 
 
-
+////// WE ARE VERY DUMB AND SO WE INSTEAD OF REARRANGING THE TEAMS THAT ARE INPUT INTO THIS SCHEDULE (WHICH I THINK WE DID ANYWAYS LMAO) WE REARRANGED
+////// THESE NUMBER PAIRINGS INSTEAD, WHICH IMPACTED THE SCHEDULE FOR EVERY SINGLE SEASON AND CHANGED THE OUTCOME AND STANDINGS FOR EVERY SEASON THAT WAS
+////// NOT THE CURRENT ONE. SO NOW WE HAVE TO SEPARATE THIS ALREADY TEDIOUS CODE INTO 2 SECTIONS, ONE FOR ALL THE SEASONS BEFORE 2022 AND ONE FOR ALL THE 
+////// SEASONS THAT WILL NOW COME AFTER IT. WAY TO GO YOU FUCKING IDIOT.
 
 /* SCHEDULE DETERMINATION */
-$pair1 = array(8,1);
-$pair2 = array(0,7);
-$pair3 = array(5,2);
-$pair4 = array(6,3);
-$pair5 = array(9,4);
-$wk1_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$pair1 = array(7,3);
-$pair2 = array(6,9);
-$pair3 = array(4,8);
-$pair4 = array(1,5);
-$pair5 = array(0,2);
-$wk2_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+if (((int)$_GET['year']) < 2022) {
+    $pair1 = array(0,1);
+    $pair2 = array(2,3);
+    $pair3 = array(4,5);
+    $pair4 = array(6,7);
+    $pair5 = array(8,9);
+    $wk1_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$pair1 = array(1,7);
-$pair2 = array(8,3);
-$pair3 = array(4,6);
-$pair4 = array(9,2);
-$pair5 = array(5,0);
-$wk3_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+    $pair1 = array(7,3);
+    $pair2 = array(6,9);
+    $pair3 = array(4,8);
+    $pair4 = array(1,5);
+    $pair5 = array(0,2);
+    $wk2_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$pair1 = array(7,5);
-$pair2 = array(6,0);
-$pair3 = array(3,9);
-$pair4 = array(2,8);
-$pair5 = array(1,4);
-$wk4_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+    $pair1 = array(8,1);
+    $pair2 = array(0,7);
+    $pair3 = array(5,2);
+    $pair4 = array(6,3);
+    $pair5 = array(9,4);
+    $wk3_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$pair1 = array(9,1);
-$pair2 = array(5,6);
-$pair3 = array(0,3);
-$pair4 = array(4,2);
-$pair5 = array(8,7);
-$wk5_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+    $pair1 = array(7,5);
+    $pair2 = array(6,0);
+    $pair3 = array(3,9);
+    $pair4 = array(2,8);
+    $pair5 = array(1,4);
+    $wk4_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$pair1 = array(0,9);
-$pair2 = array(6,8);
-$pair3 = array(7,4);
-$pair4 = array(2,1);
-$pair5 = array(3,5);
-$wk6_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+    $pair1 = array(9,1);
+    $pair2 = array(5,6);
+    $pair3 = array(0,3);
+    $pair4 = array(4,2);
+    $pair5 = array(8,7);
+    $wk5_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$pair1 = array(0,1);
-$pair2 = array(2,3);
-$pair3 = array(4,5);
-$pair4 = array(6,7);
-$pair5 = array(8,9);
-$wk7_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+    $pair1 = array(0,9);
+    $pair2 = array(6,8);
+    $pair3 = array(7,4);
+    $pair4 = array(2,1);
+    $pair5 = array(3,5);
+    $wk6_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$pair1 = array(0,8);
-$pair2 = array(7,2);
-$pair3 = array(3,4);
-$pair4 = array(6,1);
-$pair5 = array(5,9);
-$wk8_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+    $pair1 = array(1,7);
+    $pair2 = array(8,3);
+    $pair3 = array(4,6);
+    $pair4 = array(9,2);
+    $pair5 = array(5,0);
+    $wk7_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$pair1 = array(2,6);
-$pair2 = array(8,5);
-$pair3 = array(4,0);
-$pair4 = array(9,7);
-$pair5 = array(1,3);
-$wk9_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+    $pair1 = array(0,8);
+    $pair2 = array(7,2);
+    $pair3 = array(3,4);
+    $pair4 = array(6,1);
+    $pair5 = array(5,9);
+    $wk8_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-$num_pairs = array($wk1_pairs,$wk2_pairs,$wk3_pairs,$wk4_pairs,$wk5_pairs,$wk6_pairs,$wk7_pairs,$wk8_pairs,$wk9_pairs);
+    $pair1 = array(2,6);
+    $pair2 = array(8,5);
+    $pair3 = array(4,0);
+    $pair4 = array(9,7);
+    $pair5 = array(1,3);
+    $wk9_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
+    $num_pairs = array($wk1_pairs,$wk2_pairs,$wk3_pairs,$wk4_pairs,$wk5_pairs,$wk6_pairs,$wk7_pairs,$wk8_pairs,$wk9_pairs);
+} else {
+    $pair1 = array(8,1);
+    $pair2 = array(0,7);
+    $pair3 = array(5,2);
+    $pair4 = array(6,3);
+    $pair5 = array(9,4);
+    $wk1_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $pair1 = array(7,3);
+    $pair2 = array(6,9);
+    $pair3 = array(4,8);
+    $pair4 = array(1,5);
+    $pair5 = array(0,2);
+    $wk2_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $pair1 = array(1,7);
+    $pair2 = array(8,3);
+    $pair3 = array(4,6);
+    $pair4 = array(9,2);
+    $pair5 = array(5,0);
+    $wk3_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $pair1 = array(7,5);
+    $pair2 = array(6,0);
+    $pair3 = array(3,9);
+    $pair4 = array(2,8);
+    $pair5 = array(1,4);
+    $wk4_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $pair1 = array(9,1);
+    $pair2 = array(5,6);
+    $pair3 = array(0,3);
+    $pair4 = array(4,2);
+    $pair5 = array(8,7);
+    $wk5_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $pair1 = array(0,9);
+    $pair2 = array(6,8);
+    $pair3 = array(7,4);
+    $pair4 = array(2,1);
+    $pair5 = array(3,5);
+    $wk6_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $pair1 = array(0,1);
+    $pair2 = array(2,3);
+    $pair3 = array(4,5);
+    $pair4 = array(6,7);
+    $pair5 = array(8,9);
+    $wk7_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $pair1 = array(0,8);
+    $pair2 = array(7,2);
+    $pair3 = array(3,4);
+    $pair4 = array(6,1);
+    $pair5 = array(5,9);
+    $wk8_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $pair1 = array(2,6);
+    $pair2 = array(8,5);
+    $pair3 = array(4,0);
+    $pair4 = array(9,7);
+    $pair5 = array(1,3);
+    $wk9_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
+
+    $num_pairs = array($wk1_pairs,$wk2_pairs,$wk3_pairs,$wk4_pairs,$wk5_pairs,$wk6_pairs,$wk7_pairs,$wk8_pairs,$wk9_pairs);
+}
 
 
 function show_next_race($U_Name, $P_Word, $db) {
