@@ -167,4 +167,9 @@ $team_rachel = new Team("#3 Team Rachel","Denny Hamlin","Tyler Reddick","Ty Gibb
 
 $semifinal_teams = array($team_nick, $team_chives, $team_jim, $team_rachel);
 
+$team_rachel = new Team("#3 Team Rachel","Denny Hamlin","Tyler Reddick","Ty Gibbs","Todd Gilliland");
+$team_chives = new Team("#4 Team Chives","Alex Bowman","William Byron","Harrison Burton","Matt DiBenedetto");
+
+$championship_teams = array($team_rachel, $team_chives);
+
 ?>
