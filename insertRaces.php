@@ -38,7 +38,7 @@ foreach ($xml->season->event as $event) {
             $closed = 0;
 
 
-            $sql = "INSERT INTO races_2023 (race_id, track, name, date, laps, distance, broadcast, prev_winner, number, closed) VALUES ";
+            $sql = "INSERT INTO races_2024 (race_id, track, name, date, laps, distance, broadcast, prev_winner, number, closed) VALUES ";
             $sql .= "('" . $race_id . "', '" . $track . "', '" . $name . "', '" . $date . "', '" . $laps . "', '" . $distance . "', '" . $broadcast . "', '" . $prev_winner . "', '" . $number . "', '" . $closed . "')";
 
             if (mysqli_query($con, $sql)) {
