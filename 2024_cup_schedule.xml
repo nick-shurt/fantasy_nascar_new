@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/schedule-v3.0.xsl"?>
+<!-- Generation started @ 2024-02-18 15:46:55 UTC -->
+<series xmlns="http://feed.elasticstats.com/schema/nascar/schedule-v3.0.xsd" id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="NASCAR Cup Series">
+  <season year="2024" id="94f61566-720e-4d2f-b4a4-7de9fc9cd257">
+    <event id="dbf2c7c8-7191-402c-a9a7-c9435901ddb3" name="NASCAR Cup Series at LA Coliseum" start_date="2024-02-04">
+      <track name="Los Angeles Memorial Coliseum" market="Los Angeles" completed="1923" distance="0.25" shape="Oval" address="3911 Figueroa Street" city="Los Angeles" state="California" zip="90037" country="USA" surface="Paved" track_type="Short Track" id="fdb41823-ab72-4dba-951f-19ec2529d5e4" lng="-118.282842" lat="34.0133448"/>
+      <race id="77ab28ce-8bc7-4537-80d6-248e14c2c7bd" name="Busch Light Clash at The Coliseum" status="closed" distance="37" laps="150" chase_race="false" heat_race="false" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2024-02-04T01:00:00+00:00" start_time="2024-02-04T01:00:00+00:00" end_time="2024-02-04T02:40:00+00:00">
+        <broadcast network="FS1" radio="MRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+      <race id="7dab8e97-b9c3-44d9-96e0-f118edb3ea42" name="Busch Light Clash at The Coliseum Heat Race 1" status="canceled" distance="6" laps="25" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2024-02-04T01:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+      <race id="991f60d2-abe9-4d22-af07-a7b1b0b53448" name="Busch Light Clash at The Coliseum Heat Race 2" status="canceled" distance="6" laps="25" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2024-02-04T01:45:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+      <race id="23e64478-8fef-4e0d-942c-816559128f40" name="Busch Light Clash at The Coliseum Heat Race 3" status="canceled" distance="6" laps="25" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2024-02-04T02:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+      <race id="c7bbc618-39c0-457e-9a73-20cf51be2c8b" name="Busch Light Clash at The Coliseum Heat Race 4" status="canceled" distance="6" laps="25" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2024-02-04T02:15:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+      <race id="cbf052a6-2843-4ccf-b1ce-982fcdc9d8bc" name="Busch Light Clash at The Coliseum Last Chance Qualifying Race" status="canceled" distance="17" laps="75" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2024-02-04T23:40:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+      </race>
+    </event>
+    <event id="ef5b70f8-85ed-43e7-a4f2-d23024bf2fba" name="NASCAR Cup Series at Daytona" start_date="2024-02-15">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b" lng="-81.067" lat="29.192994"/>
+      <race id="4f2c4d71-a788-4c4c-b2f6-9eaac7e08c22" name="Bluegreen Vacations Duel 1 at DAYTONA" status="closed" distance="150" laps="60" chase_race="false" heat_race="false" award_pole="false" stage_count="0" parent_id="52a541f7-db54-4c5f-a7f3-9f7097af26df" scheduled="2024-02-16T00:00:00+00:00" start_time="2024-02-16T00:00:00+00:00" end_time="2024-02-16T01:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+      <race id="4a022dd8-8851-43bf-a661-c75941b84ef0" name="Bluegreen Vacations Duel 2 at DAYTONA" status="closed" distance="150" laps="60" chase_race="false" heat_race="false" award_pole="false" stage_count="0" parent_id="52a541f7-db54-4c5f-a7f3-9f7097af26df" scheduled="2024-02-16T01:30:00+00:00" start_time="2024-02-16T01:30:00+00:00" end_time="2024-02-16T03:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Chris" last_name="Buescher" full_name="Chris Buescher" id="25cfebb6-24e5-429c-a9db-c276bab0e228"/>
+      </race>
+      <race id="6d88e04f-3da2-473d-a44b-8a0b38fe32cd" name="DAYTONA 500" status="prerace" number="1" distance="500" laps="200" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="65" stage_2_laps="65" stage_3_laps="70" parent_id="a3dad4fc-112f-4aff-a261-c918182f7a42" scheduled="2024-02-19T21:00:00+00:00" start_time="2024-02-19T21:00:00+00:00">
+        <broadcast network="FOX" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Ricky" last_name="Stenhouse" full_name="Ricky Stenhouse Jr" id="0cdae85e-0b1d-44d7-9614-a49aff66aeb5"/>
+      </race>
+    </event>
+    <event id="3cbd8f78-d46a-472e-a0b1-ce9087f37f80" name="NASCAR Cup Series at Atlanta	" start_date="2024-02-25">
+      <track name="Atlanta Motor Speedway" market="Atlanta" completed="1960" distance="1.54" shape="Quad-Oval" banking="Turns:24; Backstretch:5;Tri-Oval:5" frontstretch="2332" backstretch="1800" address="1500 Highways 19 &amp; 41 South" city="Hampton" state="Georgia" zip="30228" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="75494065-bf21-4039-8d99-b8e438c8b4a4" lng="-84.3051564" lat="33.3853713"/>
+      <race id="c388e9c8-5d26-447c-938b-6f55a43e215e" name="Ambetter Health 400" status="scheduled" number="2" distance="400" laps="260" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="100" stage_3_laps="100" parent_id="02b8a073-8554-44c9-8411-752b3d3a7186" scheduled="2024-02-25T20:30:00+00:00" start_time="2024-02-25T20:00:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="95ca5a7c-746c-43f7-ad21-174fee6ba4d2" name="NASCAR Cup Series at Las Vegas	" start_date="2024-03-03">
+      <track name="Las Vegas Motor Speedway" market="Las Vegas" completed="1996" distance="1.5" shape="D-Shaped Oval" banking="Turns: 20, Frontstretch: 9, Backstretch: 9" frontstretch="2275" backstretch="1572" address="7000 Las Vegas Blvd. North" city="Las Vegas" state="Nevada" zip="89115" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="9580816f-e17c-4167-8402-ba16725bcb19" lng="-115.002761" lat="36.270742"/>
+      <race id="bace55f1-6963-4a18-ba07-d3a3e2e943e1" name="Penzoil 400" status="scheduled" number="3" distance="400" laps="267" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="6488364f-b227-465d-903e-39b830ef2a22" scheduled="2024-03-03T20:30:00+00:00" start_time="2024-03-03T20:30:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="dc038b04-1d95-4c7b-b07b-3939152cce70" name="NASCAR Cup Series at Phoenix" start_date="2024-03-10">
+      <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83" lng="-112.3097338" lat="33.3786899"/>
+      <race id="870fd38c-70c6-40d0-950d-78d085f451ce" name="Shriners Children’s 500" status="scheduled" number="4" distance="312" laps="312" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="125" stage_3_laps="127" parent_id="ea068b64-221e-426c-baac-7a6c01fe06a7" scheduled="2024-03-10T19:30:00+00:00" start_time="2024-03-10T19:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="da757ca1-4211-4dbf-8cb8-71f492e72020" name="NASCAR Cup Series at Bristol" start_date="2024-03-17">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588" lng="-82.2586316" lat="36.515656"/>
+      <race id="f12cd384-07e5-41d1-965b-95d577d92e2e" name="Food City 500" status="scheduled" number="5" distance="500" laps="250" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="125" stage_2_laps="125" stage_3_laps="250" parent_id="881f0944-6016-4a13-b2fd-e7c52ac5cfda" scheduled="2024-03-17T19:30:00+00:00" start_time="2024-03-17T19:30:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="7511d8c0-da5f-4343-b839-8e22245c3b33" name="NASCAR Cup Series at COTA" start_date="2024-03-24">
+      <track name="Circuits of the Americas" market="Austin" completed="2021" distance="3.41" shape="Road Course" address=" 9201 Circuit of the Americas Blvd" city="Austin" state="Texas" zip="78617" country="USA" surface="Paved" track_type="Road Course" id="6631f91e-10ff-4089-9091-c11ec1a19aaf" lng="-97.6381822" lat="30.1346795"/>
+      <race id="cc894ee2-ecdc-4adf-ab77-8b600ca08bd5" name="EchoPark Automotive Grand Prix" status="scheduled" number="6" distance="232" laps="68" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="15" stage_2_laps="15" stage_3_laps="38" parent_id="59f3f17a-80ea-4634-853c-ce9a5869c33c" scheduled="2024-03-24T19:30:00+00:00" start_time="2024-03-24T19:30:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Tyler" last_name="Reddick" full_name="Tyler Reddick" id="b030a8df-e7de-44a4-9f59-34bb9fd227d0"/>
+      </race>
+    </event>
+    <event id="24356927-9715-41c8-843f-c7104996192d" name="NASCAR Cup Series at Richmond	" start_date="2024-03-31">
+      <track name="Richmond Raceway" market="Richmond" completed="1946" distance="0.75" shape="Tri-Oval" banking="Turns:14;Backstretch:8;Frontstretch:2" frontstretch="1290" backstretch="860" address="600 East Laburnum Avenue" city="Richmond" state="Virginia" zip="23222" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="734227a1-a32f-40bf-b174-0c0e7aa0d696" lng="-77.4193382" lat="37.5922778"/>
+      <race id="8530fc32-1031-4f89-baf6-340f0e048a36" name="Toyota Owners 400" status="scheduled" number="7" distance="300" laps="400" chase_race="false" heat_race="false" award_pole="false" stage_count="2" stage_1_laps="70" stage_2_laps="160" stage_3_laps="170" parent_id="cd9d4aeb-35b9-4678-8367-9ad3e975b68a" scheduled="2024-03-31T23:00:00+00:00" start_time="2024-03-31T23:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="f74c5907-930e-485b-9a78-06a855a746fb" name="NASCAR Cup Series at Martinsville" start_date="2024-04-07">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Ridgeway" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689" lng="-79.8519044" lat="36.6340917"/>
+      <race id="15217438-9d60-464e-b462-227e69f6bc55" name="NASCAR Cup Series Race at Martinsville" status="scheduled" number="8" distance="400" laps="210" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="180" stage_3_laps="400" parent_id="749d7d31-8492-4479-b493-5e3577d10e91" scheduled="2024-04-07T19:00:00+00:00" start_time="2024-04-07T19:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Tyler" last_name="Reddick" full_name="Tyler Reddick" id="b030a8df-e7de-44a4-9f59-34bb9fd227d0"/>
+      </race>
+    </event>
+    <event id="2308c44e-1d57-48ad-83ea-0da18d53ccef" name="NASCAR Cup Series at Texas" start_date="2024-04-14">
+      <track name="Texas Motor Speedway" market="Fort Worth" completed="1995" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Tri-Oval:5" frontstretch="2250" backstretch="1330" address="3601 Highway 114" city="Fort Worth" state="Texas" zip="76177" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="6c2be094-7477-4d92-b7ff-10dfda27e315" lng="-97.281633" lat="33.0371179"/>
+      <race id="a60867b6-c192-4d65-8be5-22430f78e10b" name="Autro EchoPark Automotive 400" status="scheduled" number="9" distance="400" laps="267" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="9d85ee83-d54f-44ed-a08f-ee1ab4c232c4" scheduled="2024-04-14T19:30:00+00:00" start_time="2024-04-14T19:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="c40a0aa9-394e-4265-9eec-f38a3b8985c1" name="NASCAR Cup Series at Talladega	" start_date="2024-04-21">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41" lng="-86.0665668" lat="33.5649286"/>
+      <race id="751ba75a-5e7f-4ffd-a956-aaff6368a71d" name="GEICO 500" status="scheduled" number="10" distance="500" laps="188" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" parent_id="80036e59-c997-45d7-8887-2723f1331368" scheduled="2024-04-21T19:00:00+00:00" start_time="2024-04-21T19:00:00+00:00">
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="f3b00132-5f4d-4f9b-9f4c-cc9d7a8ca166" name="NASCAR Cup Series at Dover" start_date="2024-04-28">
+      <track name="Dover Motor Speedway" market="Dover" completed="1969" distance="1.0" shape="Oval" banking="Turns:24:Backstretch:9;Frontstretch:9" frontstretch="1076" backstretch="1076" address="1131 North DuPont Highway" city="Dover" state="Delaware" zip="19901" country="USA" surface="Concrete" track_type="Superspeedway" owner="Dover Motorsports Inc." id="e757d061-86db-4b28-9b19-9a3536a6994e" lng="-75.5300468" lat="39.189649"/>
+      <race id="9f59fccb-d4c4-43cd-9b10-085cf97ae391" name="Wurth 400" status="scheduled" number="11" distance="400" laps="400" chase_race="false" heat_race="false" award_pole="false" stage_count="2" stage_1_laps="120" stage_2_laps="130" stage_3_laps="150" parent_id="ca7b68a7-12f0-4443-8307-d0567ab35762" scheduled="2024-04-28T18:00:00+00:00" start_time="2024-04-28T18:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="44efe9dd-4963-4b07-a964-ad816c7025e6" name="NASCAR Cup Series at Kansas" start_date="2024-05-05">
+      <track name="Kansas Speedway" market="Kansas City" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:15;Backstretch:5:Frontstretch:10.4" frontstretch="2685" backstretch="2207" address="400 Speedway Blvd." city="Kansas City" state="Kansas" zip="66111" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="42d3569d-cc77-4072-88d5-f63046eddf39" lng="-94.822326" lat="39.109509"/>
+      <race id="14914b3f-c51b-4576-8b3f-125550887827" name="AdventHealth 400" status="scheduled" number="12" distance="400" laps="267" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="bad01c01-be9e-4ebe-adcd-f96ff38389a0" scheduled="2024-05-05T19:00:00+00:00" start_time="2024-05-05T19:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="0d82a015-cd9f-4f43-bb31-1a1002ae7fda" name="NASCAR Cup Series at Darlington" start_date="2024-05-12">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc" lng="-79.910261" lat="34.2983137"/>
+      <race id="e6e2d2ad-b9a6-435a-8b77-5d3709246397" name="Goodyear 400" status="scheduled" number="13" distance="400" laps="293" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="90" stage_2_laps="185" stage_3_laps="293" parent_id="79c2d0b3-79d7-4f03-b2ef-adbc84f9cc96" scheduled="2024-05-12T19:00:00+00:00" start_time="2024-05-12T19:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="6df2d6b3-a86c-4301-b421-9c3da37c22ae" name="NASCAR Cup Series at North Wilkesboro" start_date="2024-05-19">
+      <track name="North Wilkesboro Speedway" market="North Wilkesboro" completed="1949" distance="0.625" shape="Oval" banking="Turns: 14 degrees; Backstretch: 3; Frontstretch: 3" address="381 Speedway Lane" city="North Wilkesboro" state="North Carolina" zip="28659" country="USA" surface="Paved" track_type="Short Track" id="b6971a30-705c-46eb-9c54-6201d5832ef7" lng="-81.076988" lat="36.144549"/>
+      <race id="217b2426-ef0f-40ec-b2e0-0de568bb2c44" name="NASCAR All-Star Open" status="scheduled" distance="62" laps="100" chase_race="false" heat_race="false" award_pole="false" stage_count="2" stage_1_laps="0" stage_2_laps="0" stage_3_laps="0" parent_id="f0931ebf-daa9-4600-a310-459403975cf3" scheduled="2024-05-20T00:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+      <race id="817f615d-6b15-45cb-8b73-37cdcbeafbcd" name="NASCAR All-Star Race" status="scheduled" distance="125" laps="200" chase_race="false" heat_race="false" award_pole="false" stage_count="2" stage_1_laps="0" stage_2_laps="0" stage_3_laps="0" parent_id="58e453b9-f0c7-4ab5-8cc5-d07ae8705757" scheduled="2024-05-20T00:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="ab77c0fb-2ab1-4897-b87a-c0e58f57fa72" name="NASCAR Cup Series at Charlotte" start_date="2024-05-26">
+      <track name="Charlotte Motor Speedway" market="Charlotte" completed="1960" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Frontstretch:5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="c0ae0e00-9899-4d01-869b-56a4763cc54d" lng="-80.6872753" lat="35.36089"/>
+      <race id="9500a192-e750-463b-821b-f20177a30aa1" name="Coca-Cola 600" status="scheduled" number="14" distance="600" laps="400" chase_race="false" heat_race="false" award_pole="false" stage_count="3" stage_1_laps="100" stage_2_laps="100" stage_3_laps="100" stage_4_laps="100" parent_id="e0f2949e-308d-433d-914a-0708d3c8b783" scheduled="2024-05-26T22:00:00+00:00" start_time="2024-05-26T22:00:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" id="67948099-4196-4e1b-ae9e-b437aa99000a"/>
+      </race>
+    </event>
+    <event id="29bc5fa5-dda2-4185-b7b3-851ac6e07bd5" name="NASCAR Cup Series at Gateway" start_date="2024-06-02">
+      <track name="World Wide Technology Raceway at Gateway" market="St. Louis" completed="1967" distance="1.25" shape="Oval" frontstretch="1922" backstretch="1976" address="700 Raceway Blvd." city="Madison" state="Illinois" zip="62060" country="USA" surface="Paved" track_type="Superspeedway" owner="Dover Motorsports Inc." id="0562038b-e8cc-4f69-b29a-59c46aae8f6d" lng="-90.1331453" lat="38.6481202"/>
+      <race id="03d59043-ccdf-4f33-8220-ddace30122fd" name="Enjoy Illinois 300 presented by TicketSmarter" status="scheduled" number="15" distance="300" laps="240" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="45" stage_2_laps="95" stage_3_laps="100" parent_id="fe838e06-886e-454f-9deb-8676ce43d5cf" scheduled="2024-06-02T19:30:00+00:00" start_time="2024-06-02T19:30:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Busch" full_name="Kyle Busch" id="85c06960-3610-4eff-9ef2-18641b84c952"/>
+      </race>
+    </event>
+    <event id="884892f0-4149-421c-b887-12017b1f5d91" name="NASCAR Cup Series at Sonoma	" start_date="2024-06-09">
+      <track name="Sonoma Raceway" market="Sonoma" completed="1968" distance="1.99" shape="Road Course" banking="11 Turns varying" frontstretch="0" backstretch="0" address="29355 Arnold Drive" city="Sonoma" state="California" zip="95476" country="USA" surface="Road" track_type="Road Course" owner="Speedway Motorsports Inc." id="496fc152-b10f-4941-8439-f933eaae2e13" lng="-122.4548354" lat="38.1609192"/>
+      <race id="9b492c06-9605-4902-a493-a7baddaea1ee" name="Toyota / Save Mart 350" status="scheduled" number="16" distance="218" laps="110" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="25" stage_2_laps="30" stage_3_laps="55" parent_id="511afad6-2581-4211-90ea-7977a2aba859" scheduled="2024-06-09T19:30:00+00:00" start_time="2024-06-09T19:30:00+00:00">
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="50cb8962-c685-4b82-865c-4e55e90054cb" name="NASCAR Cup Series at Iowa" start_date="2024-06-16">
+      <track name="Iowa Speedway" market="Iowa" completed="2006" distance="0.875" shape="Tri-Oval" banking="Degree of Banking on Turns: 12-14 degrees; Degree of Banking on Frontstretch: 10 degrees; Degree of Banking on Backstretch: 4 degrees" frontstretch="1075" backstretch="869" address="3333 Rusty Wallace Drive" city="Newton" state="Iowa" zip="50208" country="USA" surface="Paved" track_type="Short Track" owner="Clement Family/Rusty Wallace" id="6c9c2390-93fc-47e7-a788-4bfbed7b3c3c" lng="-93.0197377" lat="41.6798052"/>
+      <race id="02f9baaf-ed30-41f2-9db9-154ce81e410a" name="Iowa Corn 350, Powered by Ethanol" status="scheduled" number="17" distance="306" laps="350" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="70" stage_2_laps="140" stage_3_laps="140" parent_id="db59ff2e-210d-4166-bde5-7e2abae0a6cc" scheduled="2024-06-16T23:00:00+00:00" start_time="2024-06-16T23:00:00+00:00">
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+      </race>
+    </event>
+    <event id="d3216742-1e41-4d6d-8ea3-e8641d2dc74a" name="NASCAR Cup Series at New Hampshire" start_date="2024-06-23">
+      <track name="New Hampshire Motor Speedway" market="Loudon" completed="1990" distance="1.058" shape="Oval" banking="Turns: 2 &amp; 7; Backstretch:1; Frontstretch:1" frontstretch="1500" backstretch="1500" address="1122 Rte. 106 North" city="Loudon" state="New Hampshire" zip="03307" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="cd705ff5-045b-4c96-a96e-74a98b5f95af" lng="-71.4649443" lat="43.3616662"/>
+      <race id="967c4c24-3271-41f5-a519-9046b840c85a" name="NASCAR Cup Series Race at New Hampshire" status="scheduled" number="18" distance="318" laps="301" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="70" stage_2_laps="115" stage_3_laps="116" parent_id="1cb91cda-1f27-4286-8e3b-378cd0f3b0f1" scheduled="2024-06-23T18:30:00+00:00" start_time="2024-06-23T18:30:00+00:00">
+        <broadcast network="USA" satellite="242" radio="PRN"/>
+        <prior_winner first_name="Martin" last_name="Truex" full_name="Martin Truex Jr" id="4d95ef3a-46cc-43c2-b340-c92cea2ed7f8"/>
+      </race>
+    </event>
+    <event id="30e69be4-4590-4680-b962-0c2b239a8412" name="NASCAR Cup Series at Nashville	" start_date="2024-06-30">
+      <track name="Nashville Superspeedway" market="Nashville" completed="0" distance="1.333" shape="Tri-Oval" banking="Banking in Corners: 14 degrees; Banking on Straights: Front - 9 degrees; Back - 6 degrees" frontstretch="2494" backstretch="2203" address="4847-F McCrary Road" city="Lebanon" state="Tennessee" zip="37090" country="USA" surface="Paved" track_type="Superspeedway" owner="Dover Motorsports Inc." id="016c7f98-48b0-4b05-a31c-6896f7146eee" lng="-86.418458" lat="36.053041"/>
+      <race id="6022c735-8709-4cd8-9b12-3c19acea5c4e" name="Ally 400" status="scheduled" number="19" distance="399" laps="300" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="90" stage_2_laps="95" stage_3_laps="115" parent_id="7ddb8be0-c305-44bc-b37b-e20131260ce3" scheduled="2024-06-30T19:30:00+00:00" start_time="2024-06-30T19:30:00+00:00">
+        <broadcast network="NBC" radio="PRN"/>
+        <prior_winner first_name="Ross" last_name="Chastain" full_name="Ross Chastain" id="fb6c45e9-990e-46e3-88df-174449c13334"/>
+      </race>
+    </event>
+    <event id="2572b9ab-8bea-4794-9328-a6467bc33820" name="NASCAR Cup Series at Chicago" start_date="2024-07-07">
+      <track name="Chicago Street Course" market="Chicago" completed="2023" distance="2.2" shape="Road Course" address="301 S Columbus Dr" city="Chicago" state="Illinois" zip="60605" country="USA" surface="Road" track_type="Road Course" id="11985c50-6e86-4dea-909c-2f4efbc6f4c5" lng="-87.6189718" lat="41.875802"/>
+      <race id="0b3366bf-ef70-4557-a33d-02f194c4a117" name="Grant Park 165" status="scheduled" number="20" distance="165" laps="75" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="20" stage_2_laps="25" stage_3_laps="30" parent_id="9acd853b-fc41-461f-bfe0-d428e9ece786" scheduled="2024-07-07T20:30:00+00:00" start_time="2024-07-07T20:30:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Shane" last_name="Van Gisbergen" full_name="Shane Van Gisbergen" id="13a58b0b-011e-4a0a-8942-6364004cfea7"/>
+      </race>
+    </event>
+    <event id="ad5d5449-4ae3-4b5d-9003-7e92750e57de" name="NASCAR Cup Series at Pocono" start_date="2024-07-14">
+      <track name="Pocono Raceway" market="Long Pond" completed="1968" distance="2.5" shape="Tri-Oval" banking="Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0" frontstretch="3740" backstretch="3055" address="Long Pond Road" city="Long Pond" state="Pennsylvania" zip="18334" country="USA" surface="Paved" track_type="Superspeedway" owner="Mattioli Family" id="7267d5f0-463e-4a81-a7fe-23b71dd2182e" lng="-75.5117578" lat="41.0605146"/>
+      <race id="58400cc9-4d4d-41d7-b406-bde191d980d5" name="HighPoint.com 400" status="scheduled" number="21" distance="400" laps="160" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="30" stage_2_laps="65" stage_3_laps="65" parent_id="5d8ea142-90f4-4aa9-81f8-683dfb9556bd" scheduled="2024-07-14T18:30:00+00:00" start_time="2024-07-14T18:30:00+00:00">
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="5f029d01-2341-43af-92ef-8821d2328cd3" name="NASCAR Cup Series at Indianapolis" start_date="2024-07-21">
+      <track name="Indianapolis Motor Speedway" market="Indianapolis" completed="1909" distance="2.5" shape="Oval" banking="Turns:9;Backstretch:0;Frontstretch:0" frontstretch="3330" backstretch="3330" address="4790 West 16th Street" city="Speedway" state="Indiana" zip="46222" country="USA" surface="Paved" track_type="Superspeedway" owner="Indianapolis Motor Speedway" id="421c2846-3b70-4ed9-acdf-be3dbe4957b6" lng="-86.2336932" lat="39.7903186"/>
+      <race id="0b672543-deb0-46fd-a952-86b17752bf73" name="Brickyard 400" status="scheduled" number="22" distance="400" laps="160" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="50" stage_2_laps="50" stage_3_laps="60" parent_id="bf1af85a-4605-4642-abd0-c3154bc6e71a" scheduled="2024-07-21T18:30:00+00:00" start_time="2024-07-21T18:30:00+00:00">
+        <broadcast network="NBC" radio="IMS"/>
+        <prior_winner first_name="Kevin" last_name="Harvick" full_name="Kevin Harvick" id="9d18716c-fd73-48d4-b3da-44228c767b84"/>
+      </race>
+    </event>
+    <event id="f4854236-cefb-43bf-91fc-d9f6b4ebccca" name="NASCAR Cup Series at Richmond" start_date="2024-08-11">
+      <track name="Richmond Raceway" market="Richmond" completed="1946" distance="0.75" shape="Tri-Oval" banking="Turns:14;Backstretch:8;Frontstretch:2" frontstretch="1290" backstretch="860" address="600 East Laburnum Avenue" city="Richmond" state="Virginia" zip="23222" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="734227a1-a32f-40bf-b174-0c0e7aa0d696" lng="-77.4193382" lat="37.5922778"/>
+      <race id="6447f9f8-5f9e-479b-98d7-bd001d6cdc93" name="Cook Out 400" status="scheduled" number="23" distance="300" laps="400" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="70" stage_2_laps="160" stage_3_laps="170" parent_id="6b8bb7b7-0080-428c-946f-8333c804a910" scheduled="2024-08-11T22:00:00+00:00" start_time="2024-08-11T22:00:00+00:00">
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="bf0118f0-36e2-427c-9695-c73e05ee3085" name="NASCAR Cup Series at Michigan" start_date="2024-08-18">
+      <track name="Michigan International Speedway" market="Brooklyn" completed="1968" distance="2.0" shape="D-Shaped Oval" banking="Turns:18;Backstretch:5;Frontstretch:12" frontstretch="3600" backstretch="2242" address="12626 U.S. 12" city="Brooklyn" state="Michigan" zip="49230" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83865dba-7a30-441a-95e0-51219f7e7c56" lng="-84.2427763" lat="42.0605275"/>
+      <race id="c46583a0-e91e-4c05-a18c-7f3147a65448" name="FireKeepers Casino 400" status="scheduled" number="24" distance="400" laps="200" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="45" stage_2_laps="75" stage_3_laps="80" parent_id="13712d15-8df6-4931-ab18-bf6793e4df81" scheduled="2024-08-18T18:30:00+00:00" start_time="2024-08-18T18:30:00+00:00">
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Chris" last_name="Buescher" full_name="Chris Buescher" id="25cfebb6-24e5-429c-a9db-c276bab0e228"/>
+      </race>
+    </event>
+    <event id="9cd90ad1-de26-4f04-9f4c-a4060c5a9b94" name="NASCAR Cup Series at Daytona" start_date="2024-08-24">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b" lng="-81.067" lat="29.192994"/>
+      <race id="8ae6f45d-f262-466e-a0a3-b7428b53bbb1" name="Coke Zero Sugar 400" status="scheduled" number="25" distance="400" laps="200" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="35" stage_2_laps="60" stage_3_laps="65" parent_id="3cfcbbc5-c692-4efb-8fdf-e5c1eb55fa64" scheduled="2024-08-24T23:30:00+00:00" start_time="2024-08-24T23:30:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Chris" last_name="Buescher" full_name="Chris Buescher" id="25cfebb6-24e5-429c-a9db-c276bab0e228"/>
+      </race>
+    </event>
+    <event id="781ef3c2-2660-45bd-80ad-8a2354df7fee" name="NASCAR Cup Series at Darlington" start_date="2024-09-01">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc" lng="-79.910261" lat="34.2983137"/>
+      <race id="cf09cc68-b437-41b8-8fc8-cd71c7a4e4c3" name="Cook Out Southern 500" status="scheduled" number="26" distance="501" laps="367" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="115" stage_2_laps="115" stage_3_laps="137" parent_id="44cb4027-198c-4f23-96bc-6a33e4bcc6ae" scheduled="2024-09-01T22:00:00+00:00" start_time="2024-09-01T22:00:00+00:00">
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="cef2b6c5-ec1f-469a-972e-b68fd854d2c4" name="NASCAR Cup Series at Atlanta" start_date="2024-09-08">
+      <track name="Atlanta Motor Speedway" market="Atlanta" completed="1960" distance="1.54" shape="Quad-Oval" banking="Turns:24; Backstretch:5;Tri-Oval:5" frontstretch="2332" backstretch="1800" address="1500 Highways 19 &amp; 41 South" city="Hampton" state="Georgia" zip="30228" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="75494065-bf21-4039-8d99-b8e438c8b4a4" lng="-84.3051564" lat="33.3853713"/>
+      <race id="5cf37532-1c2d-4a0c-a246-bc34a3507eb1" name="Quaker State 400 available at Walmart" status="scheduled" number="27" distance="400" laps="260" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="100" stage_3_laps="100" parent_id="03a114f7-f16f-4ca5-a54e-8a06628ba2d9" scheduled="2024-09-08T19:00:00+00:00" start_time="2024-09-08T19:00:00+00:00">
+        <broadcast network="USA" satellite="242" radio="PRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="f4f3fd87-be05-4a76-b32f-bba01ddff9a2" name="NASCAR Cup Series at Watkins Glen" start_date="2024-09-15">
+      <track name="Watkins Glen International" market="Watkins Glen" completed="1956" distance="2.45" shape="Road Course" banking="Turns:6-10" frontstretch="0" backstretch="0" address="2790 County Route 16" city="Watkins Glen" state="New York" zip="14891" country="USA" surface="Road" track_type="Road Course" owner="International Speedway Corp." id="d52314d0-06c3-4619-a8d0-1d97a21d8f22" lng="-76.9224013" lat="42.3455463"/>
+      <race id="c06d9556-286c-4473-8e7d-0d8c8d64abb3" name="Go Bowling at The Glen" status="scheduled" number="28" distance="220" laps="90" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="20" stage_2_laps="20" stage_3_laps="50" parent_id="a26c4298-6acf-4fa3-a92d-92b2f62fb355" scheduled="2024-09-15T19:00:00+00:00" start_time="2024-09-15T19:00:00+00:00">
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="27a88c97-53bb-4b5f-9383-cf7db72db58b" name="NASCAR Cup Series at Bristol" start_date="2024-09-21">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588" lng="-82.2586316" lat="36.515656"/>
+      <race id="ca34195b-980e-4794-8f00-67029e43230e" name="Bass Pro Shops Night Race" status="scheduled" number="29" distance="266" laps="500" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="125" stage_2_laps="125" stage_3_laps="250" parent_id="932279df-6cae-45b7-a0b0-680e7ab02144" scheduled="2024-09-21T23:30:00+00:00" start_time="2024-09-21T23:30:00+00:00">
+        <broadcast network="USA" satellite="242" radio="PRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="76bb8c73-b807-4274-bdb2-ad4b59cc70dd" name="NASCAR Cup Series at Kansas" start_date="2024-09-29">
+      <track name="Kansas Speedway" market="Kansas City" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:15;Backstretch:5:Frontstretch:10.4" frontstretch="2685" backstretch="2207" address="400 Speedway Blvd." city="Kansas City" state="Kansas" zip="66111" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="42d3569d-cc77-4072-88d5-f63046eddf39" lng="-94.822326" lat="39.109509"/>
+      <race id="f8502304-83f2-4d33-9c7e-50ad1466787f" name="Hollywood Casino 400" status="scheduled" number="30" distance="400" laps="267" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="2cd88887-3bf0-4132-9c04-32071860f66c" scheduled="2024-09-29T19:00:00+00:00" start_time="2024-09-29T19:00:00+00:00">
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Tyler" last_name="Reddick" full_name="Tyler Reddick" id="b030a8df-e7de-44a4-9f59-34bb9fd227d0"/>
+      </race>
+    </event>
+    <event id="b1d82af3-80e8-466d-a21b-4e34a54725bd" name="NASCAR Cup Series at Talladega" start_date="2024-10-06">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41" lng="-86.0665668" lat="33.5649286"/>
+      <race id="f53c2686-8a4c-4277-9259-81895ef7698e" name="YellaWood 500" status="scheduled" number="31" distance="500" laps="188" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" parent_id="71a3fb23-75d0-40ee-af7f-bb0a59acbba5" scheduled="2024-10-06T18:00:00+00:00" start_time="2024-10-06T18:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" id="67948099-4196-4e1b-ae9e-b437aa99000a"/>
+      </race>
+    </event>
+    <event id="851e8e93-40ef-43e1-9682-bd31c197016d" name="NASCAR Cup Series at Charlotte Roval" start_date="2024-10-13">
+      <track name="Charlotte Motor Speedway Road Course" market="Charlotte" completed="2017" distance="2.28" shape="Road Course" banking="Turns: 17, Backstretch: 5, Tri-Oval: 5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Road Course" owner="Speedway Motorsports Inc." id="035b5781-de86-49e6-98fb-b466e288ae10" lng="-80.6872753" lat="35.36089"/>
+      <race id="c92826a4-3958-4ff4-8d88-1a6d7ce365e2" name="Bank of America ROVAL 400" status="scheduled" number="32" distance="252" laps="109" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="25" stage_2_laps="25" stage_3_laps="59" parent_id="159670bf-2eb4-4ddf-acf2-fa5c0569b474" scheduled="2024-10-13T18:00:00+00:00" start_time="2024-10-13T18:00:00+00:00">
+        <broadcast network="NBC" radio="PRN"/>
+        <prior_winner first_name="AJ" last_name="Allmendinger" full_name="AJ Allmendinger" id="fc04af5e-bd27-4e87-850c-a72e22dcb4a6"/>
+      </race>
+    </event>
+    <event id="782a480e-ff2e-46c8-acd4-9f6267a2b61e" name="NASCAR Cup Series at Las Vegas" start_date="2024-10-20">
+      <track name="Las Vegas Motor Speedway" market="Las Vegas" completed="1996" distance="1.5" shape="D-Shaped Oval" banking="Turns: 20, Frontstretch: 9, Backstretch: 9" frontstretch="2275" backstretch="1572" address="7000 Las Vegas Blvd. North" city="Las Vegas" state="Nevada" zip="89115" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="9580816f-e17c-4167-8402-ba16725bcb19" lng="-115.002761" lat="36.270742"/>
+      <race id="d0186232-8c81-4742-a6aa-5ccf90d91cf8" name="South Point 400" status="scheduled" number="33" distance="400" laps="267" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="2336cc90-9a7e-4b1b-84a8-b71ea6febcf0" scheduled="2024-10-20T18:30:00+00:00" start_time="2024-10-20T18:30:00+00:00">
+        <broadcast network="NBC" radio="PRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="3ba165d1-b866-4899-9ec0-3861f62df952" name="NASCAR Cup Series at Homestead-Miami" start_date="2024-10-27">
+      <track name="Homestead-Miami Speedway" market="Homestead" completed="1999" distance="1.5" shape="Oval" banking="Turns:18-20;Backstretch:4;Frontstretch:4" frontstretch="1760" backstretch="1760" address="One Speedway Blvd." city="Homestead" state="Florida" zip="33035-1500" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="9e171ce2-7b98-4bed-b870-a01d7e393cda" lng="-80.41191" lat="25.455509"/>
+      <race id="f7d8c690-0984-4090-9c0f-776ff0723e6b" name="NASCAR Cup Series Race at Homestead-Miami" status="scheduled" number="34" distance="400" laps="267" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="22100db4-ce2f-43ba-9361-4ed773b06a2d" scheduled="2024-10-27T18:30:00+00:00" start_time="2024-10-27T18:30:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Christopher" last_name="Bell" full_name="Christopher Bell" id="16497cd0-5add-407a-b9a8-eec7d62e413b"/>
+      </race>
+    </event>
+    <event id="50f11aa7-be67-4f65-b9d6-02742c043071" name="NASCAR Cup Series at Martinsville" start_date="2024-11-03">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Ridgeway" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689" lng="-79.8519044" lat="36.6340917"/>
+      <race id="990496db-1c6f-4fbf-ac46-0078a2abdd3b" name="XFINITY 500" status="scheduled" number="35" distance="263" laps="500" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="130" stage_2_laps="130" stage_3_laps="240" parent_id="390f6b71-739e-439d-a4e9-de9fa659aacd" scheduled="2024-11-03T19:00:00+00:00" start_time="2024-11-03T19:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" id="67948099-4196-4e1b-ae9e-b437aa99000a"/>
+      </race>
+    </event>
+    <event id="1578ec33-9f18-4d5d-9ab2-130c06df4b8d" name="NASCAR Cup Series at Phoenix" start_date="2024-11-10">
+      <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83" lng="-112.3097338" lat="33.3786899"/>
+      <race id="e23e885d-84b5-48bb-88ba-c5ed89ccfcf1" name="NASCAR Cup Series Championship" status="scheduled" number="36" distance="312" laps="312" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="125" stage_3_laps="127" parent_id="5a0898e5-3f7b-4d7d-8171-5b646e5867ab" scheduled="2024-11-10T20:00:00+00:00" start_time="2024-11-10T20:00:00+00:00">
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Ross" last_name="Chastain" full_name="Ross Chastain" id="fb6c45e9-990e-46e3-88df-174449c13334"/>
+      </race>
+    </event>
+  </season>
+</series>
+<!-- Generation ended @ 2024-02-18 15:46:55 UTC -->
