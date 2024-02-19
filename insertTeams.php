@@ -1,7 +1,7 @@
 <?php
 include 'db_credentials.php';
 include 'nascar_objects_methods.php';
-include 'nascar_drivers_teams_2023.php';
+include 'nascar_drivers_teams_2024.php';
 
 echo "Inserting Teams...";
 echo "<br>";
@@ -31,7 +31,7 @@ for ($i = 1; $i < 28; $i++) {
         $driver4 = $week_1_teams[$j]->get_fourth_driver();
         $week = $i;
 
-        $sql = "INSERT INTO teams_2023 (team_name, driver1, driver2, driver3, driver4, week) VALUES ";
+        $sql = "INSERT INTO teams_2024 (team_name, driver1, driver2, driver3, driver4, week) VALUES ";
         $sql .= "('" . $team_name . "', '" . $driver1 . "', '" . $driver2 . "', '" . $driver3 . "', '" . $driver4 . "', '" . $week . "')";
 
         if (mysqli_query($con, $sql)) {

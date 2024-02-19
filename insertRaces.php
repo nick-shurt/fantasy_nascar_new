@@ -19,7 +19,7 @@ if (!mysqli_select_db($con, $db))  {
     exit();  
 }
 
-$xml=simplexml_load_file("2023_cup_schedule.xml");
+$xml=simplexml_load_file("2024_cup_schedule.xml");
 
 $k = 1;
 $error = false;
