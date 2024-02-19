@@ -1090,11 +1090,11 @@ if (((int)$_GET['year']) < 2022) {
 
     $num_pairs = array($wk1_pairs,$wk2_pairs,$wk3_pairs,$wk4_pairs,$wk5_pairs,$wk6_pairs,$wk7_pairs,$wk8_pairs,$wk9_pairs);
 } else {
-    $pair1 = array(8,1);
-    $pair2 = array(0,7);
-    $pair3 = array(5,2);
-    $pair4 = array(6,3);
-    $pair5 = array(9,4);
+    $pair1 = array(0,1);
+    $pair2 = array(2,3);
+    $pair3 = array(4,5);
+    $pair4 = array(6,7);
+    $pair5 = array(8,9);
     $wk1_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
     $pair1 = array(7,3);
@@ -1132,11 +1132,11 @@ if (((int)$_GET['year']) < 2022) {
     $pair5 = array(3,5);
     $wk6_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
-    $pair1 = array(0,1);
-    $pair2 = array(2,3);
-    $pair3 = array(4,5);
-    $pair4 = array(6,7);
-    $pair5 = array(8,9);
+    $pair1 = array(8,1);
+    $pair2 = array(0,7);
+    $pair3 = array(5,2);
+    $pair4 = array(6,3);
+    $pair5 = array(9,4);
     $wk7_pairs = array($pair1,$pair2,$pair3,$pair4,$pair5);
 
     $pair1 = array(0,8);
