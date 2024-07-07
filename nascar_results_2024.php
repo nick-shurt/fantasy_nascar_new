@@ -31,7 +31,7 @@ $rd_day = $race_date->format('d');
 $td_day = $today_date->format('d');
 
 //if ($rd_month == $td_month && $rd_day == $td_day) {
-    $key = "djbHJGr6ln27n1yI1kz695ydnPw0T4htaXnI4QKH";
+    $key = "IFNXBPl4WI66uhuJYmxZaaySuKH4y43j9w45poA9";
     $request = "http://api.sportradar.us/nascar-ot3/mc/races/" . $raceId . "/results.xml?api_key=" . $key;
     //$request = "";
 
