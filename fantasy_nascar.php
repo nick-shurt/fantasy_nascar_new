@@ -163,7 +163,7 @@
                             <option value="seventeen" data-show=".week17">Week 17 (Nashville)</option>
                             <option value="eighteen" data-show=".week18">Week 18 (Chicago)</option>
                             <option value="nineteen" data-show=".week19">Week 19 (Atlanta)</option>
-                            <option value="twenty" data-show=".week20">Week 20 (New Hampshire)</option>
+                            <option value="twenty" data-show=".week20">Week 20 (Chicago)</option>
                             <option value="twenty-one" data-show=".week21">Week 21 (Pocono)</option>
                             <option value="twenty-two" data-show=".week22">Week 22 (Richmond)</option>
                             <option value="twenty-three" data-show=".week23">Week 23 (Michigan)</option>
