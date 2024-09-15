@@ -157,4 +157,9 @@ $team_standings = array($team_matt,$team_nick,$team_donna,$team_joey,$team_rache
 $team_roster = $team_standings;
 $driver_rank = array();
 
+$team_chives = new Team("#4 Team Rachel","Christopher Bell","Brad Keselowski","Austin Cindric","Daniel Hemric");
+$team_joey = new Team("#5 Team Mike","Kyle Larson","Ty Gibbs","Carson Hocevar","Zane Smith");
+
+$wildcard_teams = array($team_chives, $team_joey);
+
 ?>

@@ -185,7 +185,7 @@
                             }
 							if($_GET['year'] == '2024') {
                                 echo '<option value="twenty-seven" data-show=".week27">Week 27 (Darlington)</option>';
-								echo '<option value="twenty-eight" data-show=".week28">Wild Card Round (Kansas)</option>';
+								echo '<option value="twenty-eight" data-show=".week28">Wild Card Round (Watkins Glen)</option>';
 								echo '<option value="twenty-nine" data-show=".week29">Semi-Final Round (Weeks 29-32)</option>';
 								echo '<option value="thirty" data-show=".week30">Championship (Weeks 33-36)</option>';
                             }
@@ -222,7 +222,7 @@
                             get_semifinal_matchups($semifinal_teams, 29, true);
                             get_championship_matchup($championship_teams, 30, true);
                         } else if ($_GET['year'] == '2024') {
-                            //get_wildcard_matchup($wildcard_teams, 28, false);
+                            get_wildcard_matchup($wildcard_teams, 28, false);
                             //get_semifinal_matchups($semifinal_teams, 29, false);
                             //get_championship_matchup($championship_teams, 30, false);
                         } 
