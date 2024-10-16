@@ -223,8 +223,8 @@
                             get_championship_matchup($championship_teams, 30, true);
                         } else if ($_GET['year'] == '2024') {
                             get_wildcard_matchup($wildcard_teams, 28, true);
-                            get_semifinal_matchups($semifinal_teams, 29, false);
-                            //get_championship_matchup($championship_teams, 30, false);
+                            get_semifinal_matchups($semifinal_teams, 29, true);
+                            get_championship_matchup($championship_teams, 30, false);
                         } 
                     ?>
                 </div>
@@ -312,8 +312,8 @@
 
     <script>
     $(function() {
-        var optionValue  = "<?php get_current_week(); ?>";
-        //var optionValue = "thirty";
+        //var optionValue  = "<?php get_current_week(); ?>";
+        var optionValue = "thirty";
         $("#theSelect").val(optionValue)
         .find("option[value=" + optionValue +"]").attr('selected', true);
     })

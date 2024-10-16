@@ -169,4 +169,9 @@ $team_jim = new Team("#3 Team Jim","Denny Hamlin","Bubba Wallace","Noah Gragson"
 
 $semifinal_teams = array($team_nick, $team_mike, $team_joey, $team_jim);
 
+$team_jim = new Team("#3 Team Jim","Denny Hamlin","Bubba Wallace","Noah Gragson","AJ Allmendinger");
+$team_mike = new Team("#5 Team Mike","Kyle Larson","Ty Gibbs","Carson Hocevar","Zane Smith");
+
+$championship_teams = array($team_jim, $team_mike);
+
 ?>
