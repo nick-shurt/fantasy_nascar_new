@@ -1233,36 +1233,16 @@ function get_current_week() {
     echo $cur_week;
 }
 
+function upload_results_new($result, $con) {
+    $race = json_decode($result);
+    echo $race->weekend_race[0]->race_name;
+}
+
 function upload_results($simpleXml, $con) {
     $msg = "";
     $error = false;
 
     $race_id = $simpleXml['id'];
-
-    /*foreach ($simpleXml->results->result as $result) {
-        $test_id = $race_id;
-        $test_driver = $result->driver['full_name'];
-        $test_pos = $result['position'];
-        $test_pole = ($result['start_position'] == '1') ? true : false;
-        $test_stage1 = ($result['stage_1_win'] == true) ? true : false;
-        $test_stage2 = ($result['stage_2_win'] == true) ? true : false;
-        $test_stage3 = ($result['stage_3_win'] == true) ? true : false;
-        
-        $sql = "INSERT INTO results (race_id, driver, position, pole_win, stage_1_win, stage_2_win, stage_3_win) VALUES (?, ?, ?, ?, ?, ?, ?)";
-
-        if ($stmt = $con->prepare($sql)) {
-            $stmt->bind_param("ssissss", $test_id, $test_driver, $test_pos, $test_pole, $test_stage1, $test_stage2, $test_stage3);
-            if ($stmt->execute()) {
-                $msg .= "The race results for " . $test_driver . " were uploaded successfully!<br>";
-            } else {
-                $msg .= "There was an error uploading the race results for " . $test_driver . ": Error 2<br>";
-                $error = true;
-            }
-        } else {
-            $msg .= "There was an error connecting to the database: Error 2<br>";
-            $error = true;
-        }
-    }*/
 
     $sql = "INSERT INTO results (race_id, driver, position, pole_win, stage_1_win, stage_2_win, stage_3_win) VALUES ";
     foreach ($simpleXml->results->result as $result) {
@@ -1295,20 +1275,6 @@ function upload_results($simpleXml, $con) {
         $msg .= "<br>" . $trim_sql;
         $error = true;
     }
-
-    /*if (!$error) {
-        $sql2 = "UPDATE races SET closed = ? WHERE race_id = ?";
-        $closed = 1;
-        if ($stmt = $con->prepare($sql2)) {
-            $stmt->bind_param("is", $closed, $race_id);
-            if ($stmt->execute()) {
-                $msg .= "<br>This week's race has been successfully update to closed!<br>";
-            } else {
-                $msg .= "<br>There was an error updating this week's race to closed!<br>";
-                $error = true;
-            }
-        }
-    }*/
 
     if (!$error) {
         $headers = 'From: nshurtleff15@gmail.com' . "\r\n" . 
