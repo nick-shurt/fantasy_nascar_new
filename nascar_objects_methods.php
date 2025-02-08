@@ -1235,21 +1235,23 @@ function get_current_week() {
 
 function upload_results_new($json, $con) {
     $race = json_decode($json);
-    $race_id = $race->race_id;
+    $race_id = $race->weekend_race[0]->race_id;
 
     $sql = "INSERT INTO results_test (race_id, driver, position, pole_win, stage_1_win, stage_2_win, stage_3_win) VALUES ";
     foreach ($race->weekend_race[0]->results as $result) {
-        $test_id = $race_id;
-        $test_driver = $result->driver_fullname;
-        $test_pos = $result->finishing_position;
-        
-        $test_pole = ($result->starting_position == '1') ? 1 : 0;
+        if ($result->finishing_position != '0') {
+            $test_id = $race_id;
+            $test_driver = $result->driver_fullname;
+            $test_pos = $result->finishing_position;
+            
+            $test_pole = ($result->starting_position == '1') ? 1 : 0;
 
-        $test_stage1 = 0;
-        $test_stage2 = 0;
-        $test_stage3 = 0;
-        
-        $sql .= "('" . $test_id  . "', '" . $test_driver . "', '" . $test_pos  . "', '" . $test_pole  . "', '" . $test_stage1  . "', '" . $test_stage2  . "', '" . $test_stage3  . "'),";
+            $test_stage1 = 0;
+            $test_stage2 = 0;
+            $test_stage3 = 0;
+            
+            $sql .= "('" . $test_id  . "', '" . $test_driver . "', '" . $test_pos  . "', '" . $test_pole  . "', '" . $test_stage1  . "', '" . $test_stage2  . "', '" . $test_stage3  . "'),";
+        }
     }
     $trim_sql = rtrim($sql,',');
 
