@@ -2,11 +2,11 @@
     if(isset($_GET['year'])) {
         $url_year = $_GET['year'];
         $num_year = (int)$url_year;
-        if($num_year < 2017 || $num_year > 2024) {
-            header("Location: /fantasy_nascar.php?year=2024");
+        if($num_year < 2017 || $num_year > 2025) {
+            header("Location: /fantasy_nascar.php?year=2025");
         } 
     } else {
-        header("Location: /fantasy_nascar.php?year=2024");
+        header("Location: /fantasy_nascar.php?year=2025");
     }      
 ?>
 <!DOCTYPE html>
@@ -89,6 +89,7 @@
 			<option value="2022" <?php if($_GET['year'] == '2022') echo "selected='selected'"; ?> >2022</option>
             <option value="2023" <?php if($_GET['year'] == '2023') echo "selected='selected'"; ?> >2023</option>
             <option value="2024" <?php if($_GET['year'] == '2024') echo "selected='selected'"; ?> >2024</option>
+            <option value="2025" <?php if($_GET['year'] == '2025') echo "selected='selected'"; ?> >2025</option>
         </select>
     </div>
 
@@ -127,6 +128,10 @@
         include 'nascar_drivers_teams_2024.php';
         include 'nascar_results_2024.php';
     }
+    if($_GET['year'] == '2025') {
+        include 'nascar_drivers_teams_2025.php';
+        include 'nascar_results_2025.php';
+    }
     ?>
 
     <div class="container-fluid">
@@ -145,30 +150,30 @@
                     <div class="col-lg-2 col-lg-offset-5">
                         <select class="form-control" data-target=".my-scoreboard" id="theSelect">
                             <option value="one" data-show=".week1">Week 1 (Daytona)</option>
-                            <option value="two" data-show=".week2">Week 2 (Fontana)</option>
-                            <option value="three" data-show=".week3">Week 3 (Las Vegas)</option>
+                            <option value="two" data-show=".week2">Week 2 (Atlanta)</option>
+                            <option value="three" data-show=".week3">Week 3 (Austin)</option>
                             <option value="four" data-show=".week4">Week 4 (Phoenix)</option>
-                            <option value="five" data-show=".week5">Week 5 (Atlanta)</option>
-                            <option value="six" data-show=".week6">Week 6 (Austin)</option>
-                            <option value="seven" data-show=".week7">Week 7 (Richmond)</option>
-                            <option value="eight" data-show=".week8">Week 8 (Bristol)</option>
-                            <option value="nine" data-show=".week9">Week 9 (Martinsville)</option>
+                            <option value="five" data-show=".week5">Week 5 (Las Vegas)</option>
+                            <option value="six" data-show=".week6">Week 6 (Homestead)</option>
+                            <option value="seven" data-show=".week7">Week 7 (Martinsville)</option>
+                            <option value="eight" data-show=".week8">Week 8 (Darlington)</option>
+                            <option value="nine" data-show=".week9">Week 9 (Bristol)</option>
                             <option value="ten" data-show=".week10">Week 10 (Talladega)</option>
-                            <option value="eleven" data-show=".week11">Week 11 (Dover)</option>
+                            <option value="eleven" data-show=".week11">Week 11 (Texas)</option>
                             <option value="twelve" data-show=".week12">Week 12 (Kansas City)</option>
-                            <option value="thirteen" data-show=".week13">Week 13 (Darlington)</option>
-                            <option value="fourteen" data-show=".week14">Week 14 (Charlotte)</option>
-                            <option value="fifteen" data-show=".week15">Week 15 (St. Louis)</option>
-                            <option value="sixteen" data-show=".week16">Week 16 (Sonoma)</option>
-                            <option value="seventeen" data-show=".week17">Week 17 (Nashville)</option>
-                            <option value="eighteen" data-show=".week18">Week 18 (Chicago)</option>
-                            <option value="nineteen" data-show=".week19">Week 19 (Atlanta)</option>
-                            <option value="twenty" data-show=".week20">Week 20 (Chicago)</option>
-                            <option value="twenty-one" data-show=".week21">Week 21 (Pocono)</option>
-                            <option value="twenty-two" data-show=".week22">Week 22 (Richmond)</option>
-                            <option value="twenty-three" data-show=".week23">Week 23 (Michigan)</option>
-                            <option value="twenty-four" data-show=".week24">Week 24 (Indianapolis)</option>
-                            <option value="twenty-five" data-show=".week25">Week 25 (Watkins Glen)</option>
+                            <option value="thirteen" data-show=".week13">Week 13 (Charlotte)</option>
+                            <option value="fourteen" data-show=".week14">Week 14 (Nashville)</option>
+                            <option value="fifteen" data-show=".week15">Week 15 (Michigan)</option>
+                            <option value="sixteen" data-show=".week16">Week 16 (Mexico City)</option>
+                            <option value="seventeen" data-show=".week17">Week 17 (Pocono)</option>
+                            <option value="eighteen" data-show=".week18">Week 18 (Atlanta)</option>
+                            <option value="nineteen" data-show=".week19">Week 19 (Chicago)</option>
+                            <option value="twenty" data-show=".week20">Week 20 (Sonoma)</option>
+                            <option value="twenty-one" data-show=".week21">Week 21 (Dover)</option>
+                            <option value="twenty-two" data-show=".week22">Week 22 (Indianapolis)</option>
+                            <option value="twenty-three" data-show=".week23">Week 23 (Iowa)</option>
+                            <option value="twenty-four" data-show=".week24">Week 24 (Watkins Glen)</option>
+                            <option value="twenty-five" data-show=".week25">Week 25 (Richmond)</option>
                             <option value="twenty-six" data-show=".week26">Week 26 (Daytona)</option>
                             
                             <?php 
@@ -177,17 +182,18 @@
                                 echo '<option value="twenty-eight" data-show=".week28">Semi-Final Round (Weeks 28-31)</option>';
                                 echo '<option value="twenty-nine" data-show=".week29">Championship (Weeks 32-36)</option>';
                             }
-                            if($_GET['year'] == '2018' || $_GET['year'] == '2019' || $_GET['year'] == '2020' || $_GET['year'] == '2021' || $_GET['year'] == '2022' || $_GET['year'] == '2023') {
+                            if($_GET['year'] == '2018' || $_GET['year'] == '2019' || $_GET['year'] == '2020' || $_GET['year'] == '2021' 
+                                || $_GET['year'] == '2022' || $_GET['year'] == '2023' || $_GET['year'] == '2024') {
                                 echo '<option value="twenty-seven" data-show=".week27">Week 27 (Darlington)</option>';
 								echo '<option value="twenty-eight" data-show=".week28">Wild Card Round (Richmond)</option>';
 								echo '<option value="twenty-nine" data-show=".week29">Semi-Final Round (Weeks 29-32)</option>';
 								echo '<option value="thirty" data-show=".week30">Championship (Weeks 33-36)</option>';
                             }
-							if($_GET['year'] == '2024') {
+							if($_GET['year'] == '2025') {
                                 echo '<option value="twenty-seven" data-show=".week27">Week 27 (Darlington)</option>';
-								echo '<option value="twenty-eight" data-show=".week28">Wild Card Round (Watkins Glen)</option>';
-								echo '<option value="twenty-nine" data-show=".week29">Semi-Final Round (Weeks 29-32)</option>';
-								echo '<option value="thirty" data-show=".week30">Championship (Weeks 33-36)</option>';
+								//echo '<option value="twenty-eight" data-show=".week28">Wild Card Round (Watkins Glen)</option>';
+								//echo '<option value="twenty-nine" data-show=".week29">Semi-Final Round (Weeks 29-32)</option>';
+								//echo '<option value="thirty" data-show=".week30">Championship (Weeks 33-36)</option>';
                             }
                             ?>
                             
@@ -202,7 +208,7 @@
                         $w = ($_GET['year'] == '2017') ? 26 : 27;
                         while ($i <= $w) {
                             $j = ($i - 1) % 9;
-                            if ($_GET['year'] == '2023' || $_GET['year'] == '2024') {
+                            if ($_GET['year'] == '2023' || $_GET['year'] == '2024' || $_GET['year'] == '2025') {
                                 if ($i == 10) {
                                     $j = 1;
                                 }
@@ -217,14 +223,15 @@
                             get_wildcard_matchup($wildcard_teams, 27, true); 
                             get_semifinal_matchups($semifinal_teams, 28, true);
                             get_championship_matchup($championship_teams, 29, true);
-                        } else if ($_GET['year'] == '2018' || $_GET['year'] == '2019' || $_GET['year'] == '2020' || $_GET['year'] == '2021' || $_GET['year'] == '2022' || $_GET['year'] == '2023') {
+                        } else if ($_GET['year'] == '2018' || $_GET['year'] == '2019' || $_GET['year'] == '2020' 
+                        || $_GET['year'] == '2021' || $_GET['year'] == '2022' || $_GET['year'] == '2023' || $_GET['year'] == '2024') {
                             get_wildcard_matchup($wildcard_teams, 28, true);
                             get_semifinal_matchups($semifinal_teams, 29, true);
                             get_championship_matchup($championship_teams, 30, true);
-                        } else if ($_GET['year'] == '2024') {
-                            get_wildcard_matchup($wildcard_teams, 28, true);
-                            get_semifinal_matchups($semifinal_teams, 29, true);
-                            get_championship_matchup($championship_teams, 30, true);
+                        } else if ($_GET['year'] == '2025') {
+                            //get_wildcard_matchup($wildcard_teams, 28, false);
+                            //get_semifinal_matchups($semifinal_teams, 29, false);
+                            //get_championship_matchup($championship_teams, 30, false);
                         } 
                     ?>
                 </div>
@@ -312,8 +319,8 @@
 
     <script>
     $(function() {
-        //var optionValue  = "<?php get_current_week(); ?>";
-        var optionValue = "thirty";
+        var optionValue  = "<?php get_current_week(); ?>";
+        //var optionValue = "thirty";
         $("#theSelect").val(optionValue)
         .find("option[value=" + optionValue +"]").attr('selected', true);
     })
