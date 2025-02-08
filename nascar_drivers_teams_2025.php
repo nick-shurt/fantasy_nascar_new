@@ -146,7 +146,7 @@ $team_matt = new Team($team_names[267],$drivers1[267],$drivers2[267],$drivers3[2
 $team_chives = new Team($team_names[268],$drivers1[268],$drivers2[268],$drivers3[268],$drivers4[268]);
 $team_jru = new Team($team_names[269],$drivers1[269],$drivers2[269],$drivers3[269],$drivers4[269]);
 
-$team_standings = array($team_matt,$team_nick,$team_donna,$team_joey,$team_rachel,$team_chives,$team_jim,$team_mike,$team_jru,$team_docks);
+$team_standings = array($team_rachel,$team_mike,$team_donna,$team_jim,$team_joey,$team_steve,$team_nick,$team_matt,$team_chives,$team_jru);
 $team_roster = $team_standings;
 $driver_rank = array();
 
