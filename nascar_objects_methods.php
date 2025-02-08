@@ -1233,9 +1233,44 @@ function get_current_week() {
     echo $cur_week;
 }
 
-function upload_results_new($result, $con) {
-    $race = json_decode($result);
-    echo $race->weekend_race[0]->race_name;
+function upload_results_new($json, $con) {
+    $race = json_decode($json);
+    $race_id = $race->race_id;
+
+    $sql = "INSERT INTO results_test (race_id, driver, position, pole_win, stage_1_win, stage_2_win, stage_3_win) VALUES ";
+    foreach ($race->weekend_race[0]->results as $result) {
+        $test_id = $race_id;
+        $test_driver = $result->driver_fullname;
+        $test_pos = $result->finishing_position;
+        
+        $test_pole = ($result->starting_position == '1') ? 1 : 0;
+
+        $test_stage1 = 0;
+        $test_stage2 = 0;
+        $test_stage3 = 0;
+        
+        $sql .= "('" . $test_id  . "', '" . $test_driver . "', '" . $test_pos  . "', '" . $test_pole  . "', '" . $test_stage1  . "', '" . $test_stage2  . "', '" . $test_stage3  . "'),";
+    }
+    $trim_sql = rtrim($sql,',');
+
+    if (mysqli_query($con, $trim_sql)) {
+        $msg = "Race results uploaded successfully!<br>";
+        echo $msg;
+
+        /*$sql2 = "UPDATE races_2025 SET closed = 1 WHERE race_id = '".$race_id."'";
+        if (mysqli_query($con, $sql2)) {
+            $msg .= "<br>This week's race has been successfully updated to closed!<br>";
+        } else {
+            $msg .= "<br>There was an error updating this week's race to closed!<br>";
+            $error = true;
+        }*/
+    } else {
+        $msg = "There was an error uploading the results to the database.<br>" . mysqli_error($con) . "<br>";
+        $msg .= "<br>" . $trim_sql;
+        $error = true;
+    }
+
+    //echo $race->weekend_race[0]->race_name;
 }
 
 function upload_results($simpleXml, $con) {
