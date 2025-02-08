@@ -66,7 +66,7 @@
     </event>
     <event id="0c4ca7b1-51ca-406d-803d-651aacdb9219" name="NASCAR Cup Series at Phoenix" start_date="2025-03-09">
       <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83" lng="-112.3097338" lat="33.3786899"/>
-      <race id="0a5c548e-db8e-45d6-82db-e25ca5282471" name="Shriners Children's 500" status="scheduled" number="4" distance="312" laps="312" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="125" stage_3_laps="127" parent_id="ea068b64-221e-426c-baac-7a6c01fe06a7" scheduled="2025-03-09T19:30:00+00:00" start_time="2025-03-09T19:30:00+00:00">
+      <race id="0a5c548e-db8e-45d6-82db-e25ca5282471" name="Shriners Childrens 500" status="scheduled" number="4" distance="312" laps="312" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="125" stage_3_laps="127" parent_id="ea068b64-221e-426c-baac-7a6c01fe06a7" scheduled="2025-03-09T19:30:00+00:00" start_time="2025-03-09T19:30:00+00:00">
         <practice sequence="1" status="scheduled" start_time="2025-03-08T19:05:00+00:00"/>
         <qualifying start_time="2025-03-08T20:10:00+00:00" status="scheduled"/>
         <broadcast network="FS1" satellite="219" radio="MRN"/>
@@ -121,7 +121,7 @@
     </event>
     <event id="1e72b757-7b96-4075-8a8c-1beb012777f9" name="NASCAR Cup Series at Talladega" start_date="2025-04-27">
       <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41" lng="-86.0665668" lat="33.5649286"/>
-      <race id="5da3482b-7b06-4258-a7e6-78a81d0ad56a" name="Jack Link's 500" status="scheduled" number="10" distance="500" laps="188" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" parent_id="80036e59-c997-45d7-8887-2723f1331368" scheduled="2025-04-27T19:00:00+00:00" start_time="2025-04-27T19:00:00+00:00">
+      <race id="5da3482b-7b06-4258-a7e6-78a81d0ad56a" name="Jack Links 500" status="scheduled" number="10" distance="500" laps="188" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" parent_id="80036e59-c997-45d7-8887-2723f1331368" scheduled="2025-04-27T19:00:00+00:00" start_time="2025-04-27T19:00:00+00:00">
         <qualifying start_time="2025-04-26T14:30:00+00:00" status="scheduled"/>
         <broadcast network="FOX" radio="MRN"/>
         <prior_winner first_name="Tyler" last_name="Reddick" full_name="Tyler Reddick" id="b030a8df-e7de-44a4-9f59-34bb9fd227d0"/>
