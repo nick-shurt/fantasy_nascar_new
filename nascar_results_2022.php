@@ -30,7 +30,7 @@ $td_month = $today_date->format('m');
 $rd_day = $race_date->format('d');
 $td_day = $today_date->format('d');
 
-//if ($rd_month == $td_month && $rd_day == $td_day) {
+/*if ($rd_month == $td_month && $rd_day == $td_day) {
     $key = "dyaa38bjxaqcqskdd7ufcj9j";
     $request = "http://api.sportradar.us/nascar-ot3/mc/races/" . $raceId . "/results.xml?api_key=" . $key;
     //$request = "";
@@ -48,7 +48,7 @@ $td_day = $today_date->format('d');
     if ($isRaceOver) {
         upload_results($xml2, $con);
     }
-//}
+}*/
 
 $race_ids = array();
 $wildcard = false;
