@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/nascar/schedule-v3.0.xsl"?>
+<!-- Generation started @ 2025-02-08 05:23:42 UTC -->
+<series xmlns="http://feed.elasticstats.com/schema/nascar/schedule-v3.0.xsd" id="3e32047e-4ff3-4e35-a607-1546a2c32214" alias="CUP" name="NASCAR Cup Series">
+  <season year="2025" id="7967612b-6ad5-4ac3-8a3d-69dbc63916aa">
+    <event id="c00e4567-176e-48ab-ad9c-53fa1eb2c6b6" name="NASCAR Cup Series at Bowman Gray" start_date="2025-02-02">
+      <track name="Bowman Gray Stadium" market="Winston-Salem" completed="1947" distance="0.25" shape="Oval" banking="Turns: 4" address="1250 S Martin Luther King Jr Dr" city="Winston-Salem" state="NC" zip="27107" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="8dbdf7bb-2ee0-4f06-9a1c-e2c93aa715a0" lng="-80.222061" lat="36.083221"/>
+      <race id="6c59bc2e-aa61-4544-a0c0-6e8ff9db214b" name="Clash Heat Race 1" status="closed" distance="15" laps="25" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2025-02-02T01:30:00+00:00" start_time="2025-02-02T01:30:00+00:00" end_time="2025-02-02T01:45:00+00:00">
+        <broadcast satellite="219" radio="MRN"/>
+      </race>
+      <race id="e0c9a38d-96b6-4aa0-a829-3e49b2ca33cb" name="Clash Heat Race 2" status="closed" distance="15" laps="25" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2025-02-02T01:45:00+00:00" start_time="2025-02-02T01:45:00+00:00" end_time="2025-02-02T02:00:00+00:00">
+        <broadcast satellite="219" radio="MRN"/>
+      </race>
+      <race id="f0096fc0-7b3e-4bdc-bafd-49099d8015b5" name="Clash Heat Race 3" status="closed" distance="15" laps="25" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2025-02-02T02:00:00+00:00" start_time="2025-02-02T02:00:00+00:00" end_time="2025-02-02T02:15:00+00:00">
+        <broadcast satellite="219" radio="MRN"/>
+      </race>
+      <race id="3a437578-6b6b-4748-9231-a7d022ade681" name="Clash Heat Race 4" status="closed" distance="15" laps="25" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2025-02-02T02:15:00+00:00" start_time="2025-02-02T02:15:00+00:00" end_time="2025-02-02T02:30:00+00:00">
+        <broadcast satellite="219" radio="MRN"/>
+      </race>
+      <race id="5612d4e4-2ef9-4454-86b3-f00d3d39c1e1" name="Clash Last Chance Qualifying Race" status="closed" distance="18" laps="75" chase_race="false" heat_race="true" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2025-02-02T23:00:00+00:00" start_time="2025-02-02T23:00:00+00:00" end_time="2025-02-03T01:00:00+00:00">
+        <broadcast satellite="219" radio="MRN"/>
+      </race>
+      <race id="a933d201-4619-424c-b400-d07a24ee26cc" name="Cook Out Clash at Bowman Gray" status="closed" distance="50" laps="200" chase_race="false" heat_race="false" award_pole="false" stage_count="0" parent_id="c954e475-01b2-4891-8682-67ff5f815d7a" scheduled="2025-02-03T01:00:00+00:00" start_time="2025-02-03T01:00:00+00:00" end_time="2025-02-03T03:30:00+00:00">
+        <practice sequence="1" status="complete" start_time="2025-02-01T23:10:00+00:00" end_time="2025-02-02T01:00:00+00:00" network="FS1" satellite="219"/>
+        <practice sequence="2" status="complete" start_time="2025-02-01T23:10:00+00:00" end_time="2025-02-02T01:00:00+00:00" network="FS1" satellite="219"/>
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="6533cf15-155b-4265-8b52-639bd7ab5efe" name="NASCAR Cup Series at Daytona" start_date="2025-02-13">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b" lng="-81.067" lat="29.192994"/>
+      <race id="b23d3cea-be38-47d6-88c0-2a6f7c703ccb" name="Duel 1 at DAYTONA" status="scheduled" distance="150" laps="60" chase_race="false" heat_race="false" award_pole="false" stage_count="0" parent_id="52a541f7-db54-4c5f-a7f3-9f7097af26df" scheduled="2025-02-14T00:00:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Tyler" last_name="Reddick" full_name="Tyler Reddick" id="b030a8df-e7de-44a4-9f59-34bb9fd227d0"/>
+      </race>
+      <race id="4e0a93f7-5fc5-4da7-9344-35b053750075" name="Duel 2 at DAYTONA" status="scheduled" distance="150" laps="60" chase_race="false" heat_race="false" award_pole="false" stage_count="0" parent_id="52a541f7-db54-4c5f-a7f3-9f7097af26df" scheduled="2025-02-14T01:30:00+00:00">
+        <broadcast network="FS1" radio="MRN"/>
+        <prior_winner first_name="Christopher" last_name="Bell" full_name="Christopher Bell" id="16497cd0-5add-407a-b9a8-eec7d62e413b"/>
+      </race>
+      <race id="098a4538-0533-4d22-9cc4-81f21150132c" name="DAYTONA 500" status="scheduled" number="1" distance="500" laps="200" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="65" stage_2_laps="65" stage_3_laps="70" parent_id="a3dad4fc-112f-4aff-a261-c918182f7a42" scheduled="2025-02-16T19:30:00+00:00" start_time="2025-02-16T19:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-02-12T15:05:00+00:00"/>
+        <practice sequence="2" status="scheduled" start_time="2025-02-14T22:35:00+00:00"/>
+        <practice sequence="3" status="scheduled" start_time="2025-02-15T20:05:00+00:00"/>
+        <qualifying start_time="2025-02-13T01:15:00+00:00" status="scheduled"/>
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="4f41dc0a-755b-4c9f-a0b3-84a1d77a6a89" name="NASCAR Cup Series at Atlanta" start_date="2025-02-23">
+      <track name="Atlanta Motor Speedway" market="Atlanta" completed="1960" distance="1.54" shape="Quad-Oval" banking="Turns:24; Backstretch:5;Tri-Oval:5" frontstretch="2332" backstretch="1800" address="1500 Highways 19 &amp; 41 South" city="Hampton" state="Georgia" zip="30228" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="75494065-bf21-4039-8d99-b8e438c8b4a4" lng="-84.3051564" lat="33.3853713"/>
+      <race id="8f7977f3-dc3f-48c0-88d6-9fb530dc7959" name="Ambetter Health 400" status="scheduled" number="2" distance="400" laps="260" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="100" stage_3_laps="100" parent_id="02b8a073-8554-44c9-8411-752b3d3a7186" scheduled="2025-02-23T20:00:00+00:00" start_time="2025-02-23T20:00:00+00:00">
+        <qualifying start_time="2025-02-22T16:00:00+00:00" status="scheduled"/>
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="Daniel" last_name="Suárez" full_name="Daniel Suárez" id="ebd0a08d-5308-442e-a2ae-2e40aafb3100"/>
+      </race>
+    </event>
+    <event id="fbc6ff9e-f249-424e-acd5-5fc1fd4ae86b" name="NASCAR Cup Series at COTA" start_date="2025-03-02">
+      <track name="Circuits of the Americas" market="Austin" completed="2021" distance="3.41" shape="Road Course" address=" 9201 Circuit of the Americas Blvd" city="Austin" state="Texas" zip="78617" country="USA" surface="Paved" track_type="Road Course" id="6631f91e-10ff-4089-9091-c11ec1a19aaf" lng="-97.6381822" lat="30.1346795"/>
+      <race id="583da75a-f3dc-48a6-9382-124a9805d7de" name="EchoPark Automotive Grand Prix" status="scheduled" number="3" distance="232" laps="68" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="0" stage_2_laps="0" stage_3_laps="0" parent_id="59f3f17a-80ea-4634-853c-ce9a5869c33c" scheduled="2025-03-02T20:30:00+00:00" start_time="2025-03-02T20:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-03-01T16:00:00+00:00"/>
+        <practice sequence="2" status="scheduled" start_time="2025-03-01T16:45:00+00:00"/>
+        <qualifying start_time="2025-03-01T17:30:00+00:00" status="scheduled"/>
+        <broadcast network="FOX" radio="PRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="0c4ca7b1-51ca-406d-803d-651aacdb9219" name="NASCAR Cup Series at Phoenix" start_date="2025-03-09">
+      <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83" lng="-112.3097338" lat="33.3786899"/>
+      <race id="0a5c548e-db8e-45d6-82db-e25ca5282471" name="Shriners Children's 500" status="scheduled" number="4" distance="312" laps="312" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="125" stage_3_laps="127" parent_id="ea068b64-221e-426c-baac-7a6c01fe06a7" scheduled="2025-03-09T19:30:00+00:00" start_time="2025-03-09T19:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-03-08T19:05:00+00:00"/>
+        <qualifying start_time="2025-03-08T20:10:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Christopher" last_name="Bell" full_name="Christopher Bell" id="16497cd0-5add-407a-b9a8-eec7d62e413b"/>
+      </race>
+    </event>
+    <event id="c9af2a2f-3036-4f43-ac7b-4b7dd2b5f446" name="NASCAR Cup Series at Las Vegas	" start_date="2025-03-16">
+      <track name="Las Vegas Motor Speedway" market="Las Vegas" completed="1996" distance="1.5" shape="D-Shaped Oval" banking="Turns: 20, Frontstretch: 9, Backstretch: 9" frontstretch="2275" backstretch="1572" address="7000 Las Vegas Blvd. North" city="Las Vegas" state="Nevada" zip="89115" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="9580816f-e17c-4167-8402-ba16725bcb19" lng="-115.002761" lat="36.270742"/>
+      <race id="4f051cc5-f563-446f-b1ac-ff143f46eea5" name="Pennzoil 400" status="scheduled" number="5" distance="401" laps="267" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="6488364f-b227-465d-903e-39b830ef2a22" scheduled="2025-03-16T19:30:00+00:00" start_time="2025-03-16T19:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-03-15T17:35:00+00:00"/>
+        <qualifying start_time="2025-03-15T18:40:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="f77b4094-26ca-4457-9798-826e187d7f2a" name="NASCAR Cup Series at Homestead-Miami" start_date="2025-03-23">
+      <track name="Homestead-Miami Speedway" market="Homestead" completed="1999" distance="1.5" shape="Oval" banking="Turns:18-20;Backstretch:4;Frontstretch:4" frontstretch="1760" backstretch="1760" address="One Speedway Blvd." city="Homestead" state="Florida" zip="33035-1500" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="9e171ce2-7b98-4bed-b870-a01d7e393cda" lng="-80.41191" lat="25.455509"/>
+      <race id="5c8ae191-c9da-4f7b-bff4-2f125acf789e" name="Straight Talk Wireless 400" status="scheduled" number="6" distance="401" laps="267" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="22100db4-ce2f-43ba-9361-4ed773b06a2d" scheduled="2025-03-23T19:00:00+00:00" start_time="2025-03-23T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-03-22T17:05:00+00:00"/>
+        <qualifying start_time="2025-03-22T18:10:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Tyler" last_name="Reddick" full_name="Tyler Reddick" id="b030a8df-e7de-44a4-9f59-34bb9fd227d0"/>
+      </race>
+    </event>
+    <event id="9a90ee35-6d00-45c3-986c-53c243af4e0e" name="NASCAR Cup Series at Martinsville" start_date="2025-03-30">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Ridgeway" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689" lng="-79.8519044" lat="36.6340917"/>
+      <race id="65c1eacb-ce2e-43ab-b0f6-4d62f83a6e89" name="NASCAR Cup Series Race at Martinsville" status="scheduled" number="7" distance="210" laps="400" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="100" stage_3_laps="220" parent_id="749d7d31-8492-4479-b493-5e3577d10e91" scheduled="2025-03-30T19:00:00+00:00" start_time="2025-03-30T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-03-29T18:05:00+00:00"/>
+        <qualifying start_time="2025-03-29T19:10:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="William" last_name="Byron" full_name="William Byron" id="c9bf58a8-66b6-4d75-a441-c13130ded990"/>
+      </race>
+    </event>
+    <event id="2a82a179-88f5-4142-bf40-9a780c9bcfc3" name="NASCAR Cup Series at Darlington" start_date="2025-04-06">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc" lng="-79.910261" lat="34.2983137"/>
+      <race id="b320f558-e06d-4a6e-a349-167f386e4dc1" name="Goodyear 400" status="scheduled" number="8" distance="400" laps="293" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="90" stage_2_laps="95" stage_3_laps="108" parent_id="79c2d0b3-79d7-4f03-b2ef-adbc84f9cc96" scheduled="2025-04-06T19:00:00+00:00" start_time="2025-04-06T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-04-05T16:35:00+00:00"/>
+        <practice sequence="2" status="scheduled" start_time="2025-08-30T13:05:00+00:00"/>
+        <qualifying start_time="2025-04-05T17:40:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Brad" last_name="Keselowski" full_name="Brad Keselowski" id="0ce4113d-34c8-4272-b658-3b929238dbd3"/>
+      </race>
+    </event>
+    <event id="f06fe7c7-43f2-41c0-9e40-d7b3e4d1d4b4" name="NASCAR Cup Series at Bristol" start_date="2025-04-13">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588" lng="-82.2586316" lat="36.515656"/>
+      <race id="f59b69ae-9864-4ea5-bbe3-2ce3e4893568" name="Food City 500" status="scheduled" number="9" distance="267" laps="500" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="125" stage_2_laps="125" stage_3_laps="250" parent_id="881f0944-6016-4a13-b2fd-e7c52ac5cfda" scheduled="2025-04-13T19:00:00+00:00" start_time="2025-04-13T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-04-12T18:05:00+00:00"/>
+        <qualifying start_time="2025-04-12T19:10:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="1e72b757-7b96-4075-8a8c-1beb012777f9" name="NASCAR Cup Series at Talladega" start_date="2025-04-27">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41" lng="-86.0665668" lat="33.5649286"/>
+      <race id="5da3482b-7b06-4258-a7e6-78a81d0ad56a" name="Jack Link's 500" status="scheduled" number="10" distance="500" laps="188" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" parent_id="80036e59-c997-45d7-8887-2723f1331368" scheduled="2025-04-27T19:00:00+00:00" start_time="2025-04-27T19:00:00+00:00">
+        <qualifying start_time="2025-04-26T14:30:00+00:00" status="scheduled"/>
+        <broadcast network="FOX" radio="MRN"/>
+        <prior_winner first_name="Tyler" last_name="Reddick" full_name="Tyler Reddick" id="b030a8df-e7de-44a4-9f59-34bb9fd227d0"/>
+      </race>
+    </event>
+    <event id="c3b9a252-33a9-4750-9756-4e22e9eebd79" name="NASCAR Cup Series at Texas" start_date="2025-05-04">
+      <track name="Texas Motor Speedway" market="Fort Worth" completed="1995" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Tri-Oval:5" frontstretch="2250" backstretch="1330" address="3601 Highway 114" city="Fort Worth" state="Texas" zip="76177" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="6c2be094-7477-4d92-b7ff-10dfda27e315" lng="-97.281633" lat="33.0371179"/>
+      <race id="ae218f89-6860-4e84-9fad-054cae30db76" name="Autotrader EchoPark Automotive 400" status="scheduled" number="11" distance="401" laps="267" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="9d85ee83-d54f-44ed-a08f-ee1ab4c232c4" scheduled="2025-05-04T19:30:00+00:00" start_time="2025-05-04T19:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-05-03T15:05:00+00:00"/>
+        <qualifying start_time="2025-05-03T16:10:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="PRN"/>
+        <prior_winner first_name="Chase" last_name="Elliott" full_name="Chase Elliott" id="5fd3e3fb-322f-4157-ae41-9317fba1997d"/>
+      </race>
+    </event>
+    <event id="3a79fb8e-7020-4010-b44b-345824886d35" name="NASCAR Cup Series at Kansas" start_date="2025-05-11">
+      <track name="Kansas Speedway" market="Kansas City" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:15;Backstretch:5:Frontstretch:10.4" frontstretch="2685" backstretch="2207" address="400 Speedway Blvd." city="Kansas City" state="Kansas" zip="66111" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="42d3569d-cc77-4072-88d5-f63046eddf39" lng="-94.822326" lat="39.109509"/>
+      <race id="036b5dff-3f33-4481-b0d0-3d615a6f4b93" name="AdventHealth 400" status="scheduled" number="12" distance="401" laps="267" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="bad01c01-be9e-4ebe-adcd-f96ff38389a0" scheduled="2025-05-11T19:00:00+00:00" start_time="2025-05-11T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-05-10T20:35:00+00:00"/>
+        <qualifying start_time="2025-05-10T21:40:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="0f172775-fe46-4e3b-a51e-31c5753c01d9" name="NASCAR Cup Series at North Wilkesboro" start_date="2025-05-18">
+      <track name="North Wilkesboro Speedway" market="North Wilkesboro" completed="1949" distance="0.625" shape="Oval" banking="Turns: 14 degrees; Backstretch: 3; Frontstretch: 3" address="381 Speedway Lane" city="North Wilkesboro" state="North Carolina" zip="28659" country="USA" surface="Paved" track_type="Short Track" id="b6971a30-705c-46eb-9c54-6201d5832ef7" lng="-81.076988" lat="36.144549"/>
+      <race id="207d15c7-b2b2-42c5-adcf-747e125b1acf" name="NASCAR All-Star Race Heat 1" status="scheduled" distance="37" laps="60" chase_race="false" heat_race="true" award_pole="false" stage_count="0" scheduled="2025-05-17T21:20:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+      <race id="c91dd7f5-d70b-432d-8c64-7f6440bda6f3" name="NASCAR All-Star Race Heat 2" status="scheduled" distance="37" laps="60" chase_race="false" heat_race="true" award_pole="false" stage_count="0" scheduled="2025-05-17T22:15:00+00:00">
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+      <race id="14058616-25d2-49d2-9751-e18ae5a166ff" name="NASCAR All-Star Open" status="scheduled" distance="63" laps="100" chase_race="false" heat_race="false" award_pole="false" stage_count="0" parent_id="f0931ebf-daa9-4600-a310-459403975cf3" scheduled="2025-05-18T21:30:00+00:00">
+        <qualifying status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+      </race>
+      <race id="d2e5a0a2-6ea2-4381-8957-8cf04e6eb726" name="NASCAR All-Star Race" status="scheduled" distance="125" laps="200" chase_race="false" heat_race="false" award_pole="false" stage_count="0" parent_id="58e453b9-f0c7-4ab5-8cc5-d07ae8705757" scheduled="2025-05-19T00:00:00+00:00">
+        <qualifying status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="51ca9992-7128-47cd-b588-703ef783a97f" name="NASCAR Cup Series at Charlotte" start_date="2025-05-25">
+      <track name="Charlotte Motor Speedway" market="Charlotte" completed="1960" distance="1.5" shape="Quad-Oval" banking="Turns:24;Backstretch:5;Frontstretch:5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="c0ae0e00-9899-4d01-869b-56a4763cc54d" lng="-80.6872753" lat="35.36089"/>
+      <race id="2fb1d480-f5ed-4d99-a51a-b7b86980b897" name="Coca-Cola 600" status="scheduled" number="13" distance="600" laps="400" chase_race="false" heat_race="false" award_pole="false" stage_count="3" stage_1_laps="100" stage_2_laps="100" stage_3_laps="100" stage_4_laps="100" parent_id="e0f2949e-308d-433d-914a-0708d3c8b783" scheduled="2025-05-26T00:00:00+00:00" start_time="2025-05-25T22:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-05-24T17:35:00+00:00"/>
+        <qualifying start_time="2025-05-24T18:40:00+00:00" status="scheduled"/>
+        <broadcast network="Amazon Prime Video" radio="PRN"/>
+        <prior_winner first_name="Christopher" last_name="Bell" full_name="Christopher Bell" id="16497cd0-5add-407a-b9a8-eec7d62e413b"/>
+      </race>
+    </event>
+    <event id="627f44da-79f8-4d28-a658-22f628d874d1" name="NASCAR Cup Series at Nashville" start_date="2025-06-01">
+      <track name="Nashville Superspeedway" market="Nashville" completed="0" distance="1.333" shape="Tri-Oval" banking="Banking in Corners: 14 degrees; Banking on Straights: Front - 9 degrees; Back - 6 degrees" frontstretch="2494" backstretch="2203" address="4847-F McCrary Road" city="Lebanon" state="Tennessee" zip="37090" country="USA" surface="Paved" track_type="Superspeedway" owner="Dover Motorsports Inc." id="016c7f98-48b0-4b05-a31c-6896f7146eee" lng="-86.418458" lat="36.053041"/>
+      <race id="c8c28dfa-11d8-4991-b37e-4a72a801f0b3" name="NASCAR Cup Series Race at Nashville" status="scheduled" number="14" distance="399" laps="300" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="90" stage_2_laps="95" stage_3_laps="115" parent_id="7ddb8be0-c305-44bc-b37b-e20131260ce3" scheduled="2025-06-01T23:00:00+00:00" start_time="2025-06-01T23:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-05-31T20:35:00+00:00"/>
+        <qualifying start_time="2025-05-31T21:40:00+00:00" status="scheduled"/>
+        <broadcast network="Amazon Prime Video" radio="PRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="ed5b5026-e45d-4757-88c9-e14c60c13bf9" name="NASCAR Cup Series at Michigan" start_date="2025-06-08">
+      <track name="Michigan International Speedway" market="Brooklyn" completed="1968" distance="2.0" shape="D-Shaped Oval" banking="Turns:18;Backstretch:5;Frontstretch:12" frontstretch="3600" backstretch="2242" address="12626 U.S. 12" city="Brooklyn" state="Michigan" zip="49230" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83865dba-7a30-441a-95e0-51219f7e7c56" lng="-84.2427763" lat="42.0605275"/>
+      <race id="8b873734-c162-4c0c-a36e-91ad76f96940" name="NASCAR Cup Series Race at Michigan" status="scheduled" number="15" distance="400" laps="200" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="45" stage_2_laps="75" stage_3_laps="80" parent_id="13712d15-8df6-4931-ab18-bf6793e4df81" scheduled="2025-06-08T18:00:00+00:00" start_time="2025-06-08T18:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-06-07T13:35:00+00:00"/>
+        <qualifying start_time="2025-06-07T14:40:00+00:00" status="scheduled"/>
+        <broadcast network="Amazon Prime Video" radio="MRN"/>
+        <prior_winner first_name="Tyler" last_name="Reddick" full_name="Tyler Reddick" id="b030a8df-e7de-44a4-9f59-34bb9fd227d0"/>
+      </race>
+    </event>
+    <event id="6cedee69-d0ba-44f4-9880-98f0d7778f0d" name="NASCAR Cup Series at Mexico City" start_date="2025-06-15">
+      <track name="Autodromo Hermanos Rodriguez" market="Mexico City" completed="1959" distance="2.518" shape="Road Course" seating="110000" address="Viad. Río de la Piedad S/n" city="Mexico City" zip="08400" country="MEX" surface="Paved" track_type="Road Course" id="9383a1e4-04b7-4d5c-b53d-118d534ff892" lng="-99.106827" lat="19.407040"/>
+      <race id="05195eb2-a29c-4bad-9d98-38fa7f6e4bbd" name="NASCAR Cup Series Race at Mexico City" status="scheduled" number="16" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="0" stage_2_laps="0" stage_3_laps="0" parent_id="72ea262b-e6d2-4241-a138-d2390ef40681" scheduled="2025-06-15T19:00:00+00:00" start_time="2025-06-15T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-06-13T17:05:00+00:00"/>
+        <practice sequence="2" status="scheduled" start_time="2025-06-13T19:00:00+00:00"/>
+        <qualifying start_time="2025-06-14T16:00:00+00:00" status="scheduled"/>
+        <broadcast network="Amazon Prime Video" radio="MRN"/>
+      </race>
+    </event>
+    <event id="531381f3-e964-4d3b-b330-264b9c1e40a1" name="NASCAR Cup Series at Pocono" start_date="2025-06-22">
+      <track name="Pocono Raceway" market="Long Pond" completed="1968" distance="2.5" shape="Tri-Oval" banking="Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0" frontstretch="3740" backstretch="3055" address="Long Pond Road" city="Long Pond" state="Pennsylvania" zip="18334" country="USA" surface="Paved" track_type="Superspeedway" owner="Mattioli Family" id="7267d5f0-463e-4a81-a7fe-23b71dd2182e" lng="-75.5117578" lat="41.0605146"/>
+      <race id="3304d60f-f878-4466-b2bf-17172c8d5682" name="NASCAR Cup Series Race at Pocono" status="scheduled" number="17" distance="400" laps="160" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="30" stage_2_laps="65" stage_3_laps="65" parent_id="5d8ea142-90f4-4aa9-81f8-683dfb9556bd" scheduled="2025-06-22T18:00:00+00:00" start_time="2025-06-22T18:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-06-21T16:35:00+00:00"/>
+        <qualifying start_time="2025-06-21T17:40:00+00:00" status="scheduled"/>
+        <broadcast network="Amazon Prime Video" radio="MRN"/>
+        <prior_winner first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" id="67948099-4196-4e1b-ae9e-b437aa99000a"/>
+      </race>
+    </event>
+    <event id="5967e856-4dd5-49a8-ad17-16a415d257df" name="NASCAR Cup Series at Atlanta" start_date="2025-06-28">
+      <track name="Atlanta Motor Speedway" market="Atlanta" completed="1960" distance="1.54" shape="Quad-Oval" banking="Turns:24; Backstretch:5;Tri-Oval:5" frontstretch="2332" backstretch="1800" address="1500 Highways 19 &amp; 41 South" city="Hampton" state="Georgia" zip="30228" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="75494065-bf21-4039-8d99-b8e438c8b4a4" lng="-84.3051564" lat="33.3853713"/>
+      <race id="7f801483-720a-49a0-aa84-d8a949eef097" name="Quaker State 400 Available at Walmart" status="scheduled" number="18" distance="400" laps="260" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="100" stage_3_laps="100" parent_id="03a114f7-f16f-4ca5-a54e-8a06628ba2d9" scheduled="2025-06-28T23:00:00+00:00" start_time="2025-06-28T23:00:00+00:00">
+        <qualifying start_time="2025-06-27T21:05:00+00:00" status="scheduled"/>
+        <broadcast network="TNT" satellite="245"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="f4f7bab6-b10f-44c0-a07a-806ade76c3c9" name="NASCAR Cup Series at Chicago" start_date="2025-07-06">
+      <track name="Chicago Street Course" market="Chicago" completed="2023" distance="2.2" shape="Road Course" address="301 S Columbus Dr" city="Chicago" state="Illinois" zip="60605" country="USA" surface="Road" track_type="Road Course" id="11985c50-6e86-4dea-909c-2f4efbc6f4c5" lng="-87.6189718" lat="41.875802"/>
+      <race id="11c82ed0-484c-446a-8b38-04371e3f3904" name="Grant Park 165" status="scheduled" number="19" distance="165" laps="75" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="0" stage_2_laps="0" stage_3_laps="0" parent_id="9acd853b-fc41-461f-bfe0-d428e9ece786" scheduled="2025-07-06T18:00:00+00:00" start_time="2025-07-06T18:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-07-05T17:30:00+00:00"/>
+        <qualifying start_time="2025-07-05T18:30:00+00:00" status="scheduled"/>
+        <broadcast network="TNT" satellite="245" radio="MRN"/>
+        <prior_winner first_name="Alex" last_name="Bowman" full_name="Alex Bowman" id="3ebef96f-43b4-422a-9d0c-db0127b25384"/>
+      </race>
+    </event>
+    <event id="093fc6d6-d224-4dd6-abba-30c290fef3ce" name="NASCAR Cup Series at Sonoma" start_date="2025-07-13">
+      <track name="Sonoma Raceway" market="Sonoma" completed="1968" distance="1.99" shape="Road Course" banking="11 Turns varying" frontstretch="0" backstretch="0" address="29355 Arnold Drive" city="Sonoma" state="California" zip="95476" country="USA" surface="Road" track_type="Road Course" owner="Speedway Motorsports Inc." id="496fc152-b10f-4941-8439-f933eaae2e13" lng="-122.4548354" lat="38.1609192"/>
+      <race id="018a0b9d-bc56-44f0-a27c-fd5eed2c1940" name="Toyota / Save Mart 350" status="scheduled" number="20" distance="219" laps="110" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="25" stage_2_laps="30" stage_3_laps="55" parent_id="511afad6-2581-4211-90ea-7977a2aba859" scheduled="2025-07-13T19:30:00+00:00" start_time="2025-07-13T19:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-07-12T17:35:00+00:00"/>
+        <qualifying start_time="2025-07-12T18:40:00+00:00" status="scheduled"/>
+        <broadcast network="TNT" satellite="245" radio="MRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="074100a2-0507-46b3-981a-9617f7c36b6d" name="NASCAR Cup Series at Dover" start_date="2025-07-20">
+      <track name="Dover Motor Speedway" market="Dover" completed="1969" distance="1.0" shape="Oval" banking="Turns:24:Backstretch:9;Frontstretch:9" frontstretch="1076" backstretch="1076" address="1131 North DuPont Highway" city="Dover" state="Delaware" zip="19901" country="USA" surface="Concrete" track_type="Superspeedway" owner="Dover Motorsports Inc." id="e757d061-86db-4b28-9b19-9a3536a6994e" lng="-75.5300468" lat="39.189649"/>
+      <race id="ac88d25b-7731-4a3d-9c4b-07236eab45d2" name="NASCAR Cup Series Race at Dover" status="scheduled" number="21" distance="400" laps="400" chase_race="false" heat_race="false" award_pole="false" stage_count="2" stage_1_laps="120" stage_2_laps="130" stage_3_laps="150" parent_id="ca7b68a7-12f0-4443-8307-d0567ab35762" scheduled="2025-07-20T18:00:00+00:00" start_time="2025-07-20T18:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-07-19T17:35:00+00:00"/>
+        <qualifying start_time="2025-07-19T18:40:00+00:00" status="scheduled"/>
+        <broadcast network="TNT" satellite="245" radio="PRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="f346dd44-c3ed-4003-b8e7-62916e21fbd2" name="NASCAR Cup Series at Indianapolis" start_date="2025-07-27">
+      <track name="Indianapolis Motor Speedway" market="Indianapolis" completed="1909" distance="2.5" shape="Oval" banking="Turns:9;Backstretch:0;Frontstretch:0" frontstretch="3330" backstretch="3330" address="4790 West 16th Street" city="Speedway" state="Indiana" zip="46222" country="USA" surface="Paved" track_type="Superspeedway" owner="Indianapolis Motor Speedway" id="421c2846-3b70-4ed9-acdf-be3dbe4957b6" lng="-86.2336932" lat="39.7903186"/>
+      <race id="85902e6a-460b-4eb4-aba0-136bbd793f3b" name="Brickyard 400" status="scheduled" number="22" distance="400" laps="160" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="50" stage_2_laps="50" stage_3_laps="60" parent_id="bf1af85a-4605-4642-abd0-c3154bc6e71a" scheduled="2025-07-27T18:00:00+00:00" start_time="2025-07-27T18:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-07-25T17:05:00+00:00"/>
+        <qualifying start_time="2025-07-26T18:35:00+00:00" status="scheduled"/>
+        <broadcast network="TNT" satellite="245" radio="IMS"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="055e3a2f-d80c-4842-97af-e233cf480f20" name="NASCAR Cup Series at Iowa" start_date="2025-08-03">
+      <track name="Iowa Speedway" market="Iowa" completed="2006" distance="0.875" shape="Tri-Oval" banking="Degree of Banking on Turns: 12-14 degrees; Degree of Banking on Frontstretch: 10 degrees; Degree of Banking on Backstretch: 4 degrees" frontstretch="1075" backstretch="869" address="3333 Rusty Wallace Drive" city="Newton" state="Iowa" zip="50208" country="USA" surface="Paved" track_type="Short Track" owner="Clement Family/Rusty Wallace" id="6c9c2390-93fc-47e7-a788-4bfbed7b3c3c" lng="-93.0197377" lat="41.6798052"/>
+      <race id="ff66127f-da55-4aec-9c7b-622fcd5a2a81" name="NASCAR Cup Series Race at Iowa" status="scheduled" number="23" distance="306" laps="350" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="70" stage_2_laps="140" stage_3_laps="140" parent_id="db59ff2e-210d-4166-bde5-7e2abae0a6cc" scheduled="2025-08-03T19:30:00+00:00" start_time="2025-08-03T19:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-08-02T17:35:00+00:00"/>
+        <qualifying start_time="2025-08-02T18:40:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" id="67948099-4196-4e1b-ae9e-b437aa99000a"/>
+      </race>
+    </event>
+    <event id="352d1811-768f-4544-813a-54a3ed8f56c0" name="NASCAR Cup Series at Watkins Glen" start_date="2025-08-10">
+      <track name="Watkins Glen International" market="Watkins Glen" completed="1956" distance="2.45" shape="Road Course" banking="Turns:6-10" frontstretch="0" backstretch="0" address="2790 County Route 16" city="Watkins Glen" state="New York" zip="14891" country="USA" surface="Road" track_type="Road Course" owner="International Speedway Corp." id="d52314d0-06c3-4619-a8d0-1d97a21d8f22" lng="-76.9224013" lat="42.3455463"/>
+      <race id="79f32d1d-3bae-4e0f-8a8d-d50c2acc9e12" name="NASCAR Cup Series Race at Watkins Glen" status="scheduled" number="24" distance="221" laps="90" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="20" stage_2_laps="20" stage_3_laps="50" parent_id="a26c4298-6acf-4fa3-a92d-92b2f62fb355" scheduled="2025-08-10T18:00:00+00:00" start_time="2025-08-10T18:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-08-09T16:05:00+00:00"/>
+        <qualifying start_time="2025-08-09T17:10:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Chris" last_name="Buescher" full_name="Chris Buescher" id="25cfebb6-24e5-429c-a9db-c276bab0e228"/>
+      </race>
+    </event>
+    <event id="2897525e-440c-4f8b-9065-236860ca8a6f" name="NASCAR Cup Series at Richmond" start_date="2025-08-16">
+      <track name="Richmond Raceway" market="Richmond" completed="1946" distance="0.75" shape="Tri-Oval" banking="Turns:14;Backstretch:8;Frontstretch:2" frontstretch="1290" backstretch="860" address="600 East Laburnum Avenue" city="Richmond" state="Virginia" zip="23222" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="734227a1-a32f-40bf-b174-0c0e7aa0d696" lng="-77.4193382" lat="37.5922778"/>
+      <race id="3f5c471f-ec67-449d-a9b2-7bf70fe9cab5" name="NASCAR Cup Series Race at Richmond" status="scheduled" number="25" distance="300" laps="400" chase_race="false" heat_race="false" award_pole="false" stage_count="2" stage_1_laps="70" stage_2_laps="160" stage_3_laps="170" parent_id="cd9d4aeb-35b9-4678-8367-9ad3e975b68a" scheduled="2025-08-16T23:30:00+00:00">
+        <qualifying status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Denny" last_name="Hamlin" full_name="Denny Hamlin" id="cb9d6f49-0044-4305-be9a-22d428e52c95"/>
+      </race>
+    </event>
+    <event id="578aadd6-3d36-47c8-976a-1c4574a38e12" name="NASCAR Cup Series at Daytona" start_date="2025-08-23">
+      <track name="Daytona International Speedway" market="Daytona Beach" completed="1958" distance="2.5" shape="Tri-Oval" banking="Turns: 31, Tri-Oval: 18, Backstretch: 3" frontstretch="3800" backstretch="3000" address="1801 West International Speedway Blvd." city="Daytona Beach" state="Florida" zip="32114-1243" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b" lng="-81.067" lat="29.192994"/>
+      <race id="8449a2b9-572e-43d8-94f2-222f4e46e3ae" name="Coke Zero Sugar 400" status="scheduled" number="26" distance="400" laps="160" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="30" stage_2_laps="60" stage_3_laps="65" parent_id="3cfcbbc5-c692-4efb-8fdf-e5c1eb55fa64" scheduled="2025-08-23T23:30:00+00:00" start_time="2025-08-23T23:30:00+00:00">
+        <qualifying start_time="2025-08-22T21:05:00+00:00" status="scheduled"/>
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Harrison" last_name="Burton" full_name="Harrison Burton" id="198c8de5-9175-4c42-acad-a1d8de6df398"/>
+      </race>
+    </event>
+    <event id="47d08deb-253d-4bf6-8932-eb6c63fe14ed" name="NASCAR Cup Series at Darlington" start_date="2025-08-31">
+      <track name="Darlington Raceway" market="Darlington" completed="1950" distance="1.366" shape="Oval" banking="Turns:23-25;Backstretch:6;Frontstretch:6" frontstretch="1229" backstretch="1229" address="1301 Harry Byrd Hwy" city="Darlington" state="South Carolina" zip="29532" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="aab526c7-4279-4693-9cb1-90e3c7b974fc" lng="-79.910261" lat="34.2983137"/>
+      <race id="a5baadab-5397-42ca-abb0-1bd61a330eb3" name="Southern 500" status="scheduled" number="27" distance="501" laps="367" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="115" stage_2_laps="115" stage_3_laps="137" parent_id="44cb4027-198c-4f23-96bc-6a33e4bcc6ae" scheduled="2025-08-31T22:00:00+00:00" start_time="2025-08-31T22:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-08-30T13:05:00+00:00"/>
+        <qualifying start_time="2025-08-30T14:10:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Chase" last_name="Briscoe" full_name="Chase Briscoe" id="25ca1ab3-b013-48cb-b4a4-c10fb45ba397"/>
+      </race>
+    </event>
+    <event id="06045b85-d4f1-4ec5-aeb6-cb594db26afd" name="NASCAR Cup Series at Gateway" start_date="2025-09-07">
+      <track name="World Wide Technology Raceway at Gateway" market="St. Louis" completed="1967" distance="1.25" shape="Oval" frontstretch="1922" backstretch="1976" address="700 Raceway Blvd." city="Madison" state="Illinois" zip="62060" country="USA" surface="Paved" track_type="Superspeedway" owner="Dover Motorsports Inc." id="0562038b-e8cc-4f69-b29a-59c46aae8f6d" lng="-90.1331453" lat="38.6481202"/>
+      <race id="599f95d1-169c-47c7-b133-2d26a3a2d32d" name="NASCAR Cup Series Race at Gateway" status="scheduled" number="28" distance="300" laps="240" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="45" stage_2_laps="95" stage_3_laps="100" parent_id="fe838e06-886e-454f-9deb-8676ce43d5cf" scheduled="2025-09-07T19:00:00+00:00" start_time="2025-09-07T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-09-06T20:35:00+00:00"/>
+        <qualifying start_time="2025-09-06T21:35:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Austin" last_name="Cindric" full_name="Austin Cindric" id="26f629b5-8682-4db6-a91f-bf0f732f505a"/>
+      </race>
+    </event>
+    <event id="16286535-3314-474a-b863-d41ce8e5f53a" name="NASCAR Cup Series at Bristol" start_date="2025-09-13">
+      <track name="Bristol Motor Speedway" market="Bristol" completed="1961" distance="0.533" shape="Oval" banking="Turns:36;Backstretch:4-8;Frontstretch:5-9" frontstretch="650" backstretch="650" address="151 Speedway Blvd." city="Bristol" state="Tennessee" zip="37620" country="USA" surface="Concrete" track_type="Short Track" owner="Speedway Motorsports Inc." id="18fcc226-bc18-4b66-80fb-4867b654e588" lng="-82.2586316" lat="36.515656"/>
+      <race id="fee1a036-4020-4928-bb6d-626394133713" name="Bass Pro Shops Night Race" status="scheduled" number="29" distance="267" laps="500" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="125" stage_2_laps="125" stage_3_laps="250" parent_id="932279df-6cae-45b7-a0b0-680e7ab02144" scheduled="2025-09-13T23:30:00+00:00" start_time="2025-09-13T23:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-09-12T20:35:00+00:00"/>
+        <qualifying start_time="2025-09-12T21:40:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="PRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="140c274b-5bb2-42a8-a960-9936dc4d7844" name="NASCAR Cup Series at New Hampshire" start_date="2025-09-21">
+      <track name="New Hampshire Motor Speedway" market="Loudon" completed="1990" distance="1.058" shape="Oval" banking="Turns: 2 &amp; 7; Backstretch:1; Frontstretch:1" frontstretch="1500" backstretch="1500" address="1122 Rte. 106 North" city="Loudon" state="New Hampshire" zip="03307" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="cd705ff5-045b-4c96-a96e-74a98b5f95af" lng="-71.4649443" lat="43.3616662"/>
+      <race id="582e68e0-a3cd-44fe-8c51-8982ad1ab946" name="NASCAR Cup Series Race at New Hampshire" status="scheduled" number="30" distance="318" laps="301" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="70" stage_2_laps="115" stage_3_laps="116" parent_id="1cb91cda-1f27-4286-8e3b-378cd0f3b0f1" scheduled="2025-09-21T18:00:00+00:00" start_time="2025-09-21T18:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-09-20T19:05:00+00:00"/>
+        <qualifying start_time="2025-09-20T20:10:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="PRN"/>
+        <prior_winner first_name="Christopher" last_name="Bell" full_name="Christopher Bell" id="16497cd0-5add-407a-b9a8-eec7d62e413b"/>
+      </race>
+    </event>
+    <event id="5bae82e4-5fd8-430c-aebc-28ac5c6040dc" name="NASCAR Cup Series at Kansas" start_date="2025-09-28">
+      <track name="Kansas Speedway" market="Kansas City" completed="2001" distance="1.5" shape="D-Shaped Oval" banking="Turns:15;Backstretch:5:Frontstretch:10.4" frontstretch="2685" backstretch="2207" address="400 Speedway Blvd." city="Kansas City" state="Kansas" zip="66111" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="42d3569d-cc77-4072-88d5-f63046eddf39" lng="-94.822326" lat="39.109509"/>
+      <race id="a19b6143-3f73-47bc-984b-cf6d2e119682" name="NASCAR Cup Series Playoff Race at Kansas" status="scheduled" number="31" distance="401" laps="267" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="2cd88887-3bf0-4132-9c04-32071860f66c" scheduled="2025-09-28T19:00:00+00:00" start_time="2025-09-28T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-09-27T17:05:00+00:00"/>
+        <qualifying start_time="2025-09-27T18:10:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="MRN"/>
+        <prior_winner first_name="Ross" last_name="Chastain" full_name="Ross Chastain" id="fb6c45e9-990e-46e3-88df-174449c13334"/>
+      </race>
+    </event>
+    <event id="51c419dc-e28a-4a73-8ef1-f31cb5786d34" name="NASCAR Cup Series at Charlotte Roval" start_date="2025-10-05">
+      <track name="Charlotte Motor Speedway Road Course" market="Charlotte" completed="2017" distance="2.28" shape="Road Course" banking="Turns: 17, Backstretch: 5, Tri-Oval: 5" frontstretch="1980" backstretch="1500" address="5555 Concord Parkway South" city="Concord" state="North Carolina" zip="28027" country="USA" surface="Paved" track_type="Road Course" owner="Speedway Motorsports Inc." id="035b5781-de86-49e6-98fb-b466e288ae10" lng="-80.6872753" lat="35.36089"/>
+      <race id="6d02da1c-e3a1-4cea-9779-53d03884a10c" name="Bank of America ROVAL 400" status="scheduled" number="32" distance="253" laps="109" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="25" stage_2_laps="25" stage_3_laps="59" parent_id="159670bf-2eb4-4ddf-acf2-fa5c0569b474" scheduled="2025-10-05T05:00:00+00:00" start_time="2025-10-05T19:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-10-04T17:05:00+00:00"/>
+        <qualifying start_time="2025-10-04T18:10:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="PRN"/>
+        <prior_winner first_name="Kyle" last_name="Larson" full_name="Kyle Larson" id="a756eefd-801d-4214-ab1b-0b595c21c37d"/>
+      </race>
+    </event>
+    <event id="681d1af9-a27d-4104-b5ce-9e6028bda339" name="NASCAR Cup Series at Las Vegas" start_date="2025-10-12">
+      <track name="Las Vegas Motor Speedway" market="Las Vegas" completed="1996" distance="1.5" shape="D-Shaped Oval" banking="Turns: 20, Frontstretch: 9, Backstretch: 9" frontstretch="2275" backstretch="1572" address="7000 Las Vegas Blvd. North" city="Las Vegas" state="Nevada" zip="89115" country="USA" surface="Paved" track_type="Superspeedway" owner="Speedway Motorsports Inc." id="9580816f-e17c-4167-8402-ba16725bcb19" lng="-115.002761" lat="36.270742"/>
+      <race id="df6500b8-3d0c-4d3d-a62e-3b27b67ed15d" name="South Point 400" status="scheduled" number="33" distance="401" laps="267" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="80" stage_2_laps="85" stage_3_laps="102" parent_id="2336cc90-9a7e-4b1b-84a8-b71ea6febcf0" scheduled="2025-10-12T21:30:00+00:00" start_time="2025-10-12T21:30:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-10-11T20:35:00+00:00"/>
+        <qualifying start_time="2025-10-11T21:40:00+00:00" status="scheduled"/>
+        <broadcast network="USA" satellite="242" radio="PRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+    <event id="01207779-1642-4e69-8621-0b4404e27613" name="NASCAR Cup Series at Talladega" start_date="2025-10-19">
+      <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41" lng="-86.0665668" lat="33.5649286"/>
+      <race id="cbc304b9-4fd4-4d27-a602-506c29def039" name="NASCAR Cup Series Playoff Race at Talladega" status="scheduled" number="34" distance="500" laps="267" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" parent_id="71a3fb23-75d0-40ee-af7f-bb0a59acbba5" scheduled="2025-10-19T18:00:00+00:00" start_time="2025-10-19T18:00:00+00:00">
+        <qualifying start_time="2025-10-18T17:30:00+00:00" status="scheduled"/>
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Ricky" last_name="Stenhouse" full_name="Ricky Stenhouse Jr" id="0cdae85e-0b1d-44d7-9614-a49aff66aeb5"/>
+      </race>
+    </event>
+    <event id="02bcd3a2-6ad7-4e48-9125-9414154500c4" name="NASCAR Cup Series at Martinsville" start_date="2025-10-26">
+      <track name="Martinsville Speedway" market="Martinsville" completed="1947" distance="0.526" shape="Oval" banking="Turns:12;Backstretch:0;Frontstretch:0" frontstretch="800" backstretch="800" address="340 Speedway Road" city="Ridgeway" state="Virginia" zip="24112" country="USA" surface="Paved" track_type="Short Track" owner="International Speedway Corp." id="409dd8fb-2ab9-4181-9f0f-99545083b689" lng="-79.8519044" lat="36.6340917"/>
+      <race id="ef125d58-e04e-4384-a328-b5cb9c509d7c" name="NASCAR Cup Series Playoff Race at Martinsville" status="scheduled" number="35" distance="263" laps="500" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="130" stage_2_laps="130" stage_3_laps="240" parent_id="390f6b71-739e-439d-a4e9-de9fa659aacd" scheduled="2025-10-26T18:00:00+00:00" start_time="2025-10-26T18:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-10-25T20:35:00+00:00"/>
+        <qualifying start_time="2025-10-25T21:40:00+00:00" status="scheduled"/>
+        <broadcast network="NBC" radio="MRN"/>
+        <prior_winner first_name="Ryan" last_name="Blaney" full_name="Ryan Blaney" id="67948099-4196-4e1b-ae9e-b437aa99000a"/>
+      </race>
+    </event>
+    <event id="433ffd1e-65ad-4c19-bfbd-98ed51c13c89" name="NASCAR Cup Series at Phoenix" start_date="2025-11-02">
+      <track name="Phoenix Raceway" market="Phoenix" completed="1964" distance="1.0" shape="Tri-Oval" banking="Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3" frontstretch="1179" backstretch="1551" address="7602 S 115th Avenue" city="Avondale" state="Arizona" zip="85323" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="5dc82850-ba60-4bd6-8ce3-4e07e8094a83" lng="-112.3097338" lat="33.3786899"/>
+      <race id="3c2ab9c6-f85e-4fc6-940a-e33bca046557" name="NASCAR Cup Series at Phoenix" status="scheduled" number="36" distance="312" laps="312" chase_race="true" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="125" stage_3_laps="127" parent_id="5a0898e5-3f7b-4d7d-8171-5b646e5867ab" scheduled="2025-11-02T20:00:00+00:00" start_time="2025-11-02T20:00:00+00:00">
+        <practice sequence="1" status="scheduled" start_time="2025-10-31T21:35:00+00:00"/>
+        <qualifying start_time="2025-11-01T21:35:00+00:00" status="scheduled"/>
+        <broadcast network="FS1" satellite="219" radio="MRN"/>
+        <prior_winner first_name="Joey" last_name="Logano" full_name="Joey Logano" id="894b273e-ce7d-446c-9ab0-d9a474ce9d7f"/>
+      </race>
+    </event>
+  </season>
+</series>
+<!-- Generation ended @ 2025-02-08 05:23:43 UTC -->
