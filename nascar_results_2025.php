@@ -59,7 +59,7 @@ curl_setopt($cSession,CURLOPT_HEADER, false);
 $result=curl_exec($cSession);
 curl_close($cSession);
 
-$isRaceOver = true;
+$isRaceOver = false;
 
 if ($isRaceOver) {
     upload_results_new($result, $con);
