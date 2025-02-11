@@ -17,23 +17,25 @@ if (!mysqli_select_db($con, $db))  {
 $getRaceData = "SELECT race_id, date FROM races_2025 WHERE closed = 0 LIMIT 1";
 $res = mysqli_query($con, $getRaceData);
 $raceData = mysqli_fetch_array($res);
-
 $raceId = $raceData[0];
-$race_date = date_create($raceData[1]);
-$today_date = new DateTime();
-$pdt = new DateTimeZone('America/Los_Angeles');
-$race_date->setTimezone($pdt);
-$today_date->setTimezone($pdt);
 
-$rd_month = $race_date->format('m');
-$td_month = $today_date->format('m');
-$rd_day = $race_date->format('d');
-$td_day = $today_date->format('d');
+$req = "https://cf.nascar.com/live/feeds/live-feed.json";
 
-/*if ($rd_month == $td_month && $rd_day == $td_day) {
-    $key = "RjUVNlNcmnnkMCFckDHOuMmIKx2XnpMhktmMlS4S";
-    $request = "http://api.sportradar.us/nascar-ot3/mc/races/" . $raceId . "/results.xml?api_key=" . $key;
-    //$request = "";
+$cSession = curl_init();
+curl_setopt($cSession,CURLOPT_URL,$req);
+curl_setopt($cSession,CURLOPT_RETURNTRANSFER,true);
+curl_setopt($cSession,CURLOPT_HEADER, false);
+$raceRes=curl_exec($cSession);
+curl_close($cSession);
+
+$raceData = json_decode($raceRes);
+$isRaceOver = false;
+if ($raceData->race_id == $raceId && ($raceData->laps_to_go == '0' || $raceData->flag_state == '9')) {
+    $isRaceOver = true;
+}
+
+if ($isRaceOver) {
+    $request = "https://cf.nascar.com/cacher/2025/1/" . $raceId . "/weekend-feed.json";
 
     $cSession = curl_init();
     curl_setopt($cSession,CURLOPT_URL,$request);
@@ -42,26 +44,6 @@ $td_day = $today_date->format('d');
     $result=curl_exec($cSession);
     curl_close($cSession);
 
-    $xml2 = simplexml_load_string($result);
-    $isRaceOver = ($xml2['status'] == "complete" || $xml2['status'] == "closed") ? true : false;
-
-    if ($isRaceOver) {
-        upload_results($xml2, $con);
-    }
-}*/
-
-$request = "https://cf.nascar.com/cacher/2024/1/5385/weekend-feed.json";
-
-$cSession = curl_init();
-curl_setopt($cSession,CURLOPT_URL,$request);
-curl_setopt($cSession,CURLOPT_RETURNTRANSFER,true);
-curl_setopt($cSession,CURLOPT_HEADER, false);
-$result=curl_exec($cSession);
-curl_close($cSession);
-
-$isRaceOver = false;
-
-if ($isRaceOver) {
     upload_results_new($result, $con);
 }
 

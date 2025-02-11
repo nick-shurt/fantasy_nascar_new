@@ -1257,22 +1257,32 @@ function upload_results_new($json, $con) {
 
     if (mysqli_query($con, $trim_sql)) {
         $msg = "Race results uploaded successfully!<br>";
-        echo $msg;
-
-        /*$sql2 = "UPDATE races_2025 SET closed = 1 WHERE race_id = '".$race_id."'";
+        $sql2 = "UPDATE races_2025 SET closed = 1 WHERE race_id = '".$race_id."'";
         if (mysqli_query($con, $sql2)) {
             $msg .= "<br>This week's race has been successfully updated to closed!<br>";
         } else {
             $msg .= "<br>There was an error updating this week's race to closed!<br>";
             $error = true;
-        }*/
+        }
     } else {
         $msg = "There was an error uploading the results to the database.<br>" . mysqli_error($con) . "<br>";
         $msg .= "<br>" . $trim_sql;
         $error = true;
     }
 
-    //echo $race->weekend_race[0]->race_name;
+    if (!$error) {
+        $headers = 'From: nshurtleff15@gmail.com' . "\r\n" . 
+                   'MIME-Version: 1.0' . "\r\n" .
+                   'Content-Type: text/html; charset=utf-8';
+
+        mail("nshurtleff15@gmail.com", "Upload Successful!", $msg, $headers);
+    } else {
+        $headers = 'From: nshurtleff15@gmail.com' . "\r\n" . 
+                   'MIME-Version: 1.0' . "\r\n" .
+                   'Content-Type: text/html; charset=utf-8';
+
+        mail("nshurtleff15@gmail.com", "Upload Failed", $msg, $headers);
+    }
 }
 
 function upload_results($simpleXml, $con) {
