@@ -1240,7 +1240,7 @@ function upload_results_new($json, $con) {
     $race = json_decode($json);
     $race_id = $race->weekend_race[0]->race_id;
 
-    $sql = "INSERT INTO results_test (race_id, driver, position, pole_win, stage_1_win, stage_2_win, stage_3_win) VALUES ";
+    $sql = "INSERT INTO results (race_id, driver, position, pole_win, stage_1_win, stage_2_win, stage_3_win) VALUES ";
     foreach ($race->weekend_race[0]->results as $result) {
         if ($result->finishing_position != '0') {
             $test_id = $race_id;

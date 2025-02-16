@@ -30,15 +30,12 @@ curl_close($cSession);
 
 $raceData = json_decode($raceRes);
 $isRaceOver = false;
-echo "RaceId: " . $raceData->race_id;
-echo "LapsToGo: " . $raceData->laps_to_go;
-echo "FlagState: " . $raceData->flag_state;
 if ($raceData->race_id == $raceId && ($raceData->laps_to_go == '0' || $raceData->flag_state == '9')) {
     $isRaceOver = true;
 }
 
 if ($isRaceOver) {
-    $request = "https://cf.nascar.com/cacher/2025/2/" . $raceId . "/weekend-feed.json";
+    $request = "https://cf.nascar.com/cacher/2025/1/" . $raceId . "/weekend-feed.json";
 
     $cSession = curl_init();
     curl_setopt($cSession,CURLOPT_URL,$request);
