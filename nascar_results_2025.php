@@ -30,6 +30,9 @@ curl_close($cSession);
 
 $raceData = json_decode($raceRes);
 $isRaceOver = false;
+echo "RaceId: " . $raceData->race_id;
+echo "LapsToGo: " . $raceData->laps_to_go;
+echo "FlagState: " . $raceData->flag_state;
 if ($raceData->race_id == $raceId && ($raceData->laps_to_go == '0' || $raceData->flag_state == '9')) {
     $isRaceOver = true;
 }
