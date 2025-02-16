@@ -38,7 +38,7 @@ if ($raceData->race_id == $raceId && ($raceData->laps_to_go == '0' || $raceData-
 }
 
 if ($isRaceOver) {
-    $request = "https://cf.nascar.com/cacher/2025/1/" . $raceId . "/weekend-feed.json";
+    $request = "https://cf.nascar.com/cacher/2025/2/" . $raceId . "/weekend-feed.json";
 
     $cSession = curl_init();
     curl_setopt($cSession,CURLOPT_URL,$request);
