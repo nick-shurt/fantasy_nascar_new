@@ -1251,7 +1251,7 @@ function upload_results_new($json, $con) {
 
             $test_stage1 = ($race->weekend_race[0]->stage_results[0]->results[0]->driver_id == $result->driver_id) ? 1 : 0;
             $test_stage2 = ($race->weekend_race[0]->stage_results[1]->results[0]->driver_id == $result->driver_id) ? 1 : 0;
-            $test_stage3 = 0;
+            $test_stage3 = ($race->weekend_race[0]->stage_results[2]->results[0]->driver_id == $result->driver_id) ? 1 : 0;
             
             $sql .= "('" . $test_id  . "', '" . $test_driver . "', '" . $test_pos  . "', '" . $test_pole  . "', '" . $test_stage1  . "', '" . $test_stage2  . "', '" . $test_stage3  . "'),";
         }
