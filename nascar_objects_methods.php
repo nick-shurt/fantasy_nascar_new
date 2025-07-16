@@ -1335,6 +1335,7 @@ function upload_results($simpleXml, $con) {
                    'Content-Type: text/html; charset=utf-8';
 
         mail("nshurtleff15@gmail.com", "Upload Successful!", $msg, $headers);
+        sendStandingsMessageToGroupMe();
     } else {
         $headers = 'From: nshurtleff15@gmail.com' . "\r\n" . 
                    'MIME-Version: 1.0' . "\r\n" .
