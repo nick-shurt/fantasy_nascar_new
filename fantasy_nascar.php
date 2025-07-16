@@ -94,6 +94,7 @@
     </div>
 
     <?php 
+    sendStandingsMessageToGroupMe();
     include 'db_credentials.php';
     include 'nascar_objects_methods.php';
     if($_GET['year'] == '2017') {

@@ -1344,6 +1344,28 @@ function upload_results($simpleXml, $con) {
     }
 }
 
+function sendStandingsMessageToGroupMe() {
+    $url = 'https://api.groupme.com/v3/bots/post';
+
+    $data = [
+        'bot_id' => 'a651cda2d1ecdb3959608b8a01',
+        'text' => '@standings'
+    ];
+
+    $options = [
+        'http' => [
+            'method'  => 'POST',
+            'header'  => 'Content-Type: application/json',
+            'content' => json_encode($data)
+        ]
+    ];
+
+    $context = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+
+    return $result !== false;
+}
+
 function test_datetime() {
     $servername = "localhost";
     $username = "root";
