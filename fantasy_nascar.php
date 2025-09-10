@@ -192,7 +192,7 @@
 							if($_GET['year'] == '2025') {
                                 echo '<option value="twenty-seven" data-show=".week27">Week 27 (Darlington)</option>';
 								echo '<option value="twenty-eight" data-show=".week28">Wild Card Round (Illinois)</option>';
-								//echo '<option value="twenty-nine" data-show=".week29">Semi-Final Round (Weeks 29-32)</option>';
+								echo '<option value="twenty-nine" data-show=".week29">Semi-Final Round (Weeks 29-32)</option>';
 								//echo '<option value="thirty" data-show=".week30">Championship (Weeks 33-36)</option>';
                             }
                             ?>
