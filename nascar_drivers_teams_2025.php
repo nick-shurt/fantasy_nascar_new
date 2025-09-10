@@ -150,4 +150,16 @@ $team_standings = array($team_rachel,$team_mike,$team_donna,$team_jim,$team_joey
 $team_roster = $team_standings;
 $driver_rank = array();
 
+$team_rachel = new Team("#4 Team Steve","Kyle Larson","Michael McDowell","Shane Van Gisbergen","Cole Custer");
+$team_mike = new Team("#5 Team Rachel","Denny Hamlin","Carson Hocevar","Ryan Preece","Zane Smith");
+
+$wildcard_teams = array($team_rachel, $team_mike);
+
+$team_nick = new Team("#1 Team Matt","Christopher Bell","Bubba Wallace","Josh Berry","Justin Allgaier");
+$team_mike = new Team("#5 Team Rachel","Denny Hamlin","Carson Hocevar","Ryan Preece","Zane Smith");
+$team_joey = new Team("#2 Team Chives","Chase Elliott","Ross Chastain","Ty Gibbs","Ty Dillon");
+$team_jim = new Team("#3 Team Jim","William Byron","Austin Cindric","Justin Haley","Corey Lajoie");
+
+$semifinal_teams = array($team_nick, $team_mike, $team_joey, $team_jim);
+
 ?>
