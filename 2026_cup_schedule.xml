@@ -123,7 +123,7 @@
     </event>
     <event id="111125c1-a9cc-43ae-b4cc-74e1fd04740c" name="NASCAR Cup Series at Talladega" start_date="2026-04-26">
       <track name="Talladega Superspeedway" market="Talladega" completed="1969" distance="2.66" shape="Tri-Oval" banking="Turns:33;Backstretch:2;Frontstretch:16.5" frontstretch="4300" backstretch="4000" address="3366 Speedway Blvd." city="Talladega" state="Alabama" zip="35160" country="USA" surface="Paved" track_type="Superspeedway" owner="International Speedway Corp." id="83e96e25-19f7-4538-809c-24e888cc3e41" lng="-86.0665668" lat="33.5649286"/>
-      <race id="18f7ee22-9bd5-4f04-9ba3-75d484aab54d" name="Jack Link's 500" status="scheduled" number="10" distance="500" laps="188" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" parent_id="80036e59-c997-45d7-8887-2723f1331368" scheduled="2026-04-26T19:00:00+00:00" start_time="2026-04-26T19:00:00+00:00">
+      <race id="18f7ee22-9bd5-4f04-9ba3-75d484aab54d" name="Jack Links 500" status="scheduled" number="10" distance="500" laps="188" chase_race="false" heat_race="false" award_pole="true" stage_count="2" stage_1_laps="60" stage_2_laps="60" stage_3_laps="68" parent_id="80036e59-c997-45d7-8887-2723f1331368" scheduled="2026-04-26T19:00:00+00:00" start_time="2026-04-26T19:00:00+00:00">
         <qualifying start_time="2026-04-25T14:30:00+00:00" status="scheduled"/>
         <broadcast network="FOX" radio="MRN"/>
         <prior_winner first_name="Austin" last_name="Cindric" full_name="Austin Cindric" id="26f629b5-8682-4db6-a91f-bf0f732f505a"/>
