@@ -1171,12 +1171,12 @@ function show_next_race($U_Name, $P_Word, $db) {
         exit();  
     }
 
-    $getRaces = "SELECT * FROM races_2025 WHERE closed = 0 LIMIT 1";
+    $getRaces = "SELECT * FROM races_2026 WHERE closed = 0 LIMIT 1";
     $res = mysqli_query($con, $getRaces);
     $race_data = mysqli_fetch_array($res);
 
     if (mysqli_num_rows($res) == 0) {
-        $getLastRace = "SELECT * FROM races_2025 WHERE number = 36 LIMIT 1";
+        $getLastRace = "SELECT * FROM races_2026 WHERE number = 36 LIMIT 1";
         $res2 = mysqli_query($con, $getLastRace);
         $race_data = mysqli_fetch_array($res2);
     }
@@ -1212,7 +1212,7 @@ function show_next_race($U_Name, $P_Word, $db) {
 function get_current_week() {
     $f = new NumberFormatter("en", NumberFormatter::SPELLOUT);
 
-    $xml = simplexml_load_file("2025_cup_schedule.xml");
+    $xml = simplexml_load_file("2026_cup_schedule.xml");
     
     $cur_week = "";
     $found = false;
@@ -1263,7 +1263,7 @@ function upload_results_new($json, $con) {
 
     if (mysqli_query($con, $trim_sql)) {
         $msg = "Race results uploaded successfully!<br>";
-        $sql2 = "UPDATE races_2025 SET closed = 1 WHERE race_id = '".$race_id."'";
+        $sql2 = "UPDATE races_2026 SET closed = 1 WHERE race_id = '".$race_id."'";
         if (mysqli_query($con, $sql2)) {
             $msg .= "<br>This week's race has been successfully updated to closed!<br>";
         } else {
@@ -1316,7 +1316,7 @@ function upload_results($simpleXml, $con) {
     if (mysqli_query($con, $trim_sql)) {
         $msg = "Race results uploaded successfully!<br>";
 
-        $sql2 = "UPDATE races_2025 SET closed = 1 WHERE race_id = '".$race_id."'";
+        $sql2 = "UPDATE races_2026 SET closed = 1 WHERE race_id = '".$race_id."'";
         if (mysqli_query($con, $sql2)) {
             $msg .= "<br>This week's race has been successfully updated to closed!<br>";
         } else {
