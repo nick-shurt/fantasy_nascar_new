@@ -159,4 +159,11 @@ $team_donna = new Team("#5 Team Donna","Ryan Blaney","Erik Jones","Michael McDow
 
 $wildcard_teams = array($team_jim, $team_donna);
 
+$team_rachel = new Team("#1 Team Rachel","Denny Hamlin","Chris Buescher","John H. Nemechek","Ty Dillon");
+$team_jim = new Team("#4 Team Jim","William Byron","Shane Van Gisbergen","AJ Allmendinger","Corey Heim");
+$team_Nick = new Team("#2 Team Nick","Christopher Bell","Bubba Wallace","Ricky Stenhouse Jr","Noah Gragson");
+$team_donna = new Team("#3 Team Mike","Tyler Reddick","Joey Logano","Ryan Preece","Cody Ware");
+
+$semifinal_teams = array($team_matt, $team_rachel, $team_chives, $team_donna);
+
 ?>
