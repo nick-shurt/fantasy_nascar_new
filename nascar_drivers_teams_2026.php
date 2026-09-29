@@ -154,4 +154,9 @@ $team_standings = array($team_steve,$team_jim,$team_nick,$team_rachel,$team_mike
 $team_roster = $team_standings;
 $driver_rank = array();
 
+$team_jim = new Team("#4 Team Jim","William Byron","Shane Van Gisbergen","AJ Allmendinger","Corey Heim");
+$team_donna = new Team("#5 Team Donna","Ryan Blaney","Erik Jones","Michael McDowell","Cole Custer");
+
+$wildcard_teams = array($team_jim, $team_donna);
+
 ?>
